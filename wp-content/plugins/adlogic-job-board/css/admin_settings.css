@@ -1,0 +1,152 @@
+@CHARSET "UTF-8";
+
+.adlogic_api_settings div#icon-adlogic-job-board.icon32 {
+	background: url(images/adlogic-api-settings_32x32.png) no-repeat;
+}
+
+.adlogic_search_settings div#icon-adlogic-job-board.icon32 {
+	background: url(images/adlogic-search-settings_32x32.png) no-repeat;
+}
+
+.adlogic_rss_settings div#icon-adlogic-job-board.icon32 {
+	background: url(images/adlogic-rss-settings_32x32.png) no-repeat;
+}
+
+.adlogic_cache_settings div#icon-adlogic-job-board.icon32 {
+	background: url(images/adlogic-cache-settings_32x32.png) no-repeat;
+}
+
+.adlogic_mobile_settings div#icon-adlogic-job-board.icon32 {
+	background: url(images/adlogic-mobile-settings_32x32.png) no-repeat;
+}
+
+.adlogic_reset_settings div.icon32 {
+	background: url(images/adlogic-reset-settings_32x32.png) no-repeat;
+}
+
+.adlogic_first_setup_settings div#icon-adlogic-job-board.icon32 {
+	background: url(images/adlogic-first-setup-settings_32x32.png) no-repeat;
+}
+
+/* Toolbar Icon for Inserting Job Details Shortcode */
+ .mce-i-ajbJobDetails {
+	background: url(images/adlogic-tinymce-job-details-button.png) no-repeat 0 -20px;
+}
+
+.mce-i-ajbJobSearch {
+	background: url(images/adlogic-tinymce-job-search-button.png) no-repeat 0 -20px;
+}
+
+.mce-i-ajbSearchPagination {
+	background: url(images/adlogic-tinymce-search-pagination-button.png) no-repeat 0 -20px;
+}
+
+ .mce-i-ajbJobApplication {
+	background: url(images/adlogic-tinymce-job-application-button.png) no-repeat 0 -20px;
+}
+
+ .mce-i-ajbSavedJobs {
+	background: url(images/adlogic-tinymce-saved-jobs-button.png) no-repeat 0 -20px;
+}
+
+ .mce-i-ajbSearchBreadcrumbs {
+	background: url(images/adlogic-tinymce-search-breadcrumbs-button.png) no-repeat 0 -20px;
+}
+
+ .mce-i-ajbJobApplication:hover, 
+ .mce-i-ajbJobDetails:hover,
+ .mce-i-ajbJobSearch:hover,
+ .mce-i-ajbSearchPagination:hover,
+ .mce-i-ajbSavedJobs:hover,
+ .mce-i-ajbSearchBreadcrumbs:hover {
+	background-position: 0 0;
+}
+
+.ajb-editor-dialogs {
+	margin: 5px;
+}
+
+.ajb-editor-dialogs p.title {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+.ajb-dialog-cancel {
+	float: left;
+	line-height: 25px;
+}
+
+.ajb-dialog-submit {
+	float: right;
+	line-height: 23px;
+}
+
+
+.ajb-editor-dialogs .internal-toggle {
+	cursor: pointer;
+	display: inline-block;
+	padding-left: 18px;
+}
+.ajb-editor-dialogs p.howto {
+	margin: 3px;
+}
+.ajb-editor-dialogs .toggle-arrow-active {
+	background-position: left center;
+}
+.ajb-editor-dialogs .toggle-arrow {
+	background: url("images/toggle-arrow.png") no-repeat scroll left top transparent;
+	height: 23px;
+	line-height: 23px;
+}
+
+.widget .toggle-arrow {
+	background-image: url("images/toggle-arrow.png");
+	background-repeat: no-repeat;
+	background-color: transparent;
+	background-position: left top;
+	height: 23px;
+	line-height: 23px;
+	cursor: pointer;
+	display: inline-block;
+	padding-left: 18px !important;
+	color: #666666;
+}
+
+.widget .toggle-arrow-active {
+	background-position: left center;
+}
+
+.widget .advanced-settings {
+	border: 1px solid #DFDFDF;
+	border-radius: 3px 3px 3px 3px;
+	padding: 5px;
+}
+
+.widget .ajb-field-order li {
+	padding: 5px;
+	background-color: #EEEEEE;
+	border: 1px solid #CCCCCC;
+}
+
+.widget .ajb-field-order li div.re-order-arrow {
+	background-image: url('images/reorder-arrow.png');
+	background-size: 16px 16px;
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-left: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+input.ajb-error {
+	margin-right:0;
+	border-right:0;
+	background: #f5a6a6;
+	border-color: #fd6464;
+}
+input.ajb-error:focus {
+	outline: none;
+	box-shadow: none;
+	border-color: #fd6464;
+}

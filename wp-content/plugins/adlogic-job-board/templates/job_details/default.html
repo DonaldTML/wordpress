@@ -1,0 +1,51 @@
+<!-- Brand : {job_placedby_brand}
+Office : {job_placedby_office}
+Template : {job_template_name}
+Search Headline: {job_search_headline}
+Search Summary: {job_search_summary} -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Job Opportunity | {job_title} | {job_placedby_office}</title>
+	<adlogic_template_style>
+	<meta property="og:title" content="Job Opportunity | {job_title} | {job_placedby_office}" />
+	<meta name="description" content="{job_search_summary}" />
+</head>
+<body class="adlogic_job_details_body">
+	<!-- BEGIN JOB DETAILS CONTAINER DIV -->
+	<div class="adlogic_job_details_container {job_template_name}">
+		<div class="adlogic_recruiter_logo"></div>
+		<h1 class="adlogic_job_details_title">{job_title}</h1>
+		<div class="adlogic_job_details_bullet_ul">
+			{job_bulletpoints}
+		</div>
+		<div class="adlogic_job_details_description">{job_description}</div>
+		<div class="adlogic_job_details_footer">{job_ad_footer}</div>
+
+		<!-- BEGIN SOCIAL SHARING HOLDER -->
+		<div class="adlogic_social_sharing_container">
+			<div class="ajb_social_sharing_sites">
+				<div class="ajb_social_sharing_site">
+					<span class="st_twitter_large" st_title="{job_title}" st_summary="{job_search_summary}"></span>
+				</div>
+				<div class="ajb_social_sharing_site">
+					<span class="st_facebook_large" st_title="{job_title}" st_summary="{job_search_summary}"></span>
+				</div>
+				<div class="ajb_social_sharing_site">
+					<span class="st_linkedin_large" st_title="{job_title}" st_summary="{job_search_summary}"></span>
+				</div>
+				<div class="ajb_social_sharing_site">
+					<span class="st_sharethis_large" st_title="{job_title}" st_summary="{job_search_summary}"></span>
+				</div>
+			</div>
+		</div>
+		<script src="https://ws.sharethis.com/button/buttons.js" type="text/javascript"></script>
+		<!-- END SOCIAL SHARING HOLDER -->
+		<div class="adlogic_job_details_button_bar">
+			<button class="adlogic_job_details_back" onclick="javascript:window.history.back();">Back To Search Results</button>
+			<button class="adlogic_job_details_email_friend" onclick="javascript:openEmailToFriendForm()">Email to a Friend</button>
+			<button class="adlogic_job_details_apply" onclick="javascript:openApplicationForm()">Apply Now</button>
+		</div>
+	</div>
+</body>
+</html>

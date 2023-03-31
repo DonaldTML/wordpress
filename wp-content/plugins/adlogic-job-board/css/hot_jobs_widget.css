@@ -1,0 +1,114 @@
+@CHARSET "UTF-8";
+.ajb-hotjobs-widget {
+	/*border: 1px solid #999999;
+	width: 100%;
+	margin: 10px 0px 10px 0px;
+	padding: 10px;*/
+	padding: 0 !important;
+}
+
+.ajb-hotjobs-widget div {
+	background: transparent;
+	padding: 0 !important;
+}
+
+.ajb-hotjobs {
+	width: 250px;
+}
+
+.ajb-hotjobs.loading {
+	background-image: url('images/ajax-loading.gif');
+	background-repeat: no-repeat;
+	min-height: 32px;
+}
+
+.ajb-hotjobs-widget ul.adlogic-hot-jobs-page {
+	width: auto;
+	margin: 0;
+	padding: 0;
+}
+
+.ajb-hotjobs-widget ul li.adlogic-hot-jobs-job {
+	list-style-type: none;
+	min-height: 85px;
+	padding: 10px 0 0 10px;
+	width: 240px;
+	color: #333333;
+	margin-bottom: 10px;
+}
+
+.ajb-hotjobs-widget ul li.odd {
+}
+.ajb-hotjobs-widget ul li.even {
+}
+
+.ajb-hotjobs-widget h2 {
+	margin: 0 !important;
+}
+
+.ajb-hotjobs-widget .adlogic-hot-jobs-job a {
+}
+
+.ajb-hotjobs-widget .adlogic-hot-jobs-posted-date {
+	display: none;
+}
+
+.ajb-hotjobs-widget .adlogic-hot-jobs-posted-date .posted-date-day {
+}
+
+.ajb-hotjobs-widget .adlogic-hot-jobs-posted-date .posted-date-month {
+}
+
+.ajb-hotjobs-widget .adlogic-hot-jobs-description {
+}
+
+.ajb-hotjobs-widget .adlogic-hot-jobs-description, .ajb-hotjobs-widget .adlogic-hot-jobs-location {
+	display: block;
+	color: #666666;
+	font-size: 11px;
+	padding-right: 10px;
+}
+
+.ajb-hotjobs-widget .adlogic-hot-jobs-location {
+	margin-bottom: 5px;
+}
+
+.ajb-hotjobs-widget .adlogic-hot-job-link {
+	display:block;
+	font-weight: bold;
+	font-size: 13px;
+	width: 240px;
+}
+
+.ajb-hotjobs-widget .bx-wrapper {
+	padding: 0;
+}
+
+.ajb-hotjobs-widget .bx-wrapper .bx-prev {
+	float: left;
+	display: none;
+}
+
+.ajb-hotjobs-widget .bx-wrapper .bx-next {
+	float: right;
+	display: none;
+}
+
+.ajb-hotjobs-widget ul.adlogic-hot-jobs-standout-bullets {
+	margin: 0;
+	padding: 0;
+}
+
+.ajb-hotjobs-widget ul.adlogic-hot-jobs-standout-bullets li {
+	list-style-type: none;
+	color: #666666;
+}
+
+.ajb-hotjobs-widget a.adlogic-hot-jobs-apply-link {
+	color: #000000;
+	font-weight: bold;
+	padding: 5px 0;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+}

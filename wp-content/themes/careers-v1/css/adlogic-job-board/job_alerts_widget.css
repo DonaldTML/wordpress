@@ -1,0 +1,173 @@
+.ajb-alerts-widget h2 {
+    display: none;
+}
+
+.ajb-alerts-widget label {
+    display: none;
+}
+
+.ajb-alerts-widget .ajb-classifications-holder {
+    float: left !important;
+    max-width: none;
+}
+
+.ajb-alerts-widget p {
+    display: inline-block;
+}
+
+.ajb-alerts-widget p {
+    float: none !important;
+    max-width: 300px;
+}
+
+.ajb-alerts-widget .ajb-classifications-holder label {
+    display: inline-block !important;
+    padding: 0;
+    font-family: Helvetica,Arial,sans-serif !important;
+    color: #000;
+    font-size: 16px;
+    line-height: 34px;
+}
+
+ul.chosen-choices {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.chosen-container-multi .chosen-choices li.search-choice {
+    padding: 2px 3px !important;
+    font-size: 12px !important;
+    width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-radius: 0px;
+    background: #fff;
+    font-family: Helvetica,Arial,sans-serif!important;
+}
+
+.chosen-container.chosen-container-multi {
+    padding-left: 5px !important;
+    box-shadow: none !important;
+    min-height: 35px;
+}
+.chosen-container-multi .chosen-choices li input {
+    padding: 0 5px !important;
+    font-size: 11px !important;
+    color: #FFF !important;
+}
+.chosen-container-multi .search-field {
+    position: absolute;
+}
+.ajb-alerts-widget select, .ajb-alerts-widget input {padding: 0;}
+
+.job-alerts {
+    border-left: 10px solid #f6f6f6;
+    border-right: 10px solid #f6f6f6;
+    padding: 20px 100px;
+}
+
+.ajb-alerts-widget input {
+    border-radius: 0px;
+    border: 1px solid #4b3048;
+    height: 35px;
+    color: #000;
+    font-size: 14px;
+    font-family: Helvetica,Arial,sans-serif !important;
+}
+.ajb-alerts-widget .ajb-classifications-holder .chosen-container {
+    width: auto !important;
+    background: #4b3048;
+    border-radius: 0px;
+    padding: 6px 5px 6px 20px;
+    max-width: 160px;
+    min-width: 160px;
+    font-family: Helvetica,Arial,sans-serif !important;
+}
+
+.ajb-classifications-holder .chosen-container-single .chosen-single {
+    border: none !important;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 14px;
+}
+
+.ajb-classifications-holder .chosen-container-single .chosen-single span {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.adlogic_search_widget_2_worktype_id_chosen a {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.chosen-container-single .chosen-search {
+    display: none;
+}
+
+.ajb-alerts-widget .chosen-container .chosen-results {
+    padding: 5px 5px !important;
+}
+
+.ajb-alerts-widget .chosen-container.chosen-with-drop .chosen-drop {
+    min-width: 300px;
+    border: 1px solid #4b3048;
+}
+
+.ajb-alerts-widget .chosen-container .chosen-results {
+    padding: 5px 0 !important;
+}
+
+.ajb-alerts-widget .chosen-container .chosen-results li {
+    padding: 5px 6px !important;
+    font-weight: normal !important;
+    font-family: Helvetica,Arial,sans-serif !important;
+    color: #676767;
+}
+.ajb-button-holder {float: right;max-width: 130px;padding: 0;}
+.ajb-button-holder input {
+    background: #4b3048;
+    color: #FFF !important;
+    font-size: 15px;
+    text-transform: none;
+    font-family: Helvetica,Arial,sans-serif !important;
+    padding: 5px 20px !important;
+}
+
+.ajb-subscribe-job-alerts:hover {
+    background: #5d255b;
+    border:1px solid #5d255b
+}
+
+.loadingalerts {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.26) url(images/3.GIF) no-repeat 50% 50%;
+    z-index: 999;
+    top: 0;
+    left: 0;
+}
+@media(max-width: 991px) {
+    .job-alerts .ajb-alerts-widget .ajb-classifications-holder .chosen-container {
+        max-width: none !important;
+        width: 100% !important;
+    }
+    .ajb-alerts-widget p {
+        max-width: none !important;
+        padding: 0 !important;
+    }
+    .ajb-button-holder {
+        float: left !important;
+        max-width: none !important;
+        clear: both;
+        margin-top: 25px !important;
+        text-align: center;
+    }
+
+    .ajb-button-holder input {
+        float: none!important;
+        margin: 0 auto !important;
+        text-align: center;
+    }
+}

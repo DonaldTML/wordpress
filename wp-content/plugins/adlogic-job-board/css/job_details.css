@@ -1,0 +1,164 @@
+@CHARSET "UTF-8";
+.adlogic_search_loading_div {
+	width: 100px;
+	height: 100px;
+	background: url(images/3.GIF) no-repeat;
+	display: block;
+	clear: both;
+	margin-top: -32px;
+	margin: 35px auto;
+}
+#adlogic_job_container {
+	position: relative;
+}
+div#adlogic_job_loading {
+    position: absolute;
+    width: 100%;
+    z-index: 9999999;
+}
+
+.adlogic_job_expired {
+	width: 580px;
+	height: 580px;
+	background: url(images/expired.png) no-repeat right top;
+	position: absolute;
+	z-index: 1;
+}
+
+.adlogic_job_details_container p {
+}
+
+div.adlogic_job_details_container {
+	width: 440px;
+	padding: 0 20px 50px 20px;
+	position: relative;
+	border: 1px solid #000000;
+	margin: 21px auto 0;
+	clear: both;
+}
+
+div.adlogic_job_details_container p {
+}
+
+.adlogic_job_details_container ul.adlogic_job_details_bullet_ul {
+	margin: 10px 0px 10px 20px;
+}
+
+.adlogic_job_details_container ul.adlogic_job_details_bullet_ul li {
+	list-style-type: disc;
+	padding-left: 5px;
+	font-size: 12pt;
+	font-weight: bold !important;
+}
+
+.adlogic_job_details_container div.adlogic_recruiter_logo {
+	margin: 10px auto 0;
+	background: url(images/logo.png);
+	width: 300px;
+	height: 100px;
+}
+
+.adlogic_job_details_container h1.adlogic_job_details_title {
+	text-align: center;
+	font-weight: bold;
+}
+
+.adlogic_job_details_container div.adlogic_job_details_description {
+	font-size: 13px;
+}
+
+.adlogic_job_details_container div.adlogic_job_details_description strong {
+	font-size: 14px;
+}
+
+.adlogic_job_details_container .adlogic_job_details_description ul {
+	margin: 10px 0px 10px 20px;
+	clear: both;
+	width: auto !important;
+	color: #000000;
+}
+
+.adlogic_job_details_container .adlogic_job_details_description ul li {
+	list-style-type: disc;
+	padding-left: 0px;
+}
+
+.adlogic_job_details_container .adlogic_job_details_footer {
+	font-size: 13px;
+	text-align: left;
+}
+
+.adlogic_job_expired_details .adlogic_job_details_button_bar {
+	display: none;
+}
+
+.adlogic_job_details_button_bar {
+	text-align: center;
+	clear: both;
+}
+
+.adlogic_job_details_button_bar button.adlogic_job_details_back {
+
+}
+
+.adlogic_job_details_button_bar button.adlogic_job_details_back:hover {
+}
+
+.adlogic_job_details_button_bar button.adlogic_job_details_apply {
+}
+
+.adlogic_job_details_button_bar button.adlogic_job_details_apply:hover {
+}
+
+.adlogic_job_details_button_bar button.adlogic_job_details_email_friend {
+}
+
+.adlogic_job_details_button_bar button.adlogic_job_details_email_friend:hover {
+}
+
+.adlogic_job_details_container div.adlogic_social_sharing_container,
+.adlogic_job_details_container div#adlogic_social_sharing_container {
+	width: 32px;
+	position: absolute;
+	top: 0px;
+	right: -50px
+}
+
+.adlogic_job_details_container div.adlogic_social_sharing_container .ajb_social_sharing_site,
+.adlogic_job_details_container div#adlogic_social_sharing_container .ajb_social_sharing_site {
+	float:right;
+}
+.ajb-consultant-profile .ajb-consultant-image {
+	background-image: url(images/nouser.png);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 0px;
+	max-width: 200px;
+	max-height: 200px;
+	width: 100%;
+	height: 200px;
+	border: 1px solid #000;
+}
+.ajb-consultant-profile {
+    background: #e2e2e2;
+    float: left;
+    padding: 10px 10px 0px 10px;
+}
+.ajb-consultant-profile .ajb-consultant-name {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.ajb-consultant-profile .ajb-contact-methods {
+    padding: 0;
+}
+.ajb-consultant-profile .ajb-contact-methods li {
+    list-style-type: none;
+}
+.linkedInLoginButton {
+	background: url(images/applywithlinkedin.png) no-repeat;
+	width: 184px !important;
+	height: 33px !important;
+	position: relative;
+	text-indent: -99999px;
+	display: inline-block;
+}

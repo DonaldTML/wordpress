@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worktypes>
+   <wor>
+      <id>54460</id> 
+      <parent>0</parent>
+      <sort>1</sort>
+      <displayName>Casual/Vacation</displayName>
+      <searchName>Casual/Vacation</searchName>
+   </wor>
+   <wor>
+      <id>54461</id> 
+      <parent>0</parent>
+      <sort>2</sort>
+      <displayName>Contract/Temp</displayName>
+      <searchName>Contract/Temp</searchName>
+   </wor>
+   <wor>
+      <id>54462</id> 
+      <parent>0</parent>
+      <sort>3</sort>
+      <displayName>Full Time</displayName>
+      <searchName>Full Time</searchName>
+   </wor>
+   <wor>
+      <id>54463</id> 
+      <parent>0</parent>
+      <sort>4</sort>
+      <displayName>Part Time</displayName>
+      <searchName>Part Time</searchName>
+   </wor>
+</worktypes>

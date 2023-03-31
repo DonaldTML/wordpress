@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locations>
+   <loc>
+      <id>54276</id> 
+      <sort>1</sort>
+      <displayName>Australia - ACT</displayName>
+      <searchName>Australia - ACT</searchName>
+   </loc>
+   <loc>
+      <id>54278</id> 
+      <sort>2</sort>
+      <displayName>Australia - NSW</displayName>
+      <searchName>Australia - NSW</searchName>
+   </loc>
+   <loc>
+      <id>54302</id> 
+      <sort>3</sort>
+      <displayName>Australia - NT</displayName>
+      <searchName>Australia - NT</searchName>
+   </loc>
+   <loc>
+      <id>54306</id> 
+      <sort>4</sort>
+      <displayName>Australia - QLD</displayName>
+      <searchName>Australia - QLD</searchName>
+   </loc>
+   <loc>
+      <id>54325</id> 
+      <sort>5</sort>
+      <displayName>Australia - SA</displayName>
+      <searchName>Australia - SA</searchName>
+   </loc>
+   <loc>
+      <id>54334</id> 
+      <sort>6</sort>
+      <displayName>Australia - TAS</displayName>
+      <searchName>Australia - TAS</searchName>
+   </loc>
+   <loc>
+      <id>54339</id> 
+      <sort>7</sort>
+      <displayName>Australia - VIC</displayName>
+      <searchName>Australia - VIC</searchName>
+   </loc>
+   <loc>
+      <id>54356</id> 
+      <sort>8</sort>
+      <displayName>Australia - WA</displayName>
+      <searchName>Australia - WA</searchName>
+   </loc>
+   <loc>
+      <id>54371</id> 
+      <sort>9</sort>
+      <displayName>New Zealand - NZ</displayName>
+      <searchName>New Zealand - NZ</searchName>
+   </loc>
+</locations>

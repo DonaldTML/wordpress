@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>English Word Pluralizer</title>
+<meta name="language" content="english"/>
+<meta name="author" content="W-Global"/>
+<meta name="reply-to" content="global@w-global.com"/>
+<meta name="Copyright" content="W-Global"/>
+<meta http-equiv="Pragma" content="no-cache"/>
+<meta name="robots" content="noodp, noydir"/>
+<meta name="description" content="Find the plural or singular of any given English word."/>
+<meta name="keywords" content="plural, singular, pluralization, pluralizer, W-Global"/>
+<style type="text/css">
+body {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+p, div, span {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+</style>
+</head>
+<body>
+<script type="text/javascript">
+<!--
+function popup(url) 
+{
+ var width  = 650;
+ var height = 420;
+ var left   = (screen.width  - width)/2;
+ var top    = (screen.height - height)/2;
+ var params = 'width='+width+', height='+height;
+ params += ', top='+top+', left='+left;
+ params += ', directories=no';
+ params += ', location=no';
+ params += ', menubar=no';
+ params += ', resizable=no';
+ params += ', scrollbars=no';
+ params += ', status=no';
+ params += ', toolbar=no';
+ newwin=window.open(url,'windowname5', params);
+ if (window.focus) {newwin.focus()}
+ return false;
+}
+// -->
+</script>
+<script type="text/javascript" language="javascript">
+   var http_request = false;
+   function makeRequest(url, parameters) {
+      http_request = false;
+      if (window.XMLHttpRequest) { // Mozilla, Safari,...
+         http_request = new XMLHttpRequest();
+         if (http_request.overrideMimeType) {
+         	// set type accordingly to anticipated content type
+            //http_request.overrideMimeType('text/xml');
+            http_request.overrideMimeType('text/html');
+         }
+      } else if (window.ActiveXObject) { // IE
+         try {
+            http_request = new ActiveXObject("Msxml2.XMLHTTP");
+         } catch (e) {
+            try {
+               http_request = new ActiveXObject("Microsoft.XMLHTTP");
+            } catch (e) {}
+         }
+      }
+      if (!http_request) {
+         alert('Cannot create XMLHTTP instance');
+         return false;
+      }
+      http_request.onreadystatechange = alertContents;
+      http_request.open('GET', url + parameters, true);
+      http_request.send(null);
+   }
+   function alertContents() {
+      if (http_request.readyState == 4) {
+         if (http_request.status == 200) {
+            //alert(http_request.responseText);
+            result = http_request.responseText;
+            document.getElementById('myspan').innerHTML = result;            
+         } else {
+            alert('There was a problem with the request.');
+         }
+      }
+   }   
+function get(obj) {
+  var getstr = "?"; 
+  for (i=0; i<obj.getElementsByTagName("input").length; i++) {
+        if (obj.getElementsByTagName("input")[i].type == "text") {
+           getstr += obj.getElementsByTagName("input")[i].name + "=" + 
+                   obj.getElementsByTagName("input")[i].value + "&";
+        }
+        if (obj.getElementsByTagName("input")[i].type == "checkbox") {
+           if (obj.getElementsByTagName("input")[i].checked) {
+              getstr += obj.getElementsByTagName("input")[i].name + "=" + 
+                   obj.getElementsByTagName("input")[i].value + "&";
+           } else {
+              getstr += obj.getElementsByTagName("input")[i].name + "=&";
+           }
+        }
+        if (obj.getElementsByTagName("input")[i].type == "radio") {
+           if (obj.getElementsByTagName("input")[i].checked) {
+              getstr += obj.getElementsByTagName("input")[i].name + "=" + 
+                   obj.getElementsByTagName("input")[i].value + "&";
+           }
+     }  
+  }
+   for (i=0; i<obj.getElementsByTagName("select").length; i++) {
+        if (obj.getElementsByTagName("select")[i].tagName == "SELECT") {
+        var sel = obj.getElementsByTagName("select")[i];
+        getstr += sel.name + "=" + sel.options[sel.selectedIndex].value + "&";
+     }
+  } 
+  makeRequest('plu-sin.php', getstr);		
+	}  
+</script>
+<form action="javascript:get(document.getElementById('myform'));" name="myform" id="myform">
+<table width="560" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr><td height="50" colspan="2" align="center" valign="middle">
+<div style = "font-weight:bold; font-size:18px;">Plural - Singular of a Word</div></td>
+</tr>
+<tr><td height="40" colspan="2" valign="middle">
+<div style = "float: left; font-weight:bold;width:250px;height:24px;">
+ <input type="text"  style = "width: 250px; font-size:12px; font-family:Verdana, Arial, Helvetica, sans-serif; font-weight: bold; height: 18px;" class="plur_sing" name="myfield" value="Start typing a word or phrase" onKeyUp="this.form.submit();" onfocus="if(this.value == this.defaultValue) this.value = ''" />
+</div>
+<div style = "float: left; font-weight:bold; width:45px; height:21px; padding-top: 3px; padding-left: 10px;">----></div>
+<div id = "myspan" style = "float: left; font-size:12px; font-weight:bold; width:250px; height:18px; padding-top: 3px; border: solid 1px; border-color: #999999;"></div></td></tr>
+<tr><td height="20" colspan="2" valign="top"></td>
+</tr>
+<tr><td height="30" colspan="2" valign="top">
+<div style="font-weight:bold; width: 210px;">
+<div style="float:left; width: 105px">
+<input type="radio" name="plsn" onclick="this.form.submit();" value="plur" checked="checked" />Plural</div>
+<div style="float:left">
+<input type="radio" name="plsn" value="singu" onclick="this.form.submit();" />Singular</div></div>
+</td></tr>
+<tr><td height="30" colspan="2" valign="top">
+<div style="font-weight:bold; width: 210px;">
+<div style="float:left; width: 105px">
+<input type="radio" name="nadj" onclick="this.form.submit();" value="noun" checked="checked" />Noun</div>
+<div style="float:left">
+<input type="radio" name="nadj" value="adjective" onclick="this.form.submit();" />Adjective</div></div>
+</td></tr>
+<tr><td height="60" colspan="2" valign="top">
+<div style="font-weight:bold; height:14px; width: 190px;">
+<input type="checkbox" name="classic" value="1" checked="checked" onClick="this.form.submit();">Classical</div>
+</td></tr>
+<tr><td height="20" colspan="2" ><div style="color: #999999;">Note: This is a pluralizer for English words only.</div></td>
+</tr>
+<tr><td height="20" colspan="2" align="center" valign="middle" style="border:solid 1px #999999;"><div style="font-weight:bold; color: #999999;">Examples (Plural --&gt; Singular)</div></td></tr>
+<tr><td height="120" valign="middle" style="border:solid 1px #999999; border-top: solid 0px; border-right: solid 0px;"><div style = "float: left; font-weight:normal; color: #999999; width:270px;">
+<div style="height:18px; padding-left:5px;">part-of-text  ---->   parts-of-text</div>
+<div style="height:18px; padding-left:5px;">child         ---->             children</div>
+<div style="height:18px; padding-left:5px;">dog's         ---->             dogs'</div>
+<div style="height:18px; padding-left:5px;">wolf          ---->             wolves</div>
+<div style="height:18px; padding-left:5px;">bear          ---->             bear</div>
+<div style="height:18px; padding-left:5px;">kitchen knife ---->             kitchen knives</div>
+</div></td>
+<td height="120" valign="middle" style="border:solid 1px #999999; border-top: solid 0px; border-left: solid 0px;"><div style = "float: left; font-weight:normal; color: #999999; width:270px;">
+<div style="height:18px; padding-left:5px;">octopus (classical=Yes) ---->   octopodes</div>
+<div style="height:18px; padding-left:5px;">octopus (classical=No) ---->  octopuses</div>
+<div style="height:18px; padding-left:5px;">matrix (classical=Yes)  ---->   matrices</div>
+<div style="height:18px; padding-left:5px;">matrix (classical=No) ---->   matrixes</div>
+<div style="height:18px; padding-left:5px;">my  (   Noun)  ---->   our</div>
+<div style="height:18px; padding-left:5px;">my (    adjective) ---->   my</div>
+</div></td></tr>
+<tr><td height="30" colspan="2" align="center" valign="bottom">
+<div> <a href="javascript: void(0)" onclick="popup('http://www.w-global.com/downloads/index2.php')">Download the Source Code (php)</a></div>
+</td></tr><tr>
+ <td height="24" colspan="2" align="center" valign="bottom"><div style = "font-weight:normal; color: #666666; width:270px;"> &copy; 2010 <a  style="text-decoration:none; color:#666666" href="http://www.w-global.com" target="_blank">W-Global.com</a></div></td>
+</tr>
+</table>
+</form>
+</body>
+</html>

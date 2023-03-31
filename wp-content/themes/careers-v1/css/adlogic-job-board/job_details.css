@@ -1,0 +1,51 @@
+.adlogic_job_details_title,
+.adlogic_social_sharing_container,
+.adlogic_job_details_back,
+.adlogic_job_details_email_friend,
+.adlogic_job_details_apply {
+	display: none;
+}
+button.adlogic_job_details_apply {
+    background: #5BC6E8;
+    color: #fff;
+    width: 100%;
+    min-height: 50px;
+    font-size: 30px;
+    line-height: 40px;
+    transition: all 150ms ease-in-out;
+    border: none;
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    padding: 10px 0px;
+    margin-top: 20px;
+}
+div#adlogic_job_application_complete h3 {
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 20px !important;
+}
+
+div#adlogic_job_application_complete .close {
+    font-size: 12px;
+}
+button.adlogic_job_details_apply:hover {
+    background: #000;
+    color: #fff;
+    width: 100%;
+    min-height: 50px;
+    font-size: 30px;
+    line-height: 40px;
+    transition: all 150ms ease-in-out;
+}
+
+.adlogic_job_details_footer {
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000;
+    font-weight: 400;
+}
+
+.adlogic_job_details_footer center {
+    text-align: left;
+}

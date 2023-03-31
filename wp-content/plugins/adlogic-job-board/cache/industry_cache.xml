@@ -1,0 +1,1102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classifications>
+   <cla>
+      <id>96095</id> 
+      <parent>0</parent>
+      <sort>1</sort>
+      <displayName>Architecture</displayName>
+      <searchName>Architecture</searchName>
+   </cla>
+   <cla>
+      <id>105174</id> 
+      <parent>96095</parent>
+      <sort>2</sort>
+      <displayName>Architect</displayName>
+      <searchName>Architecture Architect</searchName>
+   </cla>
+   <cla>
+      <id>105175</id> 
+      <parent>96095</parent>
+      <sort>3</sort>
+      <displayName>Draftsperson</displayName>
+      <searchName>Architecture Draftsperson</searchName>
+   </cla>
+   <cla>
+      <id>105176</id> 
+      <parent>96095</parent>
+      <sort>4</sort>
+      <displayName>Graduate</displayName>
+      <searchName>Architecture Graduate</searchName>
+   </cla>
+   <cla>
+      <id>96098</id> 
+      <parent>96095</parent>
+      <sort>5</sort>
+      <displayName>Interior Design</displayName>
+      <searchName>Architecture Interior Design</searchName>
+   </cla>
+   <cla>
+      <id>100754</id> 
+      <parent>0</parent>
+      <sort>6</sort>
+      <displayName>Cabinet Making &amp; Shopfitting</displayName>
+      <searchName>Cabinet Making &amp; Shopfitting</searchName>
+   </cla>
+   <cla>
+      <id>100755</id> 
+      <parent>100754</parent>
+      <sort>7</sort>
+      <displayName>Assembler</displayName>
+      <searchName>Cabinet Making &amp; Shopfitting Assembler</searchName>
+   </cla>
+   <cla>
+      <id>100756</id> 
+      <parent>100754</parent>
+      <sort>8</sort>
+      <displayName>Cabinet Maker</displayName>
+      <searchName>Cabinet Making &amp; Shopfitting Cabinet Maker</searchName>
+   </cla>
+   <cla>
+      <id>100757</id> 
+      <parent>100754</parent>
+      <sort>9</sort>
+      <displayName>CNC Operator</displayName>
+      <searchName>Cabinet Making &amp; Shopfitting CNC Operator</searchName>
+   </cla>
+   <cla>
+      <id>100758</id> 
+      <parent>100754</parent>
+      <sort>10</sort>
+      <displayName>Estimator</displayName>
+      <searchName>Cabinet Making &amp; Shopfitting Estimator</searchName>
+   </cla>
+   <cla>
+      <id>100759</id> 
+      <parent>100754</parent>
+      <sort>11</sort>
+      <displayName>Factory Manager</displayName>
+      <searchName>Cabinet Making &amp; Shopfitting Factory Manager</searchName>
+   </cla>
+   <cla>
+      <id>100760</id> 
+      <parent>100754</parent>
+      <sort>12</sort>
+      <displayName>Project Manager</displayName>
+      <searchName>Cabinet Making &amp; Shopfitting Project Manager</searchName>
+   </cla>
+   <cla>
+      <id>100761</id> 
+      <parent>100754</parent>
+      <sort>13</sort>
+      <displayName>Set-Out</displayName>
+      <searchName>Cabinet Making &amp; Shopfitting Set-Out</searchName>
+   </cla>
+   <cla>
+      <id>100762</id> 
+      <parent>100754</parent>
+      <sort>14</sort>
+      <displayName>Shopfitter</displayName>
+      <searchName>Cabinet Making &amp; Shopfitting Shopfitter</searchName>
+   </cla>
+   <cla>
+      <id>100763</id> 
+      <parent>100754</parent>
+      <sort>15</sort>
+      <displayName>Sprayer / Polisher</displayName>
+      <searchName>Cabinet Making &amp; Shopfitting Sprayer / Polisher</searchName>
+   </cla>
+   <cla>
+      <id>100764</id> 
+      <parent>100754</parent>
+      <sort>16</sort>
+      <displayName>Wood Machinist</displayName>
+      <searchName>Cabinet Making &amp; Shopfitting Wood Machinist</searchName>
+   </cla>
+   <cla>
+      <id>96100</id> 
+      <parent>0</parent>
+      <sort>17</sort>
+      <displayName>Civil Construction</displayName>
+      <searchName>Civil Construction</searchName>
+   </cla>
+   <cla>
+      <id>96101</id> 
+      <parent>96100</parent>
+      <sort>18</sort>
+      <displayName>Contract Administration</displayName>
+      <searchName>Civil Construction Contract Administration</searchName>
+   </cla>
+   <cla>
+      <id>96102</id> 
+      <parent>96100</parent>
+      <sort>19</sort>
+      <displayName>Estimating</displayName>
+      <searchName>Civil Construction Estimating</searchName>
+   </cla>
+   <cla>
+      <id>96103</id> 
+      <parent>96100</parent>
+      <sort>20</sort>
+      <displayName>Graduate / Site Engineer</displayName>
+      <searchName>Civil Construction Graduate / Site Engineer</searchName>
+   </cla>
+   <cla>
+      <id>96104</id> 
+      <parent>96100</parent>
+      <sort>21</sort>
+      <displayName>Health/ Safety/ Environmental</displayName>
+      <searchName>Civil Construction Health/ Safety/ Environmental</searchName>
+   </cla>
+   <cla>
+      <id>96105</id> 
+      <parent>96100</parent>
+      <sort>22</sort>
+      <displayName>Planning</displayName>
+      <searchName>Civil Construction Planning</searchName>
+   </cla>
+   <cla>
+      <id>96106</id> 
+      <parent>96100</parent>
+      <sort>23</sort>
+      <displayName>Project Engineering</displayName>
+      <searchName>Civil Construction Project Engineering</searchName>
+   </cla>
+   <cla>
+      <id>96107</id> 
+      <parent>96100</parent>
+      <sort>24</sort>
+      <displayName>Project Management</displayName>
+      <searchName>Civil Construction Project Management</searchName>
+   </cla>
+   <cla>
+      <id>96108</id> 
+      <parent>96100</parent>
+      <sort>25</sort>
+      <displayName>Site Management/ Supervision</displayName>
+      <searchName>Civil Construction Site Management/ Supervision</searchName>
+   </cla>
+   <cla>
+      <id>100701</id> 
+      <parent>96100</parent>
+      <sort>26</sort>
+      <displayName>Surveying</displayName>
+      <searchName>Civil Construction Surveying</searchName>
+   </cla>
+   <cla>
+      <id>105278</id> 
+      <parent>0</parent>
+      <sort>27</sort>
+      <displayName>Civil Trades</displayName>
+      <searchName>Civil Trades</searchName>
+   </cla>
+   <cla>
+      <id>105287</id> 
+      <parent>105278</parent>
+      <sort>28</sort>
+      <displayName>Civil Labourer</displayName>
+      <searchName>Civil Trades Civil Labourer</searchName>
+   </cla>
+   <cla>
+      <id>105288</id> 
+      <parent>105278</parent>
+      <sort>29</sort>
+      <displayName>Concreter</displayName>
+      <searchName>Civil Trades Concreter</searchName>
+   </cla>
+   <cla>
+      <id>105286</id> 
+      <parent>105278</parent>
+      <sort>30</sort>
+      <displayName>Excavator Operator</displayName>
+      <searchName>Civil Trades Excavator Operator</searchName>
+   </cla>
+   <cla>
+      <id>105289</id> 
+      <parent>105278</parent>
+      <sort>31</sort>
+      <displayName>Plant Operator</displayName>
+      <searchName>Civil Trades Plant Operator</searchName>
+   </cla>
+   <cla>
+      <id>96109</id> 
+      <parent>0</parent>
+      <sort>32</sort>
+      <displayName>Commercial Construction</displayName>
+      <searchName>Commercial Construction</searchName>
+   </cla>
+   <cla>
+      <id>96110</id> 
+      <parent>96109</parent>
+      <sort>33</sort>
+      <displayName>Contract Administration</displayName>
+      <searchName>Commercial Construction Contract Administration</searchName>
+   </cla>
+   <cla>
+      <id>96111</id> 
+      <parent>96109</parent>
+      <sort>34</sort>
+      <displayName>Estimating</displayName>
+      <searchName>Commercial Construction Estimating</searchName>
+   </cla>
+   <cla>
+      <id>96112</id> 
+      <parent>96109</parent>
+      <sort>35</sort>
+      <displayName>Health/ Safety/ Environmental</displayName>
+      <searchName>Commercial Construction Health/ Safety/ Environmental</searchName>
+   </cla>
+   <cla>
+      <id>96113</id> 
+      <parent>96109</parent>
+      <sort>36</sort>
+      <displayName>Planning</displayName>
+      <searchName>Commercial Construction Planning</searchName>
+   </cla>
+   <cla>
+      <id>96114</id> 
+      <parent>96109</parent>
+      <sort>37</sort>
+      <displayName>Project Management</displayName>
+      <searchName>Commercial Construction Project Management</searchName>
+   </cla>
+   <cla>
+      <id>96115</id> 
+      <parent>96109</parent>
+      <sort>38</sort>
+      <displayName>Site Management/ Supervision</displayName>
+      <searchName>Commercial Construction Site Management/ Supervision</searchName>
+   </cla>
+   <cla>
+      <id>100702</id> 
+      <parent>96109</parent>
+      <sort>39</sort>
+      <displayName>Surveying</displayName>
+      <searchName>Commercial Construction Surveying</searchName>
+   </cla>
+   <cla>
+      <id>105280</id> 
+      <parent>0</parent>
+      <sort>40</sort>
+      <displayName>Electrical</displayName>
+      <searchName>Electrical</searchName>
+   </cla>
+   <cla>
+      <id>105295</id> 
+      <parent>105280</parent>
+      <sort>41</sort>
+      <displayName>Electrician</displayName>
+      <searchName>Electrical Electrician</searchName>
+   </cla>
+   <cla>
+      <id>105297</id> 
+      <parent>105280</parent>
+      <sort>42</sort>
+      <displayName>Estimator</displayName>
+      <searchName>Electrical Estimator</searchName>
+   </cla>
+   <cla>
+      <id>105299</id> 
+      <parent>105280</parent>
+      <sort>43</sort>
+      <displayName>Foreman/Supervisor</displayName>
+      <searchName>Electrical Foreman/Supervisor</searchName>
+   </cla>
+   <cla>
+      <id>105298</id> 
+      <parent>105280</parent>
+      <sort>44</sort>
+      <displayName>Project Manager</displayName>
+      <searchName>Electrical Project Manager</searchName>
+   </cla>
+   <cla>
+      <id>105296</id> 
+      <parent>105280</parent>
+      <sort>45</sort>
+      <displayName>Trades Assistant</displayName>
+      <searchName>Electrical Trades Assistant</searchName>
+   </cla>
+   <cla>
+      <id>100703</id> 
+      <parent>0</parent>
+      <sort>46</sort>
+      <displayName>Engineering Design</displayName>
+      <searchName>Engineering Design</searchName>
+   </cla>
+   <cla>
+      <id>100704</id> 
+      <parent>100703</parent>
+      <sort>47</sort>
+      <displayName>Acoustics</displayName>
+      <searchName>Engineering Design Acoustics</searchName>
+   </cla>
+   <cla>
+      <id>100706</id> 
+      <parent>100703</parent>
+      <sort>48</sort>
+      <displayName>Civil</displayName>
+      <searchName>Engineering Design Civil</searchName>
+   </cla>
+   <cla>
+      <id>100707</id> 
+      <parent>100703</parent>
+      <sort>49</sort>
+      <displayName>Electrical</displayName>
+      <searchName>Engineering Design Electrical</searchName>
+   </cla>
+   <cla>
+      <id>100708</id> 
+      <parent>100703</parent>
+      <sort>50</sort>
+      <displayName>ESD</displayName>
+      <searchName>Engineering Design ESD</searchName>
+   </cla>
+   <cla>
+      <id>100709</id> 
+      <parent>100703</parent>
+      <sort>51</sort>
+      <displayName>Fire Protection</displayName>
+      <searchName>Engineering Design Fire Protection</searchName>
+   </cla>
+   <cla>
+      <id>100710</id> 
+      <parent>100703</parent>
+      <sort>52</sort>
+      <displayName>Fire Safety</displayName>
+      <searchName>Engineering Design Fire Safety</searchName>
+   </cla>
+   <cla>
+      <id>100711</id> 
+      <parent>100703</parent>
+      <sort>53</sort>
+      <displayName>Hydraulic</displayName>
+      <searchName>Engineering Design Hydraulic</searchName>
+   </cla>
+   <cla>
+      <id>100712</id> 
+      <parent>100703</parent>
+      <sort>54</sort>
+      <displayName>ICT</displayName>
+      <searchName>Engineering Design ICT</searchName>
+   </cla>
+   <cla>
+      <id>100713</id> 
+      <parent>100703</parent>
+      <sort>55</sort>
+      <displayName>Mechanical</displayName>
+      <searchName>Engineering Design Mechanical</searchName>
+   </cla>
+   <cla>
+      <id>100714</id> 
+      <parent>100703</parent>
+      <sort>56</sort>
+      <displayName>Security</displayName>
+      <searchName>Engineering Design Security</searchName>
+   </cla>
+   <cla>
+      <id>100715</id> 
+      <parent>100703</parent>
+      <sort>57</sort>
+      <displayName>Structural</displayName>
+      <searchName>Engineering Design Structural</searchName>
+   </cla>
+   <cla>
+      <id>100716</id> 
+      <parent>100703</parent>
+      <sort>58</sort>
+      <displayName>Vertical Transport</displayName>
+      <searchName>Engineering Design Vertical Transport</searchName>
+   </cla>
+   <cla>
+      <id>105277</id> 
+      <parent>0</parent>
+      <sort>59</sort>
+      <displayName>Fitout Trades</displayName>
+      <searchName>Fitout Trades</searchName>
+   </cla>
+   <cla>
+      <id>105281</id> 
+      <parent>105277</parent>
+      <sort>60</sort>
+      <displayName>Carpenter</displayName>
+      <searchName>Fitout Trades Carpenter</searchName>
+   </cla>
+   <cla>
+      <id>105283</id> 
+      <parent>105277</parent>
+      <sort>61</sort>
+      <displayName>Ceiling Fixer</displayName>
+      <searchName>Fitout Trades Ceiling Fixer</searchName>
+   </cla>
+   <cla>
+      <id>105284</id> 
+      <parent>105277</parent>
+      <sort>62</sort>
+      <displayName>Glazier</displayName>
+      <searchName>Fitout Trades Glazier</searchName>
+   </cla>
+   <cla>
+      <id>105285</id> 
+      <parent>105277</parent>
+      <sort>63</sort>
+      <displayName>Labourer</displayName>
+      <searchName>Fitout Trades Labourer</searchName>
+   </cla>
+   <cla>
+      <id>105282</id> 
+      <parent>105277</parent>
+      <sort>64</sort>
+      <displayName>Plasterer</displayName>
+      <searchName>Fitout Trades Plasterer</searchName>
+   </cla>
+   <cla>
+      <id>96142</id> 
+      <parent>0</parent>
+      <sort>65</sort>
+      <displayName>Health &amp; Safety</displayName>
+      <searchName>Health &amp; Safety</searchName>
+   </cla>
+   <cla>
+      <id>96143</id> 
+      <parent>96142</parent>
+      <sort>66</sort>
+      <displayName>Emergency Response</displayName>
+      <searchName>Health &amp; Safety Emergency Response</searchName>
+   </cla>
+   <cla>
+      <id>96144</id> 
+      <parent>96142</parent>
+      <sort>67</sort>
+      <displayName>Occupational Hygenist</displayName>
+      <searchName>Health &amp; Safety Occupational Hygenist</searchName>
+   </cla>
+   <cla>
+      <id>96145</id> 
+      <parent>96142</parent>
+      <sort>68</sort>
+      <displayName>Safety Advisor</displayName>
+      <searchName>Health &amp; Safety Safety Advisor</searchName>
+   </cla>
+   <cla>
+      <id>96146</id> 
+      <parent>96142</parent>
+      <sort>69</sort>
+      <displayName>Safety Coordinator</displayName>
+      <searchName>Health &amp; Safety Safety Coordinator</searchName>
+   </cla>
+   <cla>
+      <id>96147</id> 
+      <parent>96142</parent>
+      <sort>70</sort>
+      <displayName>Safety Manager</displayName>
+      <searchName>Health &amp; Safety Safety Manager</searchName>
+   </cla>
+   <cla>
+      <id>96148</id> 
+      <parent>96142</parent>
+      <sort>71</sort>
+      <displayName>Safety Supervisor</displayName>
+      <searchName>Health &amp; Safety Safety Supervisor</searchName>
+   </cla>
+   <cla>
+      <id>96149</id> 
+      <parent>96142</parent>
+      <sort>72</sort>
+      <displayName>Trainer &amp; Assessor</displayName>
+      <searchName>Health &amp; Safety Trainer &amp; Assessor</searchName>
+   </cla>
+   <cla>
+      <id>100735</id> 
+      <parent>0</parent>
+      <sort>73</sort>
+      <displayName>HR &amp; Project Support</displayName>
+      <searchName>HR &amp; Project Support</searchName>
+   </cla>
+   <cla>
+      <id>100736</id> 
+      <parent>100735</parent>
+      <sort>74</sort>
+      <displayName>Administrative Assistants</displayName>
+      <searchName>HR &amp; Project Support Administrative Assistants</searchName>
+   </cla>
+   <cla>
+      <id>100737</id> 
+      <parent>100735</parent>
+      <sort>75</sort>
+      <displayName>Client &amp; Sales Administration</displayName>
+      <searchName>HR &amp; Project Support Client &amp; Sales Administration</searchName>
+   </cla>
+   <cla>
+      <id>100738</id> 
+      <parent>100735</parent>
+      <sort>76</sort>
+      <displayName>Contracts Administration</displayName>
+      <searchName>HR &amp; Project Support Contracts Administration</searchName>
+   </cla>
+   <cla>
+      <id>100739</id> 
+      <parent>100735</parent>
+      <sort>77</sort>
+      <displayName>Data Entry &amp; Word Processing</displayName>
+      <searchName>HR &amp; Project Support Data Entry &amp; Word Processing</searchName>
+   </cla>
+   <cla>
+      <id>100745</id> 
+      <parent>100735</parent>
+      <sort>78</sort>
+      <displayName>Generalist HR</displayName>
+      <searchName>HR &amp; Project Support Generalist HR</searchName>
+   </cla>
+   <cla>
+      <id>100740</id> 
+      <parent>100735</parent>
+      <sort>79</sort>
+      <displayName>Office Management</displayName>
+      <searchName>HR &amp; Project Support Office Management</searchName>
+   </cla>
+   <cla>
+      <id>100746</id> 
+      <parent>100735</parent>
+      <sort>80</sort>
+      <displayName>Organisational Development</displayName>
+      <searchName>HR &amp; Project Support Organisational Development</searchName>
+   </cla>
+   <cla>
+      <id>100741</id> 
+      <parent>100735</parent>
+      <sort>81</sort>
+      <displayName>Other</displayName>
+      <searchName>HR &amp; Project Support Other</searchName>
+   </cla>
+   <cla>
+      <id>100742</id> 
+      <parent>100735</parent>
+      <sort>82</sort>
+      <displayName>PA, EA &amp; Secretarial</displayName>
+      <searchName>HR &amp; Project Support PA, EA &amp; Secretarial</searchName>
+   </cla>
+   <cla>
+      <id>100743</id> 
+      <parent>100735</parent>
+      <sort>83</sort>
+      <displayName>Receptionists</displayName>
+      <searchName>HR &amp; Project Support Receptionists</searchName>
+   </cla>
+   <cla>
+      <id>100744</id> 
+      <parent>100735</parent>
+      <sort>84</sort>
+      <displayName>Records, Management &amp; Document Control</displayName>
+      <searchName>HR &amp; Project Support Records, Management &amp; Document Control</searchName>
+   </cla>
+   <cla>
+      <id>100747</id> 
+      <parent>100735</parent>
+      <sort>85</sort>
+      <displayName>Training &amp; Development</displayName>
+      <searchName>HR &amp; Project Support Training &amp; Development</searchName>
+   </cla>
+   <cla>
+      <id>100717</id> 
+      <parent>0</parent>
+      <sort>86</sort>
+      <displayName>HVAC &amp; Building Sevices</displayName>
+      <searchName>HVAC &amp; Building Sevices</searchName>
+   </cla>
+   <cla>
+      <id>100718</id> 
+      <parent>100717</parent>
+      <sort>87</sort>
+      <displayName>BIM</displayName>
+      <searchName>HVAC &amp; Building Sevices BIM</searchName>
+   </cla>
+   <cla>
+      <id>100719</id> 
+      <parent>100717</parent>
+      <sort>88</sort>
+      <displayName>Commissioning</displayName>
+      <searchName>HVAC &amp; Building Sevices Commissioning</searchName>
+   </cla>
+   <cla>
+      <id>100720</id> 
+      <parent>100717</parent>
+      <sort>89</sort>
+      <displayName>Construction Management</displayName>
+      <searchName>HVAC &amp; Building Sevices Construction Management</searchName>
+   </cla>
+   <cla>
+      <id>100721</id> 
+      <parent>100717</parent>
+      <sort>90</sort>
+      <displayName>Drafting</displayName>
+      <searchName>HVAC &amp; Building Sevices Drafting</searchName>
+   </cla>
+   <cla>
+      <id>100722</id> 
+      <parent>100717</parent>
+      <sort>91</sort>
+      <displayName>Engineering</displayName>
+      <searchName>HVAC &amp; Building Sevices Engineering</searchName>
+   </cla>
+   <cla>
+      <id>100723</id> 
+      <parent>100717</parent>
+      <sort>92</sort>
+      <displayName>Estimating</displayName>
+      <searchName>HVAC &amp; Building Sevices Estimating</searchName>
+   </cla>
+   <cla>
+      <id>100724</id> 
+      <parent>100717</parent>
+      <sort>93</sort>
+      <displayName>Installation</displayName>
+      <searchName>HVAC &amp; Building Sevices Installation</searchName>
+   </cla>
+   <cla>
+      <id>100725</id> 
+      <parent>100717</parent>
+      <sort>94</sort>
+      <displayName>Project Management</displayName>
+      <searchName>HVAC &amp; Building Sevices Project Management</searchName>
+   </cla>
+   <cla>
+      <id>100726</id> 
+      <parent>100717</parent>
+      <sort>95</sort>
+      <displayName>Sales</displayName>
+      <searchName>HVAC &amp; Building Sevices Sales</searchName>
+   </cla>
+   <cla>
+      <id>100727</id> 
+      <parent>100717</parent>
+      <sort>96</sort>
+      <displayName>Service</displayName>
+      <searchName>HVAC &amp; Building Sevices Service</searchName>
+   </cla>
+   <cla>
+      <id>100728</id> 
+      <parent>100717</parent>
+      <sort>97</sort>
+      <displayName>Technician</displayName>
+      <searchName>HVAC &amp; Building Sevices Technician</searchName>
+   </cla>
+   <cla>
+      <id>100765</id> 
+      <parent>0</parent>
+      <sort>98</sort>
+      <displayName>Mining Trades</displayName>
+      <searchName>Mining Trades</searchName>
+   </cla>
+   <cla>
+      <id>100769</id> 
+      <parent>100765</parent>
+      <sort>99</sort>
+      <displayName>Auto Electrician</displayName>
+      <searchName>Mining Trades Auto Electrician</searchName>
+   </cla>
+   <cla>
+      <id>100766</id> 
+      <parent>100765</parent>
+      <sort>100</sort>
+      <displayName>Boilermaker Welder</displayName>
+      <searchName>Mining Trades Boilermaker Welder</searchName>
+   </cla>
+   <cla>
+      <id>100771</id> 
+      <parent>100765</parent>
+      <sort>101</sort>
+      <displayName>Digger Fitter</displayName>
+      <searchName>Mining Trades Digger Fitter</searchName>
+   </cla>
+   <cla>
+      <id>100767</id> 
+      <parent>100765</parent>
+      <sort>102</sort>
+      <displayName>Drill Fitter</displayName>
+      <searchName>Mining Trades Drill Fitter</searchName>
+   </cla>
+   <cla>
+      <id>100768</id> 
+      <parent>100765</parent>
+      <sort>103</sort>
+      <displayName>Electrician</displayName>
+      <searchName>Mining Trades Electrician</searchName>
+   </cla>
+   <cla>
+      <id>100770</id> 
+      <parent>100765</parent>
+      <sort>104</sort>
+      <displayName>Heavy Diesel Fitter</displayName>
+      <searchName>Mining Trades Heavy Diesel Fitter</searchName>
+   </cla>
+   <cla>
+      <id>100772</id> 
+      <parent>100765</parent>
+      <sort>105</sort>
+      <displayName>Leading Hand</displayName>
+      <searchName>Mining Trades Leading Hand</searchName>
+   </cla>
+   <cla>
+      <id>100773</id> 
+      <parent>100765</parent>
+      <sort>106</sort>
+      <displayName>Maintenance Supervisor</displayName>
+      <searchName>Mining Trades Maintenance Supervisor</searchName>
+   </cla>
+   <cla>
+      <id>100774</id> 
+      <parent>100765</parent>
+      <sort>107</sort>
+      <displayName>Operator</displayName>
+      <searchName>Mining Trades Operator</searchName>
+   </cla>
+   <cla>
+      <id>100775</id> 
+      <parent>100765</parent>
+      <sort>108</sort>
+      <displayName>Shift Boss</displayName>
+      <searchName>Mining Trades Shift Boss</searchName>
+   </cla>
+   <cla>
+      <id>105279</id> 
+      <parent>0</parent>
+      <sort>109</sort>
+      <displayName>Plumbing</displayName>
+      <searchName>Plumbing</searchName>
+   </cla>
+   <cla>
+      <id>105293</id> 
+      <parent>105279</parent>
+      <sort>110</sort>
+      <displayName>Estimator</displayName>
+      <searchName>Plumbing Estimator</searchName>
+   </cla>
+   <cla>
+      <id>105294</id> 
+      <parent>105279</parent>
+      <sort>111</sort>
+      <displayName>Foreman/Supervisor</displayName>
+      <searchName>Plumbing Foreman/Supervisor</searchName>
+   </cla>
+   <cla>
+      <id>105291</id> 
+      <parent>105279</parent>
+      <sort>112</sort>
+      <displayName>Journeyman</displayName>
+      <searchName>Plumbing Journeyman</searchName>
+   </cla>
+   <cla>
+      <id>105290</id> 
+      <parent>105279</parent>
+      <sort>113</sort>
+      <displayName>Plumber</displayName>
+      <searchName>Plumbing Plumber</searchName>
+   </cla>
+   <cla>
+      <id>105292</id> 
+      <parent>105279</parent>
+      <sort>114</sort>
+      <displayName>Trades Assistant </displayName>
+      <searchName>Plumbing Trades Assistant </searchName>
+   </cla>
+   <cla>
+      <id>100748</id> 
+      <parent>0</parent>
+      <sort>115</sort>
+      <displayName>Power</displayName>
+      <searchName>Power</searchName>
+   </cla>
+   <cla>
+      <id>100749</id> 
+      <parent>100748</parent>
+      <sort>116</sort>
+      <displayName>Cable Jointer</displayName>
+      <searchName>Power Cable Jointer</searchName>
+   </cla>
+   <cla>
+      <id>100750</id> 
+      <parent>100748</parent>
+      <sort>117</sort>
+      <displayName>Glove &amp; Barrier</displayName>
+      <searchName>Power Glove &amp; Barrier</searchName>
+   </cla>
+   <cla>
+      <id>100751</id> 
+      <parent>100748</parent>
+      <sort>118</sort>
+      <displayName>Line Worker</displayName>
+      <searchName>Power Line Worker</searchName>
+   </cla>
+   <cla>
+      <id>100752</id> 
+      <parent>100748</parent>
+      <sort>119</sort>
+      <displayName>Technician</displayName>
+      <searchName>Power Technician</searchName>
+   </cla>
+   <cla>
+      <id>100753</id> 
+      <parent>100748</parent>
+      <sort>120</sort>
+      <displayName>Trades Assistant</displayName>
+      <searchName>Power Trades Assistant</searchName>
+   </cla>
+   <cla>
+      <id>54167</id> 
+      <parent>0</parent>
+      <sort>121</sort>
+      <displayName>Procurement, Manufacturing &amp; Transport</displayName>
+      <searchName>Procurement, Manufacturing &amp; Transport</searchName>
+   </cla>
+   <cla>
+      <id>54168</id> 
+      <parent>54167</parent>
+      <sort>122</sort>
+      <displayName>Analysis &amp; Reporting</displayName>
+      <searchName>Procurement, Manufacturing &amp; Transport Analysis &amp; Reporting</searchName>
+   </cla>
+   <cla>
+      <id>54169</id> 
+      <parent>54167</parent>
+      <sort>123</sort>
+      <displayName>Assembly &amp; Process Work</displayName>
+      <searchName>Procurement, Manufacturing &amp; Transport Assembly &amp; Process Work</searchName>
+   </cla>
+   <cla>
+      <id>54170</id> 
+      <parent>54167</parent>
+      <sort>124</sort>
+      <displayName>Aviation Services</displayName>
+      <searchName>Procurement, Manufacturing &amp; Transport Aviation Services</searchName>
+   </cla>
+   <cla>
+      <id>54171</id> 
+      <parent>54167</parent>
+      <sort>125</sort>
+      <displayName>Courier, Delivery &amp; Postal Services</displayName>
+      <searchName>Procurement, Manufacturing &amp; Transport Courier, Delivery &amp; Postal Services</searchName>
+   </cla>
+   <cla>
+      <id>54172</id> 
+      <parent>54167</parent>
+      <sort>126</sort>
+      <displayName>Fleet Management</displayName>
+      <searchName>Procurement, Manufacturing &amp; Transport Fleet Management</searchName>
+   </cla>
+   <cla>
+      <id>54173</id> 
+      <parent>54167</parent>
+      <sort>127</sort>
+      <displayName>Freight/Cargo Forwarding</displayName>
+      <searchName>Procurement, Manufacturing &amp; Transport Freight/Cargo Forwarding</searchName>
+   </cla>
+   <cla>
+      <id>54174</id> 
+      <parent>54167</parent>
+      <sort>128</sort>
+      <displayName>Import/Export &amp; Customs</displayName>
+      <searchName>Procurement, Manufacturing &amp; Transport Import/Export &amp; Customs</searchName>
+   </cla>
+   <cla>
+      <id>54175</id> 
+      <parent>54167</parent>
+      <sort>129</sort>
+      <displayName>Machine Operators</displayName>
+      <searchName>Procurement, Manufacturing &amp; Transport Machine Operators</searchName>
+   </cla>
+   <cla>
+      <id>54176</id> 
+      <parent>54167</parent>
+      <sort>130</sort>
+      <displayName>Management</displayName>
+      <searchName>Procurement, Manufacturing &amp; Transport Management</searchName>
+   </cla>
+   <cla>
+      <id>54177</id> 
+      <parent>54167</parent>
+      <sort>131</sort>
+      <displayName>Other</displayName>
+      <searchName>Procurement, Manufacturing &amp; Transport Other</searchName>
+   </cla>
+   <cla>
+      <id>54178</id> 
+      <parent>54167</parent>
+      <sort>132</sort>
+      <displayName>Pattern Makers &amp; Garment Technicians</displayName>
+      <searchName>Procurement, Manufacturing &amp; Transport Pattern Makers &amp; Garment Technicians</searchName>
+   </cla>
+   <cla>
+      <id>54179</id> 
+      <parent>54167</parent>
+      <sort>133</sort>
+      <displayName>Pickers &amp; Packers</displayName>
+      <searchName>Procurement, Manufacturing &amp; Transport Pickers &amp; Packers</searchName>
+   </cla>
+   <cla>
+      <id>54180</id> 
+      <parent>54167</parent>
+      <sort>134</sort>
+      <displayName>Procurement &amp; Inventory</displayName>
+      <searchName>Procurement, Manufacturing &amp; Transport Procurement &amp; Inventory</searchName>
+   </cla>
+   <cla>
+      <id>54181</id> 
+      <parent>54167</parent>
+      <sort>135</sort>
+      <displayName>Production, Planning &amp; Scheduling</displayName>
+      <searchName>Procurement, Manufacturing &amp; Transport Production, Planning &amp; Scheduling</searchName>
+   </cla>
+   <cla>
+      <id>54182</id> 
+      <parent>54167</parent>
+      <sort>136</sort>
+      <displayName>Public Transport &amp; Taxi Services</displayName>
+      <searchName>Procurement, Manufacturing &amp; Transport Public Transport &amp; Taxi Services</searchName>
+   </cla>
+   <cla>
+      <id>54183</id> 
+      <parent>54167</parent>
+      <sort>137</sort>
+      <displayName>Quality Assurance &amp; Control</displayName>
+      <searchName>Procurement, Manufacturing &amp; Transport Quality Assurance &amp; Control</searchName>
+   </cla>
+   <cla>
+      <id>54184</id> 
+      <parent>54167</parent>
+      <sort>138</sort>
+      <displayName>Rail &amp; Maritime Transport</displayName>
+      <searchName>Procurement, Manufacturing &amp; Transport Rail &amp; Maritime Transport</searchName>
+   </cla>
+   <cla>
+      <id>54185</id> 
+      <parent>54167</parent>
+      <sort>139</sort>
+      <displayName>Road Transport</displayName>
+      <searchName>Procurement, Manufacturing &amp; Transport Road Transport</searchName>
+   </cla>
+   <cla>
+      <id>54186</id> 
+      <parent>54167</parent>
+      <sort>140</sort>
+      <displayName>Team Leaders/Supervisors</displayName>
+      <searchName>Procurement, Manufacturing &amp; Transport Team Leaders/Supervisors</searchName>
+   </cla>
+   <cla>
+      <id>54187</id> 
+      <parent>54167</parent>
+      <sort>141</sort>
+      <displayName>Warehousing, Storage &amp; Distribution</displayName>
+      <searchName>Procurement, Manufacturing &amp; Transport Warehousing, Storage &amp; Distribution</searchName>
+   </cla>
+   <cla>
+      <id>96171</id> 
+      <parent>0</parent>
+      <sort>142</sort>
+      <displayName>Property</displayName>
+      <searchName>Property</searchName>
+   </cla>
+   <cla>
+      <id>96172</id> 
+      <parent>96171</parent>
+      <sort>143</sort>
+      <displayName>Development Management</displayName>
+      <searchName>Property Development Management</searchName>
+   </cla>
+   <cla>
+      <id>96174</id> 
+      <parent>96171</parent>
+      <sort>144</sort>
+      <displayName>Project Management</displayName>
+      <searchName>Property Project Management</searchName>
+   </cla>
+   <cla>
+      <id>100913</id> 
+      <parent>96171</parent>
+      <sort>145</sort>
+      <displayName>Quantity Surveying</displayName>
+      <searchName>Property Quantity Surveying</searchName>
+   </cla>
+   <cla>
+      <id>100901</id> 
+      <parent>0</parent>
+      <sort>146</sort>
+      <displayName>Recruitment</displayName>
+      <searchName>Recruitment</searchName>
+   </cla>
+   <cla>
+      <id>100902</id> 
+      <parent>100901</parent>
+      <sort>147</sort>
+      <displayName>Management - Agency</displayName>
+      <searchName>Recruitment Management - Agency</searchName>
+   </cla>
+   <cla>
+      <id>100903</id> 
+      <parent>100901</parent>
+      <sort>148</sort>
+      <displayName>Management - Internal</displayName>
+      <searchName>Recruitment Management - Internal</searchName>
+   </cla>
+   <cla>
+      <id>100904</id> 
+      <parent>100901</parent>
+      <sort>149</sort>
+      <displayName>Recruitment - Agency</displayName>
+      <searchName>Recruitment Recruitment - Agency</searchName>
+   </cla>
+   <cla>
+      <id>100905</id> 
+      <parent>100901</parent>
+      <sort>150</sort>
+      <displayName>Recruitment - Internal</displayName>
+      <searchName>Recruitment Recruitment - Internal</searchName>
+   </cla>
+   <cla>
+      <id>96177</id> 
+      <parent>0</parent>
+      <sort>151</sort>
+      <displayName>Residential Construction</displayName>
+      <searchName>Residential Construction</searchName>
+   </cla>
+   <cla>
+      <id>96178</id> 
+      <parent>96177</parent>
+      <sort>152</sort>
+      <displayName>Drafting</displayName>
+      <searchName>Residential Construction Drafting</searchName>
+   </cla>
+   <cla>
+      <id>96179</id> 
+      <parent>96177</parent>
+      <sort>153</sort>
+      <displayName>Estimating</displayName>
+      <searchName>Residential Construction Estimating</searchName>
+   </cla>
+   <cla>
+      <id>96180</id> 
+      <parent>96177</parent>
+      <sort>154</sort>
+      <displayName>Pre-start/ Contract Admin</displayName>
+      <searchName>Residential Construction Pre-start/ Contract Admin</searchName>
+   </cla>
+   <cla>
+      <id>96181</id> 
+      <parent>96177</parent>
+      <sort>155</sort>
+      <displayName>Sales</displayName>
+      <searchName>Residential Construction Sales</searchName>
+   </cla>
+   <cla>
+      <id>96182</id> 
+      <parent>96177</parent>
+      <sort>156</sort>
+      <displayName>Scheduling</displayName>
+      <searchName>Residential Construction Scheduling</searchName>
+   </cla>
+   <cla>
+      <id>96183</id> 
+      <parent>96177</parent>
+      <sort>157</sort>
+      <displayName>Site Management/ Supervision</displayName>
+      <searchName>Residential Construction Site Management/ Supervision</searchName>
+   </cla>
+</classifications>

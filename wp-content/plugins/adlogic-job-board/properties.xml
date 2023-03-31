@@ -1,0 +1,7 @@
+<properties>
+    <!-- List of job boards below. Used to determine when "Apply with Indeed" should be shown. -->
+    <jobBoard>
+        <name>Indeed</name>
+        <id>1195</id>
+    </jobBoard>
+</properties>

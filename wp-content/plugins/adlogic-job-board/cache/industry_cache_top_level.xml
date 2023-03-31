@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classifications>
+   <cla>
+      <id>96095</id> 
+      <sort>1</sort>
+      <displayName>Architecture</displayName>
+      <searchName>Architecture</searchName>
+   </cla>
+   <cla>
+      <id>100754</id> 
+      <sort>2</sort>
+      <displayName>Cabinet Making &amp; Shopfitting</displayName>
+      <searchName>Cabinet Making &amp; Shopfitting</searchName>
+   </cla>
+   <cla>
+      <id>96100</id> 
+      <sort>3</sort>
+      <displayName>Civil Construction</displayName>
+      <searchName>Civil Construction</searchName>
+   </cla>
+   <cla>
+      <id>105278</id> 
+      <sort>4</sort>
+      <displayName>Civil Trades</displayName>
+      <searchName>Civil Trades</searchName>
+   </cla>
+   <cla>
+      <id>96109</id> 
+      <sort>5</sort>
+      <displayName>Commercial Construction</displayName>
+      <searchName>Commercial Construction</searchName>
+   </cla>
+   <cla>
+      <id>105280</id> 
+      <sort>6</sort>
+      <displayName>Electrical</displayName>
+      <searchName>Electrical</searchName>
+   </cla>
+   <cla>
+      <id>100703</id> 
+      <sort>7</sort>
+      <displayName>Engineering Design</displayName>
+      <searchName>Engineering Design</searchName>
+   </cla>
+   <cla>
+      <id>105277</id> 
+      <sort>8</sort>
+      <displayName>Fitout Trades</displayName>
+      <searchName>Fitout Trades</searchName>
+   </cla>
+   <cla>
+      <id>96142</id> 
+      <sort>9</sort>
+      <displayName>Health &amp; Safety</displayName>
+      <searchName>Health &amp; Safety</searchName>
+   </cla>
+   <cla>
+      <id>100735</id> 
+      <sort>10</sort>
+      <displayName>HR &amp; Project Support</displayName>
+      <searchName>HR &amp; Project Support</searchName>
+   </cla>
+   <cla>
+      <id>100717</id> 
+      <sort>11</sort>
+      <displayName>HVAC &amp; Building Sevices</displayName>
+      <searchName>HVAC &amp; Building Sevices</searchName>
+   </cla>
+   <cla>
+      <id>100765</id> 
+      <sort>12</sort>
+      <displayName>Mining Trades</displayName>
+      <searchName>Mining Trades</searchName>
+   </cla>
+   <cla>
+      <id>105279</id> 
+      <sort>13</sort>
+      <displayName>Plumbing</displayName>
+      <searchName>Plumbing</searchName>
+   </cla>
+   <cla>
+      <id>100748</id> 
+      <sort>14</sort>
+      <displayName>Power</displayName>
+      <searchName>Power</searchName>
+   </cla>
+   <cla>
+      <id>54167</id> 
+      <sort>15</sort>
+      <displayName>Procurement, Manufacturing &amp; Transport</displayName>
+      <searchName>Procurement, Manufacturing &amp; Transport</searchName>
+   </cla>
+   <cla>
+      <id>96171</id> 
+      <sort>16</sort>
+      <displayName>Property</displayName>
+      <searchName>Property</searchName>
+   </cla>
+   <cla>
+      <id>100901</id> 
+      <sort>17</sort>
+      <displayName>Recruitment</displayName>
+      <searchName>Recruitment</searchName>
+   </cla>
+   <cla>
+      <id>96177</id> 
+      <sort>18</sort>
+      <displayName>Residential Construction</displayName>
+      <searchName>Residential Construction</searchName>
+   </cla>
+</classifications>

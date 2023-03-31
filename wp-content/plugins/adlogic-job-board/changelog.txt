@@ -1,0 +1,627 @@
+Plugin: Adlogic Job Board
+Version: 2.9.6
+Date: 29th November 2019
+
+2.9.6
+------------------------------------------
+==== Description =====
+
+Bug fix 
+
+
+2.9.2
+------------------------------------------
+==== Description =====
+
+Bug fix to Rest APIs methods
+
+
+2.9.02
+------------------------------------------
+==== Description =====
+
+Bug fix for Closing date in the event non was set
+Changed File: /shortcodes/search-page.php
+
+
+
+
+2.9.01
+------------------------------------------
+==== Description =====
+
+Bug fix for classificationsCriteria
+Changed File: /lib/classes/jobSearch.class.php
+
+
+
+2.9.0
+------------------------------------------
+====    Description    ====
+
+Added Support for the plugin to make calls via a RESTful web service rather then a SOAP web service 
+
+====    What has changed?    ====
+
+Changed File: /lib/shortcodes/job-details.php
+Changed File: /lib/shortcodes/search-page.php
+Changed File: /lib/classes/Utility.class.php
+Changed File: /lib/classes/industry.class.php
+Changed File: /lib/classes/jobDetails.class.php
+Changed File: /lib/classes/jobSearch.class.php
+Changed File: /lib/classes/worktpye.class.php
+Changed File: /lib/ajaxServer.php
+Changed File: /lib/widgets/search.php
+Changed File: /lib/widgets/job_alerts.php
+Changed File: /adlogic-job-board.php
+Changed File: /js/jquery.adlogic.searchWidget.js
+Changed File: /admin.settings_panel.php
+
+New File: /lib/classes/newLocation.class.php
+
+2.8.15
+------------------------------------------
+
+====    Description    ====
+
+Improved job-details schema tags, now supports GeoLocation + updated existing tags to reduce the warnings when run through Google Structured Data Testing Tool
+
+====    What has changed?    ====
+
+Changed File: /lib/shortcodes/job-details.php
+Changed File: /lib/classes/Utility.class.php
+
+
+2.8.14
+------------------------------------------
+
+====    Description    ====
+
+The job_details shortcode no longer attempts to connect to MR+ API and throw an error while editing via the Gutenberg editor.
+
+====    What has changed?    ====
+
+Changed File: /lib/shortcodes/job-details.php
+
+
+
+2.8.13
+------------------------------------------
+
+====    Description    ====
+
+Fixed ANOTHER bug which would cause errors generating the RSS feed.
+
+====    What has changed?    ====
+
+Changed File: /lib/classes/jobSearch.class.php
+
+
+2.8.12
+------------------------------------------
+
+====    Description    ====
+
+Fixed a bug which would cause encoded HTML characters to display in the search results
+
+====    What has changed?    ====
+
+Changed File: /lib/classes/jobSearch.class.php
+
+
+
+2.8.11
+------------------------------------------
+
+====    Description    ====
+
+Fixed bug which would cause Hot Jobs to not display
+
+====    What has changed?    ====
+
+Changed File: /lib/classes/jobSearch.class.php
+
+
+2.8.1
+------------------------------------------
+
+====    Description    ====
+
+Job Search results are no longer escaped from the plugin.
+
+====    What has changed?    ====
+
+Changed File: /lib/classes/jobSearch.class.php
+
+
+2.8
+------------------------------------------
+
+====    Description    ====
+
+Added new option in Admin Page to force UTF8 encoding on API responses
+
+====    What has changed?    ====
+
+New File: /lib/classes/Utility.class.php
+Changed File: /admin/settings_panel.php
+Changed File: /lib/classes/jobSearch.class.php
+Changed File: /lib/classes/jobDetails.class.php
+Changed File: /lib/classes/savedJobs.class.php
+
+
+2.7.99
+------------------------------------------
+
+====    Description    ====
+
+Made initial Job Board setup simpler
+All references in the frontend have been renamed from Adlogic to MyRecruitment+
+Removed Mobile Settings menu for new setups.
+Refactored code to reduce the number of warnings, deprecation notices and errors when running newer versions of PHP (tested up to 7.0.23)
+
+====    What has changed?    ====
+
+
+Changed File: /adlogic-job-board.php
+Changed File: /lib/ajaxServer.php
+Changed File: /lib/classes/nusoap/nusoap.php
+Changed File: /admin/settings_panel.php
+Changed File: /admin/users.php
+Changed Files: /widgets/*
+Changed Files: /shortcodes/*
+
+
+2.7.98 
+------------------------------------------
+
+====    Description    ====
+
+New option to use Geolocation location searching
+
+====    What has changed?    ====
+
+
+Changed File: /adlogic-job-board.php
+Changed File: /widgets/search.php
+Changed File: /lib/ajaxServer.php
+Changed File: /shortcodes/search-page.php
+Changed File: /admin/settings-panel.php
+Changed File: /lib/classes/jobSearch.class.php
+
+
+
+2.7.97
+------------------------------------------
+
+====    Description    ====
+
+Expired message & "Make job details unavailable for expired ads" option should now work correctly with custom templates
+
+====    What has changed?    ====
+
+
+Changed File: /shortcodes/job-details.php
+
+
+
+2.7.96
+------------------------------------------
+
+====    Description    ====
+
+Better support for WP Visual designers
+We no longer de-register the following scripts:
+	- jQuery
+	- jQuery Migrate
+	- jQuery UI Core
+Fix for job details page where jQuery will sometimes be undefined
+
+====    What has changed?    ====
+
+
+Changed File: /adlogic-job-board.php
+Changed File: /shortcodes/job-details.php
+
+
+
+2.7.95
+------------------------------------------
+
+====    Description    ====
+
+Search Widget Ajax Requests should now abort when trying to load a new page
+
+====    What has changed?    ====
+
+
+Changed File: /js/jquery.adlogic.searchPage.js
+Changed File: /js/jquery.adlogic.searchWidget.js
+Changed File: /js/minified/jquery.adlogic.searchPage.min.js
+Changed File: /js/minified/jquery.adlogic.searchWidget.min.js
+
+
+2.7.94
+------------------------------------------
+
+====    Description    ====
+
+Updated all the outdated JS libraries
+
+	- jQuery 	 	1.9.1 	-> 	3.2.1
+	- jQuery Migrate 	1.2.0 	-> 	3.0.0
+	- jQuery UI 	 	1.10.3 	-> 	1.12.1
+	- jQuery UI Touch 	0.2.2 	-> 	0.2.3
+	- jQuery Migrate 	1.2.0 	-> 	3.0.0
+	- jQuery BX Slider	4.1 	-> 	4.2.12
+	- jQuery Chosen		1.0.0 	-> 	1.7.0
+
+====    What has changed?    ====
+
+
+Changed File: /js/jquery.bxslider.min.js
+Changed File: /js/jquery.chosen.min.js
+Changed File: /js/jquery.ui.touch-punch.min.js
+Changed File: /js/jquery-ui.min.js
+Changed File: /js/jquery-migrate-3.0.0.min.js
+Changed File: /js/jquery.min.js
+
+
+
+2.7.93
+------------------------------------------
+
+====    Description    ====
+
+Using the recruiter filter search should return the correct results when searching with other parameters
+
+====    What has changed?    ====
+
+Changed File: /shortcodes/search-page.php
+
+
+2.7.92
+------------------------------------------
+
+====    Description    ====
+
+Weblinks can now function with encrypted URLs
+viewAdDetails & viewAdHtml have been renamed to viewDetails & viewHtml to make the functions more generic as they will now take job ids.
+
+====    What has changed?    ====
+
+Changed File: /lib/classes/jobDetails.class.php
+Changed File: /shortcodes/job-details.php
+
+
+2.7.91
+------------------------------------------
+
+====    Description    ====
+
+Users can now turn off the timestamps in RSS feeds
+
+====    What has changed?    ====
+
+Changed File: /lib/bulk-rss.php
+
+
+2.7.90
+------------------------------------------
+
+====    Description    ====
+
+Added "bulk rss" which returns an RSS feed for multiple advertiser IDs (specified in RSS settings), useful to return both intranet & external ads for a company.
+The Facebook options now display even if using a version of PHP less than 5.4, it is now disabled and a message is shown.
+If an account is inactive, it now displays a message instead of just displaying the "Unable to connect to server" message.
+
+====    What has changed?    ====
+
+Changed File: /adlogic-job-board.php
+Changed File: /admin/settings_panel.php
+Changed File: /shortcodes/search-page.php
+Changed File: /lib/classes/jobSearch.class.php
+New File: /lib/bulk-rss.php
+
+2.7.89
+------------------------------------------
+
+====    Description    ====
+
+New Job Details param: templateId, this ID will preview a different template on the site (used for MR+ ad posting)
+
+====    What has changed?    ====
+
+Changed File: /shortcodes/job-details.php
+Changed File: /lib/classes/jobDetails.class.php
+
+
+2.7.88
+------------------------------------------
+
+====    Description    ====
+
+Fixed error that would display when trying to access the RSS feed and no active ads were available.
+
+====    What has changed?    ====
+
+Changed File: /lib/rss.php
+
+
+2.7.87
+------------------------------------------
+
+====    Description    ====
+
+Fixed bug that would cause the search results to return nothing if the keyword search term had a space i.e. "Account Manager"
+
+====    What has changed?    ====
+
+Changed File: /js/jquery.adlogic.searchWidget.js
+Changed File: /js/minified/jquery.adlogic.searchWidget.min.js
+
+
+2.7.86
+------------------------------------------
+
+====    Description    ====
+
+Job Title should no longer display when expired ads are marked as unaccessible
+
+====    What has changed?    ====
+
+Changed File: /shortcodes/job-details.php
+
+
+2.7.85
+------------------------------------------
+
+====    Description    ====
+
+Removed var_dump() output when updating the plugin
+Added ability to customise the "fresh period" of an ad. This option is now available in the Search Settings of Wordpress
+Added ability to make expired ads unaccessible - if enabled, any expired ads will now display a 404 page.
+
+====    What has changed?    ====
+
+Changed File: /admin/update.php
+Changed File: /shortcodes/search-page.php
+Changed File: /shortcodes/job-details.php
+Changed File: /admin/settings-panel.php
+Changed File: /css/admin_settings.css
+
+
+2.7.84
+------------------------------------------
+
+====    Description    ====
+
+Added new tag to search page template {job_is_fresh} - if an ad was posted within the last 2 hours it'll return a string that can be used to display on the search results page
+Fixed bug that would cause the Standout logo not to be returned when using return_jobad_details()
+
+====    What has changed?    ====
+
+Changed File: /shortcodes/job-details.php
+Changed File: /shortcodes/search-page.php
+
+
+2.7.83
+------------------------------------------
+
+====    Description    ====
+
+Patched remote file upload vulnerability
+Removed old application form & libraries from the plugin
+Fixed bug that could cause the plugin to fail on PHP 5.4 and older.
+Pluraliser plugin should no longer load multiple times
+Fixed bug that would cause pagination & searching not to work if using filtered searches (multi branding)
+
+
+====    What has changed?    ====
+
+Changed File: /adlogic-job-board.php
+Changed File: /shortcodes/job-details.php
+Changed File: /shortcodes/search-page.php
+Changed File: /lib/ajaxServer.php
+Changed File: /admin/users.php
+Changed File: /admin/settings_panel.php
+Removed File: /shortcodes/job-application.php
+Removed File: /lib/classes/resume.class.php
+Removed File: /js/jquery.adlogic.jobApplication.js
+Removed File: /js/jquery.multi-select.js
+Removed File: /js/jquery.quicksearch.js
+Removed File: /js/minified/jquery.adlogic.jobApplication.min.js
+Removed File: /js/minified/jquery.multi-select.min.js
+Removed File: /js/jquery.quicksearch.min.js
+Removed File: /js/MonthPicker/MonthPicker.min.js
+Removed File: /css/job_application.css
+Removed File: /css/MonthPicker.css
+Removed File: /css/multi-select.css
+Removed File: /lib/classes/jobApplication.class.php
+Removed File(s): /lib/classes/html2ps/*
+Removed File(s): /lib/classes/OneDrive/*
+Removed File(s): /templates/job_application/*
+Removed File(s): /templates/job_application_acknowledgement/*
+
+
+##########################################
+
+2.7.82
+------------------------------------------
+
+====    Description    ====
+
+Additional subsource tracking for some jobboards
+
+====    What has changed?    ====
+
+Changed File: /adlogic-job-board.php
+Changed File: /shortcodes/job-details.php
+
+
+##########################################
+
+2.7.8
+------------------------------------------
+
+====    Description    ====
+
+Search API calls now using new WS methods
+To ensure no errors occur, we now check to see if the JobPosting element is empty as the WS will now always return a JobPosting element (even if no ads are active)
+Fixed a bug that would stop the Job Alerts worktype field from populating if only 1 option was available.
+
+====    What has changed?    ====
+
+Changed File: /shortcodes/search-page.php
+Changed File: /lib/classes/jobSearch.class.php
+Changed File: /js/jquery.adlogic.jobAlertsWidget.js
+Changed File: /js/minified/jquery.adlogic.jobAlertsWidget.min.js
+
+
+##########################################
+
+2.7.7
+------------------------------------------
+
+====    Description    ====
+
+Improved styling on application confirmation message
+New Hot Jobs tag: {job_costcenter}
+
+
+====    What has changed?    ====
+
+Changed File: /shortcodes/job-details.php
+Changed File: /js/minified/jquery.adlogic.hotJobsWidget.min.js
+Changed File: /js/jquery.adlogic.hotJobsWidget.js
+
+
+##########################################
+
+
+2.7.6
+------------------------------------------
+
+====    Description    ====
+
+New Option in API Settings section: "Use local javascript libraries"
+
+
+====    What has changed?    ====
+
+Changed File: /admin/settings-panel.php
+Changed File: /adlogic-job-board.php
+New File: /js/jquery-ui.min.js
+New File: /js/jquery-migrate-1.2.0.min.js
+New File: /js/jquery.min.js
+
+
+##########################################
+
+
+2.7.5
+------------------------------------------
+
+====    Description    ====
+
+Bug fix for new tag: {job_closing_date}
+
+
+====    What has changed?    ====
+
+Changed File: /shortcodes/search-page.php
+
+
+##########################################
+
+
+2.7.4
+------------------------------------------
+
+====    Description    ====
+
+Fix for users not using the new application form
+New tag {job_closing_date} - displays the job closing date in search results
+Job Details Page now shows a message if the application has been successful.
+
+
+====    What has changed?    ====
+
+Changed File: /shortcodes/job-details.php
+Changed File: /shortcodes/search-page.php
+Changed File: /js/jquery.adlogic.jobDetailsPage.js
+Changed File: /js/jquery.adlogic.jobDetailsPage.min.js
+
+
+##########################################
+
+
+2.7.3
+------------------------------------------
+
+====    Description    ====
+
+New installs of the plugin should no longer create a Job Application page and automatically use the new application form.
+Added an option to load minified JS files
+New JS function available for developers to access the ad details via JSON
+If using the new application form, it should automatically open in a new tab
+
+
+====    What has changed?    ====
+
+Changed File: /admin/settings_panel.php
+Changed File: /adlogic-job-board.php
+Changed File: /shortcodes/job-details.php
+
+
+##########################################
+
+
+2.7.2
+------------------------------------------
+
+====    Description    ====
+
+Custom application form URL query parameter updated from: 'adlogic_job_id' to 'jobAdId'
+
+
+====    What has changed?    ====
+
+Changed File: /shortcodes/job-application.php
+
+
+##########################################
+
+
+2.7.1
+------------------------------------------
+
+====    Description    ====
+
+Added an attribute to make resumes not mandatory
+Fixed shortcode buttons
+
+
+====    What has changed?    ====
+
+Changed File: /shortcodes/job-application.php
+Changed File: /shortcodes/search-page.php
+Changed File: /shortcodes/job-details.php
+
+
+##########################################
+
+
+2.7.0
+------------------------------------------
+
+====    Description    ====
+
+Apply with Indeed should now only appear if it is an Indeed ad being viewed
+
+
+====    What has changed?    ====
+
+New File: /properties.xml
+Changed File: /shortcodes/job-application.php
+
