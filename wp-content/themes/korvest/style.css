@@ -470,7 +470,7 @@ label {
     border-bottom: none !important;
     /* max-height: 105px; */
     height: 100%;
-	line-height: 50px;
+	line-height: 50px !important;
     border: none !important;
     min-height: initial;
     position: relative;
