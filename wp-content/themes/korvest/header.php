@@ -31,7 +31,9 @@ if (strpos($_SERVER['REQUEST_URI'], 'job-details/query')) {
 
 	<!-- Favicon -->
 	<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/korvest-logo.png">
-
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/korvest-logo.png">
+	<meta name="theme-color" content="#ffffff">
 
 
 	
