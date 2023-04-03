@@ -61,18 +61,16 @@ if (strpos($_SERVER['REQUEST_URI'], 'job-details/query')) {
 
 	<!-- START menu -->
 	<nav class="jobboard-nav">
-	<div class="nav-logo">
-				<a href="https://www.korvest.com.au/careers/"><img src="<?php echo get_template_directory_uri(); ?>/images/korvest-logo.png" alt="" id="nav-logo"></a>
-			</div>
+		<div class="nav-logo">
+			<a href="https://www.korvest.com.au/careers/"><img src="<?php echo get_template_directory_uri(); ?>/images/korvest-logo.png" alt="" id="nav-logo"></a>
+		</div>
 		<div class="navigation-container">
-			
 			<div class="nav-buttons">
 				<?php if (!$needCareerButton) { ?>
 					<a href="https://www.korvest.com.au/" class="nav-button">Home</a>
 				<?php } else { ?>
 					<a href="https://www.korvest.com.au/careers/" class="nav-button">Job Search</a>
 				<?php } ?>
-
 			</div>
 		</div>
 	</nav>

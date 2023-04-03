@@ -470,6 +470,7 @@ label {
     border-bottom: none !important;
     /* max-height: 105px; */
     height: 100%;
+	line-height: 50px;
     border: none !important;
     min-height: initial;
     position: relative;
@@ -510,9 +511,7 @@ label {
 
 
 .nav-logo>a>img {
-    max-width: 100% !important;
-    line-height: 50px;
-   
+    max-width: 100% !important;   
 } 
 .nav-logo {
     padding: 55px 22px 23px;
