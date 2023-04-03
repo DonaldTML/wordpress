@@ -510,12 +510,12 @@ label {
 
 
 .nav-logo>a>img {
-    height: 105px !important;
+    height: 30px !important;
    
 } 
 .nav-logo {
     padding: 55px 22px 23px;
-    background: linear-gradient(135deg, #F5B324 0%, #9D032C 100%);
+    background: linear-gradient(135deg, #ffffff 0%, #ffffff 100%);
     top: 0px;
     position: absolute;
 }
