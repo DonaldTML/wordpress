@@ -510,15 +510,17 @@ label {
 
 
 .nav-logo>a>img {
-    height: 30px !important;
+    height: 105px !important;
    
 } 
 .nav-logo {
+    padding: 55px 22px 23px;
+    top: 0px;
+    position: absolute;
 	opacity: 1;
     -webkit-transition: opacity 250ms;
     transition: opacity 250ms;
 	height: auto !important;
-    border: 0;
 }
 .nav-buttons {
     color: #a6a3a3;
