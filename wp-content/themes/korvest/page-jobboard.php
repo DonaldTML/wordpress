@@ -4,7 +4,7 @@ get_post();
 // Template Name: Front Page
 ?>
 <div class="banner">
-    <a href="https://www.korvest.com.au/"> <img src="http://localhost/wordpress/wp-admin/wp-content/themes/korvest/images/Railyards5.jpg" /></a>
+    <a href="https://www.korvest.com.au/"> <img src="http://localhost/wordpress/wp-content/themes/korvest/images/Railyards5.jpg" /></a>
 </div>
 	<!-- <div class="banner-info-wrapper">
         <div class="banner-info">
@@ -30,7 +30,7 @@ get_post();
                     <h2 class="bebas" style="font-size: 22px;">Register your interest</h2>
                     <div class="eoi-wrapper">
                         <p class="abril"> If your area of interest is not currently listed, but you would like to be considered for a future position with us, then submit an application.</p>
-                        <a class="ajb-subscribe-job-alerts" style="float:left; text-decoration: none;" href="<!-- EOI Link -->" target="_blank">Register</a>
+                        <a class="ajb-subscribe-job-alerts" style="float:left; text-decoration: none;" href="https://form.myrecruitmentplus.com/applicationform?jobId=1696760&source=10000&subSourceId=9999" target="_blank">Register</a>
                     </div>
                 </div>
                 <!--  //dynamic_sidebar('job_alerts_widget');  -->
