@@ -510,7 +510,7 @@ label {
 
 
 .nav-logo>a>img {
-    height: 105px !important;
+    max-width: 100% !important;
    
 } 
 .nav-logo {
