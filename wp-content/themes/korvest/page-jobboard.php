@@ -4,7 +4,7 @@ get_post();
 // Template Name: Front Page
 ?>
 <div class="banner">
-    <a href="https://www.korvest.com.au/"> <img src="<!-- Weblink https://careers.korvest.com.au -->/careers/wp-content/themes/korvest/images/Railyards5.jpg" /></a>
+    <a href="https://www.korvest.com.au/"> <img src="http://localhost/wordpress/wp-admin/wp-content/themes/korvest/images/Railyards5.jpg" /></a>
 </div>
 	<!-- <div class="banner-info-wrapper">
         <div class="banner-info">
