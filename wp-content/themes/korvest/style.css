@@ -511,7 +511,7 @@ label {
 
 
 .nav-logo>a>img {
-    max-width: 100% !important;   
+    height: 50px;   
 } 
 .nav-logo {
     padding: 55px 22px 23px;
