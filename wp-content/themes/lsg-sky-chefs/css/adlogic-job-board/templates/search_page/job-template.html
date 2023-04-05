@@ -1,0 +1,36 @@
+
+<div class="position" standOutUrl="{job_standout_logo}" onclick="location.href='{job_link}';"
+	style="background-image: url('{job_standout_logo}'); background-repeat: no-repeat; background-origin: content-box; background-position: bottom right;">
+	<div class="job-header-container">
+		<h2><a id="job-title-link" href="{job_link}">{job_title}</a>{job_save}</h2>
+		<h2 id="worktype-link">{job_worktype_link}</h2>
+	</div>
+
+	<div class="job-content-container">
+	<div class="ajb_job_content">
+		<p>{job_description}</p>
+		<div class="ajb_search_results_meta">
+			<span class="ajb_location">{job_location_breadcrumbs count="1"}</span><span
+				class="ajb_classification">{job_classification_breadcrumbs count="1"}</span>
+		</div>
+	</div>
+	<div class="date">
+		<div class="date-text">Posted on <span class="date-date">{job_post_date format="d M Y"}</span></div>
+	</div>
+</div>
+
+	<script>
+		jQuery(document).ready(function ($) {
+			$(".ajb_salary_rate").each(function (i) {
+				if ($(this).text() == 'AnnualPackage') {
+					$(this).text('per annum');
+				}
+				if ($(this).text() == 'HourlyRate') {
+					$(this).text('per hour');
+				}
+			});
+		});
+	</script>
+	<br clear="all" class="ajb-clear-div" />
+</div>
+<script src="https://ws.sharethis.com/button/buttons.js" type="text/javascript"></script>
