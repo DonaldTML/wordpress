@@ -4,7 +4,7 @@ get_post();
 // Template Name: Front Page
 ?>
 <div class="banner-container">
-	
+	<img src="http://localhost/wordpress/wp-content/themes/korvest/images/Railyards5.jpg" />
 	<div class="banner-image"></div>
     <div class="banner">
     </div>
