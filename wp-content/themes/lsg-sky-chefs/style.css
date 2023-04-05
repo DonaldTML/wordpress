@@ -414,13 +414,14 @@ label {
 }
 
 .banner {
-   padding-left: 1.25rem;
-   padding-right: 1.25rem;
-   margin-left: auto;
-   margin-right: auto;
-   width: 100%;
-   height: 500px;
-   display: flex;
+	background-image: url(http://localhost/wordpress/wp-content/themes/lsg-sky-chefs/images/banner_chef.jpg);
+	padding-left: 1.25rem;
+	padding-right: 1.25rem;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 500px;
+	display: flex;
     justify-content: space-between;
     background-color: grey;
 }
@@ -463,15 +464,6 @@ label {
     height: 100%;
     justify-content: space-between;
     background-color: grey;
-}
-
-.banner-image {
-    background-image: url(http://localhost/wordpress/wp-content/themes/lsg-sky-chefs/images/banner_chef.jpg);
-    background-size: cover;
-    background-position: center;
-    max-width: 50%;
-    width: 50%;
-    height: 100%
 }
 
 .jobboard-nav {

@@ -4,8 +4,6 @@ get_post();
 // Template Name: Front Page
 ?>
 <div class="banner-container">
-	<img src="http://localhost/wordpress/wp-content/themes/lsg-sky-chefs/images/banner_chef.jpg"/>
-	<div class="banner-image"></div>
     <div class="banner">
     </div>
     <!-- <div class="banner-info-wrapper">
