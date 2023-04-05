@@ -509,7 +509,7 @@ label {
 }
 
 .nav-button:hover {
-    color: #f49f26  !important;
+    color: #071D49  !important;
     text-decoration: none;
 }
 
@@ -766,7 +766,7 @@ h1 {
     justify-content: space-between;
     background: 0 0;
     padding: 1rem;
-    background: #f49f26 !important;
+    background: #071D49 !important;
 }
 
 .job-header-container h2 {
@@ -817,7 +817,7 @@ h1 {
     margin-top: 0 !important;
     padding: 1.25rem !important;
     color: #FFFFFF !important;
-    background: #f49f26 !important;
+    background: #071D49 !important;
 
 }
 
@@ -974,7 +974,7 @@ h1 {
 }
 .eoi h2 {
     margin-top: 0px !important;
-    background: #f49f26;
+    background: #071D49;
     padding: 1.25rem;
     color: #FFFFFF !important;
     font-family: 'Roboto' !important;
