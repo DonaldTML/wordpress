@@ -466,7 +466,7 @@ label {
 }
 
 .banner-image {
-    background-image: url(http://jobboards.adlogic.com.au/st-josephs/wp-content/themes/st-josephs/images/banner.jpg);
+    background-image: url(http://localhost/wordpress/wp-content/themes/korvest/lsg-sky-chefs/images/banner_chef.jpg);
     background-size: cover;
     background-position: center;
     max-width: 50%;
