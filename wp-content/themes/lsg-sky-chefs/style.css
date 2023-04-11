@@ -414,7 +414,7 @@ label {
 }
 
 .banner {
-	background-image: url(http://localhost/wordpress/wp-content/themes/lsg-sky-chefs/images/banner_chef.jpg);
+	background-image: url(http://jobboards.adlogic.com.au/lsg-sky-chefs/wp-content/themes/lsg-sky-chefs/images/banner_chef.jpg);
 	padding-left: 1.25rem;
 	padding-right: 1.25rem;
 	margin-left: auto;
@@ -424,15 +424,6 @@ label {
 	display: flex;
     justify-content: space-between;
     background-color: grey;
-}
-
-.banner-image {
-    background-image: url(http://localhost/wordpress/wp-content/themes/korvest/images/Railyards5.jpg);
-    background-size: cover;
-    background-position: center;
-    max-width: 100%;
-    width: 100%;
-    height: 100%;
 }
 
 .banner-info { 

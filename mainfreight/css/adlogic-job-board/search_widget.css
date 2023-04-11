@@ -1,0 +1,115 @@
+.ajb-search-widget {
+	font-family: Arial,Helvetica,sans-serif;
+}
+
+.ajb-search-widget label {
+	font-weight: bold;
+	width: 230px;
+	min-height: 16px;
+}
+
+.ajb-search-widget label.loading {
+	background-image: url('images/ajax-loading-mini.gif');
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-origin: padding-box;
+	padding-right: 18px;
+}
+
+.ajb-search-widget h4 {
+	margin: 10px 0 0 10px;
+}
+
+
+.ajb-search-widget select {
+	display:block;
+	color: #333333;
+	margin-top: 5px;
+	font-size: 11px;
+	height: 40px;
+	border-radius: 2px;
+	width: 100%;
+	color: #333;
+	margin-top: 3px;
+	border: 1px solid #7a7a7a;
+	text-indent:10px;
+	background-color: #FFFFFF !important;
+}
+
+.ajb-search-widget select.multi-select {
+	height: 100px;
+}
+
+.ajb-keywords {
+	color: #666666;
+	width: 255px;
+	width: 100%;
+	height: 40px;
+	border: 1px solid #7a7a7a;
+	border-radius: 2px;
+	text-indent: 10px;
+}
+	
+.ajb-salary-switcher {
+	border-top: 1px solid #d1d1d1;
+	width: 200px;
+	display: block;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+
+.ajb-salary-type-selector a.selected {
+	color: inherit;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.ajb-search-for-jobs-button {
+	float: right;
+}
+
+.ajb-search-widget-buttons {
+	position: relative;
+	margin:2.5rem 0;
+	width:100%;
+}
+
+.ajb-search-widget p {
+	position: static !important;
+}
+
+.ajb-parent-opt {
+	background-color: #313131;
+	color: #ffffff;
+}
+
+.ajb-sub-parent-opt {
+	background-color: #4E4E4E;
+	color: #ffffff;
+}
+input#adlogic_search_widget-7-location_select_id {
+    width: 100%;
+    height: 40px;
+    text-indent: 10px;
+    border: 1px solid #7a7a7a;
+    border-radius: 5px;
+}
+input#adlogic_search_widget-3-location_select_id {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #7a7a7a;
+    border-radius: 5px;
+    text-indent: 10px;
+}
+/* input.ajb-view-all-jobs-button {width: 150px;padding: 10px;border-radius: 2px !important;box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;border: 1px solid #dadada;float: right;background: #0091DA;color: #FFF;}
+
+input.ajb-search-for-jobs-button {
+    width: 150px;
+    padding: 10px;
+    border-radius: 2px;
+    border: 1px solid #dadada;
+    float: left;
+    background: #0091DA;
+    color: #FFF;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+} */
