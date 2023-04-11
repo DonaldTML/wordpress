@@ -197,36 +197,75 @@ get_post();
     }
 </style>
 <section id="job-board special-bg" class="search-bg">
-    <!-- <div id="banner-slogan">
+	<!-- <div id="banner-slogan">
       <h5 id="slogan-header" style="font-size: 2.5rem; color: #214874; font-weight: bold;">Greater Bank Careers</h5>
       <p id="slogan-content" style="font-size: 1.125rem;
     line-height: 1.6875rem;
     color: #000000; ">At Greater Bank, we are on a journey that is being driven by our people. Become part of the team that is helping to transform the way we do banking.<br /><br />Join us today to create tomorrow.</p>  
     </div> -->
-    <img src="https://jobboards.adlogic.com.au/mainfreight/wp-content/themes/mainfreight/images/banner.jpg" />
+	<img src="https://jobboards.adlogic.com.au/mainfreight/wp-content/themes/mainfreight/images/banner.jpg"/>
 </section>
-
-
 <div class="container">
-    <div class="row head-banner m-0"></div>
-    <section id="job-board special-bg">
-        <div class="container">
-            <!-- <div class="row info-board">
+	<div class="row head-banner m-0"/>
+	<section id="job-board special-bg">
+		<div class="container">
+			<!-- <div class="row info-board">
         <div class="col-12">
     
 </div>
 </div>
     </div> -->
-            <h5 class="text-dark text-center my-4" style="font-size: 3rem;">Current Opportunities</h5>
-
-            <div class="row job-board">
-                <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-
-                    <div class="search-sidebar">
+			<h5 class="text-dark text-center my-4" style="font-size: 3rem;">Current Opportunities</h5>
+			<div class="row job-board">
+				<div class="col-12">
+					<div class="col-4">
+						<div class="box-sidebar shadow">
+							<div class="box-sidebar-title">
+								<h4>Expression of Interest- Owner Driver</h4>
+							</div>
+							<div class="box-sidebar-content">
+								<p>Are you looking to own your own business, while having the security of being supported by a successful global company?</p>
+								<p> The continued growth of Mainfreight across New Zealand means we are looking for more hungry drivers to support our supply chain, as we continue on our 100 year journey.</p>
+								<p>
+									<b>Becoming a Mainfreight Owner Driver could be for you!</b>
+								</p>
+							</div>
+							<hr>
+								<a type="button" href="https://form.myrecruitmentplus.com/applicationform?jobId=1631381&source=10000&subSourceId=9999" style="-webkit-appearance: none;" class="btn btn-success w-100 mb-2 shadow text-white" style="border: none !important;">Apply</a>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="box-sidebar shadow">
+							<div class="box-sidebar-title">
+								<h4>Expression of Interest- Looking For a Change</h4>
+							</div>
+							<div class="box-sidebar-content">
+								<p>If you are looking for a change and your area of interest is not currently listed, but you would like to be considered for a future position in the Mainfreight team then apply now!</p>
+							</div>
+							<hr>
+								<a type="button" href="https://form.myrecruitmentplus.com/applicationform?jobId=1631380&source=10000&subSourceId=9999" style="-webkit-appearance: none;" class="btn btn-success w-100 mb-2 shadow text-white" style="border: none !important;">Apply</a>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="box-sidebar shadow">
+							<div class="box-sidebar-title">
+								<h4>Mainfreight Development Programme</h4>
+							</div>
+							<div class="box-sidebar-content">
+								<p>This programme is for School leavers and Graduates.</p>
+								<p>The Mainfreight Development Programme seeks those willing to get stuck in and who are keen to embrace all kinds of challenges and new experiences.</p>
+								<p>Roll up your sleeves for a practical and hands-on learning experience at the core of our business.</p>
+							</div>
+							<hr>
+								<a type="button" href="https://form.myrecruitmentplus.com/applicationform?jobId=1629966&source=10000&subSourceId=9999" style="-webkit-appearance: none;" class="btn btn-success w-100 mb-2 shadow text-white" style="border: none !important;">Apply</a>
+						</div>
+					</div>
+				</div>
+							<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+									<div class="search-sidebar">
                         <?php get_sidebar(); ?>
-                    </div>
-
-                    <!-- <div class="box-sidebar shadow">
+									</div>
+									<!-- <div class="box-sidebar shadow">
                     <div class="box-sidebar-title">
                         <h4>Register your interest</h4>
                     </div>
@@ -236,59 +275,14 @@ get_post();
                     <hr>
                     <a type="button" href="https://form.myrecruitmentplus.com/applicationform?jobId=1629966&source=10000&subSourceId=9999" style="-webkit-appearance: none;" class="btn btn-success w-100 mb-2 shadow text-white" style="border: none !important;">Registration</a>
                </div> -->
-
-                    <div class="box-sidebar shadow">
-                        <div class="box-sidebar-title">
-                            <h4>Expression of Interest- Owner Driver</h4>
-                        </div>
-                        <div class="box-sidebar-content">
-                            <p>Are you looking to own your own business, while having the security of being supported by a successful global company?</p>
-                            <p> The continued growth of Mainfreight across New Zealand means we are looking for more hungry drivers to support our supply chain, as we continue on our 100 year journey.</p>
-                            <p><b>Becoming a Mainfreight Owner Driver could be for you!</b>
-                            </p>
-                        </div>
-                        <hr>
-                        <a type="button" href="https://form.myrecruitmentplus.com/applicationform?jobId=1631381&source=10000&subSourceId=9999" style="-webkit-appearance: none;" class="btn btn-success w-100 mb-2 shadow text-white" style="border: none !important;">Apply</a>
-                    </div>
-
-                    <div class="box-sidebar shadow">
-                        <div class="box-sidebar-title">
-                            <h4>Expression of Interest- Looking For a Change</h4>
-                        </div>
-                        <div class="box-sidebar-content">
-                            <p>If you are looking for a change and your area of interest is not currently listed, but you would like to be considered for a future position in the Mainfreight team then apply now!</p>
-                        </div>
-                        <hr>
-                        <a type="button" href="https://form.myrecruitmentplus.com/applicationform?jobId=1631380&source=10000&subSourceId=9999" style="-webkit-appearance: none;" class="btn btn-success w-100 mb-2 shadow text-white" style="border: none !important;">Apply</a>
-                    </div>
-                    <div class="box-sidebar shadow">
-                        <div class="box-sidebar-title">
-                            <h4>Mainfreight Development Programme</h4>
-                        </div>
-                        <div class="box-sidebar-content">
-                            <p>This programme is for School leavers and Graduates.</p> <p>The Mainfreight Development Programme seeks those willing to get stuck in and who are keen to embrace all kinds of challenges and new experiences.</p>
-                                <p>Roll up your sleeves for a practical and hands-on learning experience at the core of our business.</p>
-                        </div>
-                        <hr>
-                        <a type="button" href="https://form.myrecruitmentplus.com/applicationform?jobId=1629966&source=10000&subSourceId=9999" style="-webkit-appearance: none;" class="btn btn-success w-100 mb-2 shadow text-white" style="border: none !important;">Apply</a>
-                    </div>
-
-
-
-
-
-                </div>
-                <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+								</div>
+								<div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
                     <?php echo do_shortcode("[adlogic_search_results template='synlait']"); ?>
                     <?php echo do_shortcode("[adlogic_search_pagination]"); ?>
-
-                </div>
-
-
-
-            </div>
-        </div>
-    </section>
+								</div>
+							</div>
+						</div>
+					</section>
 
     <?php
     get_footer();
