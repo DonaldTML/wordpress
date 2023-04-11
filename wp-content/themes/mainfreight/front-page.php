@@ -217,24 +217,23 @@ get_post();
     </div> -->
 			<h5 class="text-dark text-center my-4" style="font-size: 3rem;">Current Opportunities</h5>
 			<div class="row job-board">
-				<div class="col-12">
-					<div class="col-4">
-						<div class="box-sidebar shadow">
-							<div class="box-sidebar-title">
-								<h4>Expression of Interest- Owner Driver</h4>
-							</div>
-							<div class="box-sidebar-content">
-								<p>Are you looking to own your own business, while having the security of being supported by a successful global company?</p>
-								<p> The continued growth of Mainfreight across New Zealand means we are looking for more hungry drivers to support our supply chain, as we continue on our 100 year journey.</p>
-								<p>
-									<b>Becoming a Mainfreight Owner Driver could be for you!</b>
-								</p>
-							</div>
-							<hr>
-								<a type="button" href="https://form.myrecruitmentplus.com/applicationform?jobId=1631381&source=10000&subSourceId=9999" style="-webkit-appearance: none;" class="btn btn-success w-100 mb-2 shadow text-white" style="border: none !important;">Apply</a>
+				<div class="col-md-4 col-sm-12">
+					<div class="box-sidebar shadow">
+						<div class="box-sidebar-title">
+							<h4>Expression of Interest- Owner Driver</h4>
+						</div>
+						<div class="box-sidebar-content">
+							<p>Are you looking to own your own business, while having the security of being supported by a successful global company?</p>
+							<p>The continued growth of Mainfreight across New Zealand means we are looking for more hungry drivers to support our supply chain, as we continue on our 100 year journey.</p>
+							<p>
+								<b>Becoming a Mainfreight Owner Driver could be for you!</b>
+							</p>
+						</div>
+						<hr>
+							<a type="button" href="https://form.myrecruitmentplus.com/applicationform?jobId=1631381&source=10000&subSourceId=9999" style="-webkit-appearance: none;" class="btn btn-success w-100 mb-2 shadow text-white" style="border: none !important;">Apply</a>
 						</div>
 					</div>
-					<div class="col-4">
+					<div class="col-md-4 col-sm-12">
 						<div class="box-sidebar shadow">
 							<div class="box-sidebar-title">
 								<h4>Expression of Interest- Looking For a Change</h4>
@@ -244,28 +243,27 @@ get_post();
 							</div>
 							<hr>
 								<a type="button" href="https://form.myrecruitmentplus.com/applicationform?jobId=1631380&source=10000&subSourceId=9999" style="-webkit-appearance: none;" class="btn btn-success w-100 mb-2 shadow text-white" style="border: none !important;">Apply</a>
-						</div>
-					</div>
-					<div class="col-4">
-						<div class="box-sidebar shadow">
-							<div class="box-sidebar-title">
-								<h4>Mainfreight Development Programme</h4>
 							</div>
-							<div class="box-sidebar-content">
-								<p>This programme is for School leavers and Graduates.</p>
-								<p>The Mainfreight Development Programme seeks those willing to get stuck in and who are keen to embrace all kinds of challenges and new experiences.</p>
-								<p>Roll up your sleeves for a practical and hands-on learning experience at the core of our business.</p>
-							</div>
-							<hr>
-								<a type="button" href="https://form.myrecruitmentplus.com/applicationform?jobId=1629966&source=10000&subSourceId=9999" style="-webkit-appearance: none;" class="btn btn-success w-100 mb-2 shadow text-white" style="border: none !important;">Apply</a>
 						</div>
-					</div>
-				</div>
+						<div class="col-md-4 col-sm-12">
+							<div class="box-sidebar shadow">
+								<div class="box-sidebar-title">
+									<h4>Mainfreight Development Programme</h4>
+								</div>
+								<div class="box-sidebar-content">
+									<p>This programme is for School leavers and Graduates.</p>
+									<p>The Mainfreight Development Programme seeks those willing to get stuck in and who are keen to embrace all kinds of challenges and new experiences.</p>
+									<p>Roll up your sleeves for a practical and hands-on learning experience at the core of our business.</p>
+								</div>
+								<hr>
+									<a type="button" href="https://form.myrecruitmentplus.com/applicationform?jobId=1629966&source=10000&subSourceId=9999" style="-webkit-appearance: none;" class="btn btn-success w-100 mb-2 shadow text-white" style="border: none !important;">Apply</a>
+								</div>
+							</div>
 							<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-									<div class="search-sidebar">
-                        <?php get_sidebar(); ?>
-									</div>
-									<!-- <div class="box-sidebar shadow">
+								<div class="search-sidebar">
+<?php get_sidebar(); ?>
+								</div>
+								<!-- <div class="box-sidebar shadow">
                     <div class="box-sidebar-title">
                         <h4>Register your interest</h4>
                     </div>
@@ -275,15 +273,15 @@ get_post();
                     <hr>
                     <a type="button" href="https://form.myrecruitmentplus.com/applicationform?jobId=1629966&source=10000&subSourceId=9999" style="-webkit-appearance: none;" class="btn btn-success w-100 mb-2 shadow text-white" style="border: none !important;">Registration</a>
                </div> -->
-								</div>
-								<div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
-                    <?php echo do_shortcode("[adlogic_search_results template='synlait']"); ?>
-                    <?php echo do_shortcode("[adlogic_search_pagination]"); ?>
-								</div>
+							</div>
+							<div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+<?php echo do_shortcode("[adlogic_search_results template='synlait']"); ?>
+<?php echo do_shortcode("[adlogic_search_pagination]"); ?>
 							</div>
 						</div>
-					</section>
+					</div>
+				</section>
 
-    <?php
+<?php
     get_footer();
     ?>
