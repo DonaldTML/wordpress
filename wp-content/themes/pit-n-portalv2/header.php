@@ -26,13 +26,13 @@ if (strpos($_SERVER['REQUEST_URI'], 'job-details/query')) {
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
 
-	<title>Careers at Korvest</title>
+	<title>Careers at Pit N Portal<?php the_title(); ?></title>
 
 
 	<!-- Favicon -->
-	<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/korvest-logo.png">
+	<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.png">
 	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="/korvest-logo.png">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 
 
@@ -61,16 +61,17 @@ if (strpos($_SERVER['REQUEST_URI'], 'job-details/query')) {
 
 	<!-- START menu -->
 	<nav class="jobboard-nav">
-		<div class="nav-logo">
-			<a href="https://www.korvest.com.au/"><img src="<?php echo get_template_directory_uri(); ?>/images/korvest-logo.png" alt="" id="nav-logo"></a>
-		</div>
 		<div class="navigation-container">
+			<div class="nav-logo">
+				<a href="https://www.pitnportal.com.au/"><img src="<?php echo get_template_directory_uri(); ?>/images/logo2.png" alt="" id="nav-logo"></a>
+			</div>
 			<div class="nav-buttons">
 				<?php if (!$needCareerButton) { ?>
-					<a href="https://www.korvest.com.au/careers/" class="nav-button">Careers</a>
+					<a href="https://www.pitnportal.com.au/" class="nav-button">Home</a>
 				<?php } else { ?>
-					<a href="https://www.korvest.com.au/careers/" class="nav-button">Job Search</a>
+					<a href="https://careers.pitnportal.com.au/" class="nav-button">Job Search</a>
 				<?php } ?>
+
 			</div>
 		</div>
 	</nav>

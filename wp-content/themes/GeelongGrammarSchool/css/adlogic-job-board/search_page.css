@@ -1,0 +1,230 @@
+
+
+.adlogic_job_results .position {
+	border: 1px solid #CCCCCC;
+	margin: 2rem 0rem;
+	overflow: hidden;
+	padding: 10px 10px 5px 10px;
+	background-repeat: no-repeat;
+	background-origin: content-box;
+	background-position: bottom right;
+	background-color: #FFFFFF;
+	box-shadow: 1px 1px 3px 0 rgb(0 0 0 / 10%);
+
+}
+.ajb_social_sharing_container_mobile {
+	float: left;
+	display: none;
+}
+.ajb_salary_information {
+	float: right;
+	max-width: 180px;
+	color: #000000 !important;
+	font-weight: normal;
+}
+
+.ajb_salary_min, .ajb_salary_max {
+}
+
+.adlogic_job_results .position:hover {
+	border: none !important;
+}
+
+.adlogic_job_results h2 {
+	margin: 0 100px 10px 0;
+	font-family: 'effrabold', Tahoma, Helvetica, sans-serif;
+}
+
+.adlogic_job_results h2 a {
+	text-decoration: none;
+	font-family: 'effrabold', Tahoma, Helvetica, sans-serif;
+}
+
+.adlogic_job_results h2 a:hover {
+	text-decoration: none;
+	font-family: 'effrabold', Tahoma, Helvetica, sans-serif;
+}
+
+.position div.ajb_standout_bullets ul {
+	list-style-type: disc;
+	padding-left: 15px;
+	margin: 0 0 10px 15px;
+	clear: both;
+}
+
+.position span.ajb_location ul a, .position span.ajb_classification ul a {
+	/* text-decoration: none; */
+	/* color: #444; */
+	font-size: 16px;
+	font-family: bill-bold !important;
+    color: #2c5165 !important;
+	font-weight: normal !important;
+}
+
+.position span.ajb_location ul a:hover, .position span.ajb_classification ul a:hover {
+	text-decoration: none;
+}
+
+
+.position span.ajb_location ul, .position span.ajb_classification ul {
+	display: inline-block;
+	padding-left: 0px;
+	margin: 0;
+}
+
+.position span.ajb_location li:first-child, .position span.ajb_classification li:first-child {
+	list-style: none;
+	list-style-image: none;
+	margin-left: 0;
+}
+
+.position span.ajb_location ul li, .position span.ajb_classification ul li {
+	float: left;
+	margin: 0 0px !important;
+	padding: 0 !important;
+	background: none !important;
+}
+
+.position div.ajb_search_results_meta {
+	margin: 15px 0 0px 0;
+}
+.position .linkedin {
+	background-position: 0px 0px !important;
+}
+.adlogic_job_results .position br.ajb-clear-div {
+	margin: 0;
+	padding: 0;
+	display: none;
+}
+
+div.ajb_job_content {
+	font-size: 14px;
+	float: left;
+}
+
+.adlogic_search_loading_div {
+	width: 32px;
+	height: 32px;
+	background: url(images/ajax-loading.gif) no-repeat;
+	display: block;
+	clear: both;
+	margin-top: -32px;
+	float: left;
+}
+
+.adlogic_pagination_bar {
+	width: 100%;
+	margin-top: 0px;
+}
+
+.adlogic_pagination_bar ul {
+	list-style-type:none;
+	float: right !important;	
+	margin: 0px auto 0 50px;
+	padding: 0;
+}
+
+.adlogic_pagination_bar ul li {
+	padding: 0px 5px 0px 5px;
+	float: left;
+	text-align: center;
+	font-size: 12px;	
+	background: none !important;
+	list-style-type: none;
+	margin-left: 1px;
+	margin-right: 1px;
+}
+
+.adlogic_pagination_bar ul li a {
+	/* color: #269863; --> */
+}
+
+.adlogic_job_results .ajb_social_sharing_container {
+	width: 190px;
+	float: left;
+	margin-top: 5px;
+	padding: 0;
+	clear: both;
+	font-weight: normal;
+	font-family: 'Roboto', sans-serif;
+
+	font-size: 15px;
+}
+span.ajb_location {
+	clear: both;
+	float: left;
+	width: auto;
+	margin-right: 15px;
+}
+
+span.ajb_classification {
+	float: left;
+	width: auto;
+}
+.share-text { float: left; }
+
+.adlogic_job_results .ajb_social_sharing_container .ajb_social_sharing_sites {
+	
+}
+
+.adlogic_job_results .ajb_social_sharing_sites .ajb_social_sharing_site {
+	float: left;
+}
+.ajb_search_results_meta li {
+	list-style-type: none;
+}
+
+.ajb-save-job {
+	height: 32px;
+	width: 32px;
+	background-image: url('images/star-empty-big.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: inline-block;
+	margin-left: 10px;
+	cursor: pointer;
+	border-radius: 5px;
+	padding: 2px;
+}
+
+.ajb-save-job:hover, .ajb-save-job:active, .ajb-save-job:focus {
+	background-image: url('images/star--plus-big.png');
+	cursor: pointer;
+	height: 32px;
+	width: 32px;
+}
+
+.ajb-save-job.saved {
+	background-image: url('images/star-big.png');
+}
+.position .date {
+	/* font-size: 0.9em; */
+	margin: 10px 0px;
+	float: left;
+	clear: both;
+}
+.ajb-save-job.saved:hover {
+	background-image: url('images/star--minus-big.png');
+}
+.e, .dots-list {
+	background: transparent !important;
+}
+.dots-list {
+	color: #000 !important;
+}
+.prev, .next {
+	background: transparent !important;
+}
+.prev, .next {
+	color: #000 !important;
+}
+
+@media(max-width: 650px) {
+	.position.hasLogo {
+		background-image: none !important;
+	}
+	.mobileStandoutLogo {
+		clear: both;
+		display: block !important;
+	}
+}

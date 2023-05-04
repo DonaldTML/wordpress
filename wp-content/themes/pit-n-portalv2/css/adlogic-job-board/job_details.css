@@ -1,0 +1,276 @@
+@charset "UTF-8";
+
+.adlogic_search_loading_div {
+	width:100px;
+	height:100px;
+	background:url(images/3.GIF) no-repeat;
+	display:block;
+	clear:both;
+	margin:35px auto
+}
+
+#adlogic_job_container {
+	position:relative
+}
+
+div#adlogic_job_loading {
+	position:absolute;
+	width:100%;
+	z-index:999999;
+}
+
+.adlogic_job_expired {
+	width:580px;
+	height:580px;
+	background:url(images/expired.png) no-repeat right top;
+	position:absolute;
+	z-index:1
+}
+
+div.adlogic_job_details_container {
+	width:100%;
+	max-width:450px;
+	position:relative;
+	margin:21px auto 0;
+	clear:both
+}
+
+.adlogic_job_details_container ul.adlogic_job_details_bullet_ul {
+	margin:10px 0px 10px 0px;
+	padding-start: 14px;
+	-webkit-padding-start: 14px;
+	margin-bottom: 40px;
+}
+
+.adlogic_job_details_container ul.adlogic_job_details_bullet_ul li {
+    list-style-type: disc;
+    padding-left: 0px;
+    font-size: 16px;
+    margin-bottom: 4px;
+    font-weight: 700!important;
+    font-family: 'effrabold', Tahoma, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+    color: #065279;
+}
+
+.adlogic_job_details_container div.adlogic_recruiter_logo {
+	background: url(images/jobdetailslogo.png) !important;
+    height: 200px;
+}
+
+.adlogic_job_details_container h1.adlogic_job_details_title {
+	font-weight:700;
+    color: #00aeef;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.adlogic_job_details_container div.adlogic_job_details_description {
+	font-size:13px
+}
+
+.adlogic_job_details_container div.adlogic_job_details_description strong {
+	font-size:14px
+}
+
+.adlogic_job_details_container .adlogic_job_details_description ul {
+	margin:10px 0 10px 20px;
+	clear:both;
+	width:auto!important;
+	color:#000
+}
+
+.adlogic_job_details_container .adlogic_job_details_description ul li {
+	list-style-type:disc;
+	padding-left:0;
+font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #575756;
+    font-weight: 400;
+
+}
+
+.adlogic_job_details_container .adlogic_job_details_footer {
+	font-size:14px;
+	text-align:left
+}
+
+.adlogic_job_expired_details .adlogic_job_details_button_bar {
+	display:none
+}
+
+.adlogic_job_details_button_bar {
+	text-align:center;
+	clear:both
+}
+
+.adlogic_job_details_button_bar button.adlogic_job_details_back {
+	background-color: #fff;
+    color: #065279;
+    border: 1px solid #065279;
+	margin-top:2em;
+    font-family: 'effrabold', Tahoma, Helvetica, sans-serif;
+    font-size: 12px !important;
+    letter-spacing: 1px !important;
+    border-radius: 25px;
+    text-transform: uppercase;
+	padding: 5px;
+	width: 200px;
+	line-height: 40px;
+	transition:all 200ms ease-in-out;
+	margin-bottom:2em;
+}
+
+.adlogic_job_details_button_bar button.adlogic_job_details_back:hover {
+	background-color: #00aeef;
+    color: #fff;
+    border: 1px solid #00aeef;
+	margin-top:2em;
+    font-family: 'effrabold', Tahoma, Helvetica, sans-serif;
+    font-size: 12px !important;
+    letter-spacing: 1px !important;
+    border-radius: 25px;
+    text-transform: uppercase;
+	padding: 5px;
+	width: 200px;
+	line-height: 40px;
+	transition:all 200ms ease-in-out;
+	margin-bottom:2em;
+}
+
+.adlogic_job_details_button_bar button.adlogic_job_details_email_friend {
+	background-color: #fff;
+    color: #065279;
+    border: 1px solid #065279;
+	margin-top:2em;
+    font-family: 'effrabold', Tahoma, Helvetica, sans-serif;
+    font-size: 12px !important;
+    letter-spacing: 1px !important;
+    border-radius: 25px;
+    text-transform: uppercase;
+	padding: 5px;
+	width: 170px;
+	line-height: 40px;
+	transition:all 200ms ease-in-out;
+	margin-bottom:2em;
+}
+
+.adlogic_job_details_button_bar button.adlogic_job_details_email_friend:hover {
+	background-color: #00aeef;
+    color: #fff;
+    border: 1px solid #00aeef;
+	margin-top:2em;
+    font-family: 'effrabold', Tahoma, Helvetica, sans-serif;
+    font-size: 12px !important;
+    letter-spacing: 1px !important;
+    border-radius: 25px;
+    text-transform: uppercase;
+	padding: 5px;
+	width: 170px;
+	line-height: 40px;
+	transition:all 200ms ease-in-out;
+	margin-bottom:2em;
+}
+
+.adlogic_job_details_button_bar button.adlogic_job_details_apply {
+	background-color: #00aeef;
+    color: #fff;
+    border: 1px solid #00aeef;
+    font-family: 'effrabold', Tahoma, Helvetica, sans-serif;
+    font-size: 17px !important;
+    letter-spacing: 1px !important;
+    text-transform: uppercase;
+    border-radius: 25px;
+	line-height: 40px;
+	transition: all 200ms ease-in-out;
+	width: 180px;
+	padding: 5px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.adlogic_job_details_button_bar button.adlogic_job_details_apply:hover {
+	background-color: #065279;
+    color: #fff;
+    border: 1px solid #065279;
+    font-family: 'effrabold', Tahoma, Helvetica, sans-serif;
+    font-size: 17px !important;
+    letter-spacing: 1px !important;
+    text-transform: uppercase;
+    border-radius: 25px;
+	line-height: 40px;
+	transition: all 200ms ease-in-out;
+	width: 180px;
+	padding: 5px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+
+
+.adlogic_job_details_container div.adlogic_social_sharing_container,.adlogic_job_details_container div#adlogic_social_sharing_container {
+	height:32px;
+	width:160px;
+	margin:30px auto 0
+}
+
+.adlogic_job_details_container div.adlogic_social_sharing_container .ajb_social_sharing_site,.adlogic_job_details_container div#adlogic_social_sharing_container .ajb_social_sharing_site {
+	float:left
+}
+
+.ajb-consultant-profile .ajb-consultant-image {
+	background-image:url(images/nouser.png);
+	background-repeat:no-repeat;
+	background-size:100% auto;
+	background-position:0;
+	max-width:200px;
+	max-height:200px;
+	width:100%;
+	height:200px;
+	border:1px solid #000
+}
+
+.ajb-consultant-profile {
+	background:#e2e2e2;
+	float:left;
+	padding:10px 10px 0
+}
+
+.adlogic_inner_container {
+	border:2px solid #0d5257;
+	margin-top:5px;
+	padding:0 15px
+}
+
+div#adlogic_sharing_options {
+	display:none
+}
+
+.adlogic_job_details_footer center {
+	text-align:left
+}
+
+.ajb-consultant-profile .ajb-consultant-name {
+	font-size:18px;
+	margin-bottom:5px
+}
+
+.ajb-consultant-profile .ajb-contact-methods {
+	padding:0
+}
+
+.ajb-consultant-profile .ajb-contact-methods li {
+	list-style-type:none
+}
+
+.linkedInLoginButton {
+	background:url(images/applywithlinkedin.png) no-repeat;
+	width:184px!important;
+	height:33px!important;
+	position:relative;
+	text-indent:-99999px;
+	display:inline-block
+}

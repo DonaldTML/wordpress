@@ -1,0 +1,51 @@
+.ajb-search-widget {
+	font-family: Tahoma, Arial, Helvetica, sans-serif
+}
+
+.ajb-search-widget label {
+	width: 100%;
+	font-weight: 400;
+	font-size: 20px !important;
+	margin: 2px 0 !important
+}
+
+.ajb-search-widget h4 {
+	margin: 10px 0 0 10px
+}
+
+p.ajb-classifications-holder,
+p.ajb-costcenters-holder,
+p.ajb-keywords-holder,
+p.ajb-locations-holder,
+p.ajb-worktypes-holder {
+	width: 100%;
+	float: left;
+	margin: 3px 0 7px
+}
+
+.ajb-search-widget select {
+	display: block;
+	color: #333;
+	margin-top: 5px;
+	font-size: 11px;
+	height: 20px;
+	margin-top: 3px;
+	width: 260px
+}
+
+.ajb-keywords {
+	color: #666;
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 0
+}
+
+.ajb-view-all-jobs-button {
+	margin-right: 0
+}
+
+.ajb-search-widget-buttons {
+	margin-top: 0;
+	clear: both;
+	width: 100%
+}

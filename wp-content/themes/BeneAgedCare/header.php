@@ -26,13 +26,13 @@ if (strpos($_SERVER['REQUEST_URI'], 'job-details/query')) {
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
 
-	<title>Careers at Korvest</title>
+	<title>Careers - Bene Aged Care</title>
 
 
 	<!-- Favicon -->
-	<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/korvest-logo.png">
+	<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/bene-logo.png">
 	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="/korvest-logo.png">
+	<meta name="msapplication-TileImage" content="/bene-logo.png">
 	<meta name="theme-color" content="#ffffff">
 
 
@@ -62,14 +62,14 @@ if (strpos($_SERVER['REQUEST_URI'], 'job-details/query')) {
 	<!-- START menu -->
 	<nav class="jobboard-nav">
 		<div class="nav-logo">
-			<a href="https://www.korvest.com.au/"><img src="<?php echo get_template_directory_uri(); ?>/images/korvest-logo.png" alt="" id="nav-logo"></a>
+			<a href="https://bene.org.au/"><img src="<?php echo get_template_directory_uri(); ?>/images/bene-logo.png" alt="" id="nav-logo"></a>
 		</div>
 		<div class="navigation-container">
 			<div class="nav-buttons">
 				<?php if (!$needCareerButton) { ?>
-					<a href="https://www.korvest.com.au/careers/" class="nav-button">Careers</a>
+					<a href="https://bene.org.au/get-in-touch/" class="nav-button">Get in touch</a>
 				<?php } else { ?>
-					<a href="https://www.korvest.com.au/careers/" class="nav-button">Job Search</a>
+					<a href="https://jobboards.adlogic.com.au/beneac/" class="nav-button">Job Search</a>
 				<?php } ?>
 			</div>
 		</div>

@@ -1,5 +1,5 @@
 /*!
-Theme Name: Korvest
+Theme Name: Bene Aged Care
 */
 body {
     font-family: Avenir, sans-serif;
@@ -174,7 +174,7 @@ h2 {
 }
 
 #footer {
-    background-color: #093C62;
+    background-color: #005A96;
     padding: 20px 0 19px;
     text-align: center;
     color: #fff;
@@ -190,7 +190,7 @@ h2 {
 .footer p {
     color: #333;
     font-size: 12px;
-    font-family: maven, sans-serif;
+    font-family: "Lato", arial, sans-serif, sans-serif;
     text-transform: uppercase
 }
 
@@ -418,14 +418,21 @@ label {
    margin-right: auto;
    width: 100% !important;
    height: auto;
-    justify-content: space-between;
+    justify-content: space-between; 
     background-color: grey;
 }
 
-#BannerImage {
-    position: relative;
-    z-index: 1;
-    width: 100% !important;
+.BannerImage {
+    background-image: url(https://jobboards.adlogic.com.au/beneac/wp-content/themes/BeneAgedCare/images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
 }
 
 .banner-info { 
@@ -501,8 +508,8 @@ label {
     font-weight: normal;
     background-color: transparent;
     border-radius: 0;
-    font-family: bill-bold !important;
-    background-color: #F5B324;
+    font-family: "Lato", arial, sans-serif !important;
+    background-color: #009448;
     color: #ffffff;
     border: 1px solid transparent;
     border-radius: 4px;
@@ -518,10 +525,10 @@ label {
 
 
 .nav-logo>a>img {
-    height: 55px;   
+    height: 70px;   
 } 
 .nav-logo {
-    padding: 20px 10px;
+    padding: 10px 10px;
     top: 0px;
     position: absolute;
 	opacity: 1;
@@ -544,8 +551,7 @@ label {
 }
 
 .adlogic_job_results .position {
-    background-color: #F0F1E9 !important;
-    border: none !important;
+    border: 1px solid #fff !important;
     transition: .3s ease-in-out;
 
 }
@@ -591,9 +597,9 @@ label {
 }
 
 .position p {
-    color: #093C62 !important;
+    color: #000000 !important;
     font-weight: normal !important;
-    font-family: bill-bold !important;
+    font-family: "Lato", arial, sans-serif !important;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -624,9 +630,6 @@ span.ajb_location {
 #adlogic_search_widget-2 {
     display: flex !important;
     flex-direction: column !important;
-    background-color: #093C62 !important;
-    border: 1px solid #dadada !important;
-    border-radius: 6px !important;
 }
 
 #adlogic_alerts_widget-7,
@@ -650,8 +653,8 @@ span.ajb_location {
 }
 
 .ajb-search-field label {
-    color: #FFFFFF !important;
-    font-family: maven !important;
+    color: #000000 !important;
+    font-family: "Lato", arial, sans-serif !important;
     font-weight: 500 !important;
     font-size: 20px !important
 }
@@ -659,9 +662,8 @@ span.ajb_location {
 .ajb-alerts-widget,
 .widget_adlogic_search_widget {
     background-color: #fff !important;
-    border: 1px solid #d8d8d8 !important;
-    box-shadow: 1px 1px 3px 0 rgb(0 0 0 / 10%);
-    border-radius: 4px;
+    border: 2px solid #bcd4ff !important;
+    border-radius: 10px;
 }
 
 .page-central {
@@ -675,7 +677,7 @@ span.ajb_location {
 .ajb-search-for-jobs-button,
 .ajb-subscribe-job-alerts,
 .ajb-view-all-jobs-button {
-    background-color: #F5B324;
+    background-color: #009448;
     color: #ffffff;
     border: 1px solid transparent;
     border-radius: 4px;
@@ -699,14 +701,14 @@ span.ajb_location {
 .ajb-subscribe-job-alerts:hover,
 .ajb-view-all-jobs-button:hover {
     background-color: #EC114B !important;
-    color: #FFFFFF !important
+    color: #000000 !important
 }
 
 .adlogic_job_results h2 a {
     margin-top: 24px !important;
-    color: #093C62 !important;
+    color: #005A96 !important;
     font-size: 24px !important;
-    font-family: maven, sans-serif !important;
+    font-family: "Lato", arial, sans-serif, sans-serif !important;
     font-weight: 500 !important;
     text-transform: capitalize
 }
@@ -715,9 +717,9 @@ span.ajb_location {
 .ajb-search-widget h2,
 .eoi h2 {
     margin-top: 20px !important;
-    color: #FFFFFF  !important;
+    color: #005A96  !important;
     font-size: 24px !important;
-    font-family: maven, sans-serif !important;
+    font-family: "Lato", arial, sans-serif, sans-serif !important;
     font-weight: 500 !important;
     text-transform: capitalize
 }
@@ -726,9 +728,9 @@ span.ajb_location {
 .ajb-search-widget h2 {
     padding: 10px 10px 0 10px;
     margin-bottom: 0 !important;
-    font-family: maven, sans-serif !important;
+    font-family: "Lato", arial, sans-serif, sans-serif !important;
     font-weight: 500 !important;
-    color: #FFFFFF !important
+    color: #005A96 !important
 }
 
 .ajb-button-holder {
@@ -742,14 +744,15 @@ span.ajb_location {
 .eoi {
     display: flex;
     flex-direction: column;
-    background-color: #093C62;
+    background-color: #FFF;
     padding: 0;
-    border: none !important;
+    border: 2px solid #bcd4ff !important;
+    border-radius: 10px;
 
 }
 
 .eoi p {
-    color: #FFFFFF !important;
+    color: #000000 !important;
     font-weight: normal !important;
     font-family: bill-bold, sans-serif !important;
     font-size: 16px; 
@@ -765,7 +768,7 @@ span.ajb_location {
 
 #ml-link {
     color: #fff !important;
-    font-family: maven !important;
+    font-family: "Lato", arial, sans-serif !important;
     font-size: 12px !important;
 }
 
@@ -788,14 +791,14 @@ span.ajb_location {
 }
 
 h1 {
-    font-family: Roboto, serif !important;
+    font-family: "Lato", arial, sans-serif !important;
     font-weight: 700 !important
 }
 
 .date-date,
 .date-text {
     font-style: italic !important;
-    color: #093C62 !important;
+    color: #000000 !important;
     font-size: 16px !important;
     font-family: bill-bold, sans-serif !important;
     font-weight: normal !important;
@@ -856,8 +859,8 @@ h1 {
 .ajb-alerts-widget h2,
 .ajb-search-widget h2 {
     margin-top: 0 !important;
-    padding: 1.25rem !important;
-    color: #FFFFFF !important;
+    padding: 20px 0px 0px 20px !important;
+    color: #005A96 !important;
     background: transparent !important;
 
 }
@@ -873,8 +876,8 @@ h1 {
 
 
 @font-face {
-    font-family: maven;
-    src: url(https://jobboards.adlogic.com.au/billanook/wp-content/themes/billanook/fonts/maven.woff2) format('woff2')
+    font-family: "Lato", arial, sans-serif;
+    src: url(https://jobboards.adlogic.com.au/billanook/wp-content/themes/billanook/fonts/"Lato", arial, sans-serif.woff2) format('woff2')
 }
 @font-face {
     font-family: bill-bold;
@@ -909,9 +912,9 @@ h1 {
 .job-listing>.container>h1 {
     margin-top: 5.5rem;
     text-align: center;
-    font-family: maven !important;    
+    font-family: "Lato", arial, sans-serif !important;    
     font-weight: 500 !important;
-    color: #093C62 !important;
+    color: #005A96 !important;
     font-size: 48px;;
     
 }
@@ -923,8 +926,8 @@ h1 {
 }
 
 .mrp-icon-box-text>.d-block {
-    color: #093C62 !important;
-    font-family: maven, sans-serif !important;
+    color: #000000 !important;
+    font-family: "Lato", arial, sans-serif, sans-serif !important;
     font-weight: 500 !important;
     font-size: 20px !important;
 }
@@ -1021,9 +1024,9 @@ h1 {
 .eoi h2 {
     margin-top: 0px !important;
     background: transparent;
-    padding: 1.25rem;
-    color: #FFFFFF !important;
-    font-family: maven !important;
+    padding: 20px 0px 0px 20px;
+    color: #005A96 !important;
+    font-family: "Lato", arial, sans-serif !important;
     font-weight: 500 !important;
     font-size: 24px !important;
 }

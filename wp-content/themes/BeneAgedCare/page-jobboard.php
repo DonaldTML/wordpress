@@ -4,7 +4,8 @@ get_post();
 // Template Name: Front Page
 ?>
 <div class="banner">
-    <img id="BannerImage" src="https://jobboards.adlogic.com.au/korvest/wp-content/themes/korvest/images/Railyards5.jpg" />
+    <div class="BannerImage" >
+	</div>
 </div>
 	<!-- <div class="banner-info-wrapper">
         <div class="banner-info">
@@ -16,7 +17,7 @@ get_post();
 <div class="job-listing">
 
     <div class="container">
-        <h1>Current Vacancies</h1>
+        <h1>Current Opportunities</h1>
         <div class="row job-board">
             <div class="col-md-8 page-central">
 
@@ -30,7 +31,7 @@ get_post();
                     <h2 class="bebas" style="font-size: 22px;">Register your interest</h2>
                     <div class="eoi-wrapper">
                         <p class="abril"> If your area of interest is not currently listed, but you would like to be considered for a future position with us, then submit an application.</p>
-                        <a class="ajb-subscribe-job-alerts" style="float:left; text-decoration: none;" href="https://form.myrecruitmentplus.com/applicationform?jobId=1696760&source=10000&subSourceId=9999" target="_blank">Register</a>
+                        <a class="ajb-subscribe-job-alerts" style="float:left; text-decoration: none;" href="https://external-jobboard.myrecruitmentplus.com/job-details/query/8979641" target="_blank">Register</a>
                     </div>
                 </div>
                 <!--  //dynamic_sidebar('job_alerts_widget');  -->

@@ -1,5 +1,5 @@
 /*!
-Theme Name: Korvest
+Theme Name: Geelong Grammar School
 */
 body {
     font-family: Avenir, sans-serif;
@@ -174,7 +174,7 @@ h2 {
 }
 
 #footer {
-    background-color: #093C62;
+    background-color: #2c5165;
     padding: 20px 0 19px;
     text-align: center;
     color: #fff;
@@ -425,6 +425,7 @@ label {
 #BannerImage {
     position: relative;
     z-index: 1;
+	height: 400px;
     width: 100% !important;
 }
 
@@ -502,7 +503,7 @@ label {
     background-color: transparent;
     border-radius: 0;
     font-family: bill-bold !important;
-    background-color: #F5B324;
+    background-color: #73c8d9;
     color: #ffffff;
     border: 1px solid transparent;
     border-radius: 4px;
@@ -518,10 +519,10 @@ label {
 
 
 .nav-logo>a>img {
-    height: 55px;   
+    height: 70px;   
 } 
 .nav-logo {
-    padding: 20px 10px;
+    padding: 10px 10px;
     top: 0px;
     position: absolute;
 	opacity: 1;
@@ -544,7 +545,6 @@ label {
 }
 
 .adlogic_job_results .position {
-    background-color: #F0F1E9 !important;
     border: none !important;
     transition: .3s ease-in-out;
 
@@ -591,7 +591,7 @@ label {
 }
 
 .position p {
-    color: #093C62 !important;
+    color: #2c5165 !important;
     font-weight: normal !important;
     font-family: bill-bold !important;
     font-style: normal;
@@ -621,12 +621,10 @@ span.ajb_location {
     margin-right: 9px !important
 }
 
-#adlogic_search_widget-2 {
+#adlogic_search_widget-5 {
     display: flex !important;
     flex-direction: column !important;
-    background-color: #093C62 !important;
-    border: 1px solid #dadada !important;
-    border-radius: 6px !important;
+    background-color: #2c5165 !important;
 }
 
 #adlogic_alerts_widget-7,
@@ -636,7 +634,7 @@ span.ajb_location {
 }
 
 #adlogic_alerts_widget-7>form,
-#adlogic_search_widget-2>form {
+#adlogic_search_widget-5>form {
     padding: 2rem
 }
 
@@ -675,7 +673,7 @@ span.ajb_location {
 .ajb-search-for-jobs-button,
 .ajb-subscribe-job-alerts,
 .ajb-view-all-jobs-button {
-    background-color: #F5B324;
+    background-color: #73c8d9;
     color: #ffffff;
     border: 1px solid transparent;
     border-radius: 4px;
@@ -704,7 +702,7 @@ span.ajb_location {
 
 .adlogic_job_results h2 a {
     margin-top: 24px !important;
-    color: #093C62 !important;
+    color: #2c5165 !important;
     font-size: 24px !important;
     font-family: maven, sans-serif !important;
     font-weight: 500 !important;
@@ -742,7 +740,7 @@ span.ajb_location {
 .eoi {
     display: flex;
     flex-direction: column;
-    background-color: #093C62;
+    background-color: #2c5165;
     padding: 0;
     border: none !important;
 
@@ -795,7 +793,7 @@ h1 {
 .date-date,
 .date-text {
     font-style: italic !important;
-    color: #093C62 !important;
+    color: #2c5165 !important;
     font-size: 16px !important;
     font-family: bill-bold, sans-serif !important;
     font-weight: normal !important;
@@ -911,7 +909,7 @@ h1 {
     text-align: center;
     font-family: maven !important;    
     font-weight: 500 !important;
-    color: #093C62 !important;
+    color: #2c5165 !important;
     font-size: 48px;;
     
 }
@@ -923,7 +921,7 @@ h1 {
 }
 
 .mrp-icon-box-text>.d-block {
-    color: #093C62 !important;
+    color: #2c5165 !important;
     font-family: maven, sans-serif !important;
     font-weight: 500 !important;
     font-size: 20px !important;
@@ -937,11 +935,11 @@ h1 {
 
 }
 
-#adlogic_search_widget-2-location_select_id {
+#adlogic_search_widget-5-location_select_id {
     width: 100% !important
 }
 
-#adlogic_search_widget-2-location_select_id::placeholder {
+#adlogic_search_widget-5-location_select_id::placeholder {
     color: #333 !important;
     font-size: 11px;
     height: 40px;

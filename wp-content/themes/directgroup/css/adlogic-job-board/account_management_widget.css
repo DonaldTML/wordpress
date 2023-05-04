@@ -1,0 +1,57 @@
+@CHARSET "UTF-8";
+
+.ajb-account-management-widget a.social-media-login {
+	background-image: url(images/social_signin.png);
+	background-repeat: no-repeat;
+	width: 162px;
+	height: 30px;
+	display: block;
+	text-indent: -9999px;
+	margin-bottom: 10px;
+}
+
+.ajb-account-management-widget a.social-media-login.facebook {
+	background-position: 0 -48px;
+}
+
+.ajb-account-management-widget a.social-media-login.linkedin {
+	background-position: 0 -92px;
+}
+
+.ajb-account-management-widget a.social-media-login.google-plus {
+	background-position: 0 -281px;
+}
+
+.ajb-account-management-widget span.login-status {
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	text-indent: -9999px;
+	background-image: url('images/social_icons.png');
+	background-repeat: no-repeat;
+	margin: 0 2px;
+}
+
+.ajb-account-management-widget span.login-status.facebook.active {
+	background-position: 0 0;
+}
+
+.ajb-account-management-widget span.login-status.facebook.inactive {
+	background-position: 0 -16px;
+}
+
+.ajb-account-management-widget span.login-status.linkedin.active {
+	background-position: -16px 0;
+}
+
+.ajb-account-management-widget span.login-status.linkedin.inactive {
+	background-position: -16px -16px;
+}
+
+.ajb-account-management-widget span.login-status.google-plus.active {
+	background-position: -32px 0;
+}
+
+.ajb-account-management-widget span.login-status.google-plus.inactive {
+	background-position: -32px -16px;
+}
