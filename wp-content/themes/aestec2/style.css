@@ -1,0 +1,918 @@
+/*!
+Theme Name: aestec2
+*/ 
+body {
+    font-family: Avenir, sans-serif;
+    font-size: 14px;
+    color: #FFFFFF !important;
+    font-weight: 400
+}
+
+p {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #575756;
+    font-weight: 400
+}
+
+li {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #575756;
+    font-weight: 400
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: Helvetica, Arial, sans-serif
+}
+
+::selection {
+    color: #fff;
+    background: #00b2a9
+}
+
+::-moz-selection {
+    color: #fff;
+    background: #00b2a9
+}
+
+
+#header {
+    margin: 3em 0 3em 0;
+    background: #f1f1f1
+}
+
+#home-header {
+    background: url(http://jobboards.adlogic.com.au/st-josephs/wp-content/themes/st-josephs/images/1.png) no-repeat center top;
+    min-height: 100vh;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed
+}
+
+.home-header {
+    margin-top: 20%
+}
+
+.header h1 {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    color: #ef3c41;
+    font-weight: 700;
+    text-shadow: 1px 1px 5px rgba(30, 30, 30, .52);
+    line-height: 1em;
+    -webkit-font-smoothing: antialiased;
+    font-size: 90px;
+    margin: 0 auto
+}
+
+.header h2 {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-weight: 400;
+    text-shadow: 1px 1px 5px rgba(30, 30, 30, .52);
+    line-height: 45px;
+    font-size: 35px;
+    -webkit-font-smoothing: antialiased
+}
+
+#content {
+    margin: 3em 0 3em 0
+}
+
+.content {
+    margin: 3em 0 3em 0
+}
+
+.content-text p {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #575756;
+    font-weight: 400;
+    line-height: 26px
+}
+
+.content-text h1,
+h2 {
+    color: #612166
+}
+
+#content-01 {
+    background: url(http://jobboards.adlogic.com.au/st-josephs/wp-content/themes/st-josephs/images/imagem_04.jpg) no-repeat center top;
+    min-height: 80vh;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative
+}
+
+.box-float {
+    position: absolute;
+    margin: 30% 0 0 0;
+    padding: 4em
+}
+
+.box-float h3 {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 1.2em
+}
+
+.text-float-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff
+}
+
+#content-02 {
+    margin: 35em 0 0 0;
+    background: #fff;
+    display: grid;
+    position: inherit
+}
+
+#content-03 {
+    margin: 30em 0 10em 0;
+    background: #fff
+}
+
+#content-03 {
+    background: url(http://jobboards.adlogic.com.au/st-josephs/wp-content/themes/st-josephs/images/imagem_10.jpg) no-repeat center top;
+    min-height: 50vh;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative
+}
+
+.box-float-03 {
+    position: absolute;
+    margin: -30% 0 0 0;
+    padding: 4em
+}
+
+.box-float-03 h3 {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 1.2em
+}
+
+.text-float-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff
+}
+
+#jobs {
+    margin: 3em 0 10em 0
+}
+
+#footer {
+    background: #323232;
+    padding: 20px 0 19px;
+    text-align: center;
+    color: #fff
+}
+
+.footer-style {
+    padding-top: 20px
+}
+
+.footer p {
+    color: #333;
+    font-size: 12px;
+    font-family: bebas, sans-serif;
+    text-transform: uppercase
+}
+
+.footer p a {
+    color: #00aeef;
+    text-decoration: none;
+    font-family: 'NexaBook', sans-serif;
+    text-transform: uppercase
+}
+
+.footer p a:hover {
+    color: #065279;
+    font-family: bebas, sans-serif;
+    text-transform: uppercase
+}
+
+.clear {
+    clear: both
+}
+
+label {
+    font-size: 16px;
+    font-weight: 400
+}
+
+#job-board {
+    margin: 10em 0 5em 0
+}
+
+.job-board {
+    padding: 0em 0 2em 0
+}
+
+.page-central {
+    padding-right: 50px
+}
+
+.page-central h2 h3 {
+    font-family: effrabold, Tahoma, Helvetica, sans-serif;
+    font-weight: 700
+}
+
+.page-central>h2 {
+    font-family: effrabold, Tahoma, Helvetica, sans-serif;
+    font-weight: 700
+}
+
+.sidebar {
+    padding-left: 50px
+}
+
+@media (max-width:1024px) {
+    .job-listing {
+        padding: 1.5rem !important;
+    }
+    #home-header {
+        min-height: 50vh;
+        max-width: 100%
+    }
+
+    .home-header {
+        margin-top: 30%
+    }
+
+    .header h1 {
+        line-height: 1em;
+        font-size: 70px
+    }
+
+    .header h2 {
+        line-height: 45px;
+        font-size: 20px;
+        -webkit-font-smoothing: antialiased
+    }
+
+    .sidebar {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        margin-top: 5em
+    }
+
+    .page-central {
+        border-right: 0;
+        padding-right: 50px
+    }
+}
+
+@media (max-width:767px) {
+    #home-header {
+        min-height: 100vh;
+        max-width: 100%
+    }
+
+    .home-header {
+        margin-top: 30%
+    }
+
+    .header h1 {
+        line-height: 1em;
+        font-size: 70px
+    }
+
+    .header h2 {
+        line-height: 45px;
+        font-size: 20px;
+        -webkit-font-smoothing: antialiased
+    }
+}
+
+@media (max-width:736px) {
+    #home-header {
+        min-height: 50vh;
+        max-width: 100%
+    }
+
+    .home-header {
+        margin-top: 15%
+    }
+
+    .header h1 {
+        line-height: 1em;
+        font-size: 60px
+    }
+
+    .header h2 {
+        line-height: 35px;
+        font-size: 20px;
+        -webkit-font-smoothing: antialiased
+    }
+}
+
+@media (max-width:600px) {
+    #home-header {
+        min-height: 80vh;
+        max-width: 100%
+    }
+
+    .home-header {
+        margin-top: 40%
+    }
+
+    .header h1 {
+        line-height: 1em;
+        font-size: 70px
+    }
+
+    .header h2 {
+        line-height: 45px;
+        font-size: 20px;
+        -webkit-font-smoothing: antialiased
+    }
+
+    .text-float-title {
+        font-size: 20px;
+        font-weight: 700;
+        color: #fff
+    }
+}
+
+@media (max-width:598px) {
+    #home-header {
+        min-height: 100vh;
+        max-width: 100%
+    }
+
+    .home-header {
+        margin-top: 20%
+    }
+
+    .header h1 {
+        line-height: 1em;
+        font-size: 40px
+    }
+
+    .header h2 {
+        line-height: 25px;
+        font-size: 20px;
+        -webkit-font-smoothing: antialiased
+    }
+}
+
+@media (max-width:480px) {
+    #home-header {
+        min-height: 80vh;
+        max-width: 100%
+    }
+
+    .home-header {
+        margin-top: 40%
+    }
+
+    .header h1 {
+        line-height: 1em;
+        font-size: 40px
+    }
+
+    .header h2 {
+        line-height: 25px;
+        font-size: 20px;
+        -webkit-font-smoothing: antialiased
+    }
+}
+
+@media (max-width:320px) {
+    #home-header {
+        min-height: 80vh;
+        max-width: 100%
+    }
+
+    .home-header {
+        margin-top: 40%
+    }
+
+    .header h1 {
+        line-height: 1em;
+        font-size: 40px
+    }
+
+    .header h2 {
+        line-height: 25px;
+        font-size: 20px;
+        -webkit-font-smoothing: antialiased
+    }
+}
+
+.banner {
+    background-image: url(https://jobboards.adlogic.com.au/aestec2/wp-content/themes/aestec2/images/KEP_1943-1024x642.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+}
+
+.banner-image {
+    background-image: url(http://jobboards.adlogic.com.au/wp-content/themes/st-josephs/images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    max-width: 50%;
+    width: 50%;
+    height: 100%
+}
+
+.jobboard-nav {
+    background-color: #FFFFFF !important;
+    border-bottom: none !important;
+    height: 100%;
+    border: none !important;
+    min-height: initial;
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    padding: 29px !important;
+}
+
+.job-listing {
+    position: relative;
+    z-index: 2;
+    background: 0 0
+}
+
+.nav-button {
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    background-color: transparent;
+    border-radius: 0;
+    font-family: 'NexaBlack' !important;
+    color: #3DAF2C;
+    padding: 10px 30px;
+    /*border: 2px solid #3DAF2C;*/
+    font-weight: 700;
+    transition: all .5s;
+
+}
+
+.nav-button:hover {
+    background: #FFFFFF !important;
+    color: #000000 !important;
+    text-decoration: none !important;
+}
+
+.nav-logo,
+.nav-logo>a>img {
+
+    height: 64px;
+}
+
+.nav-buttons {
+    color: #a6a3a3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%
+}
+
+.adlogic_job_results .position {
+    background-color: #fff !important;
+    border: none !important;
+    transition: .3s ease-in-out
+}
+
+.position:hover {
+    box-shadow: 0 30px 20px rgba(0, 0, 0, .1);
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px)
+}
+.banner-content h1, .banner-content h4 {
+    color: #FFFFFF !important;
+
+}
+.banner-content h1 {
+    font-size: 40px !important;
+    padding: 80px 0 40px 0;
+    font-family: 'NexaBlack', sans-serif !important;
+    font-weight: 800 !important;
+}
+.banner-content h4 {
+ font-size: 16px;
+
+
+}
+.banner-h4-top {
+    font-size: 16px;
+    font-weight: 800 !important;
+    font-family: 'NexaBlack', sans-serif !important;
+    list-style-type: none;
+    text-transform: uppercase;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+.banner-h4-bottom {
+    font-size: 16px;
+   font-weight: 400;
+    font-family: 'NexaBook', sans-serif !important;
+    list-style-type: none;
+    text-transform: uppercase;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+.banner-content {
+    width: 1100px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    padding: 0px 30px;
+
+}
+
+.position p {
+    color: #000 !important;
+    font-weight: 400 !important;
+    font-family: 'NexaBook' !important;
+    font-size: 16px !important;
+    margin: 0px 0 10px !important
+}
+
+.ajb_classification ul li a,
+.ajb_location ul li a {
+    color: #041e42 !important
+}
+
+.ajb_location:after {
+    content: '-';
+    color: #041e42;
+    position: relative;
+    top: -8px;
+    left: 4px
+}
+
+span.ajb_location {
+    margin-right: 9px !important
+}
+
+#adlogic_search_widget-2 {
+    display: flex !important;
+    flex-direction: column !important
+}
+
+#adlogic_alerts_widget-3,
+#adlogic_alerts_widget-3>form {
+    display: flex !important;
+    flex-direction: column !important
+}
+
+#adlogic_alerts_widget-3>form,
+#adlogic_search_widget-2>form {
+    padding: 2rem
+}
+
+.widget_adlogic_alerts_widget {
+    margin: 1rem 0 !important
+}
+
+.ajb-search-widget select {
+    width: 100% !important;
+    height: 27px !important
+}
+
+.ajb-search-field label {
+    color: #000000 !important;
+    font-family: 'NexaBlack' !important;
+    font-weight: 700 !important;
+    font-size: 16px !important
+}
+
+.ajb-alerts-widget,
+.widget_adlogic_search_widget {
+    background-color: #fff !important;
+    border: 1px solid #d8d8d8 !important
+}
+
+.page-central {
+    padding-right: 25px !important
+}
+
+.sidebar {
+    margin-top: 2rem;
+}
+
+.ajb-search-for-jobs-button,
+.ajb-subscribe-job-alerts,
+.ajb-view-all-jobs-button {
+    color: #3DAF2C !important;    
+    text-transform: uppercase;
+    background-color: transparent !important;
+    border-width: 0;
+    width: 100% !important;
+    text-align: center;
+    font-family: 'NexaBlack' !important;
+    font-weight: 800;
+    border: 2px #3DAF2C solid !important;
+}
+
+.ajb-search-for-jobs-button:hover,
+.ajb-subscribe-job-alerts:hover,
+.ajb-view-all-jobs-button:hover {
+    background: transparent !important;
+    color: #000 !important
+}
+
+.adlogic_job_results h2 a {
+    margin-top: 20px !important;
+    color: #3DAF2C !important;
+    font-size: 26px !important;
+    font-family: 'NexaBlack' !important;
+    font-weight: 700 !important;
+    text-transform: capitalize
+}
+
+.ajb-alerts-widget h2,
+.ajb-search-widget h2,
+.eoi h2 {
+    margin-top: 20px !important;
+    color: #3DAF2C !important;
+    font-size: 26px !important;
+    font-family: 'NexaBlack' !important;
+    font-weight: 700 !important;
+    text-transform: capitalize
+}
+.eoi h2 {
+    margin-top: 0 !important;
+}
+
+.ajb-alerts-widget h2,
+.ajb-search-widget h2 {
+    padding: 10px 10px 0 10px;
+    margin-bottom: 0 !important;
+    font-family: 'NexaBlack' !important;
+    color: #3DAF2C !important
+}
+
+.ajb-button-holder {
+    width: 100% !important
+}
+
+.ajb-alerts-widget {
+    padding-bottom: 0 !important
+}
+
+.eoi {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 2rem;
+    box-shadow: 0 0 5px #d2d2d3 !important;
+    margin-top: 3rem;
+    border: none !important;
+    /*margin: 3rem 1rem 0rem 1rem;*/
+
+}
+
+.eoi p {
+    color: #333 !important;
+    font-weight: 400 !important;
+    font-family: 'NexaBook' !important;
+    font-size: 16px;
+    margin-bottom: 0 !important;
+}
+
+.footer p,
+.footer p a {
+    color: #fff !important;
+    font-size: 20px !important;
+    margin: 0
+}
+
+#ml-link {
+    color: #fff !important
+}
+
+@media (max-width:500px) {
+    .jobboard-nav {
+        height: 100% !important;
+        padding-bottom: 2rem
+    }
+    .navigation-container {
+        flex-direction: column !important;
+        gap: 2rem !important;
+    }
+}
+
+@media (max-width:1207px) {
+    .footer {
+        flex-direction: column !important
+    }
+
+    .footer .col-lg-4,
+    .footer .col-lg-8 {
+        text-align: center !important
+    }
+}
+
+h1 {
+    font-family: Roboto, serif !important;
+    font-weight: 700 !important
+}
+
+.date-date,
+.date-text {
+    font-style: italic !important;
+    color: #000;
+    font-size: 16px !important;
+    font-family: 'NexaBook' !important;
+    font-weight: 400 !important
+}
+
+.job-header-container {
+    display: flex;
+    justify-content: space-between;
+    background: 0 0;
+    padding: 2rem;
+}
+
+.job-header-container h2 {
+    margin: 0 !important
+}
+
+.adlogic_job_results .position {
+    padding: 0 !important
+}
+
+.job-content-container {
+    padding: 0rem 2rem 2rem 2rem; 
+}
+
+.date {
+    padding-bottom: 1rem !important
+}
+
+.navigation-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 1120px;
+    margin: auto;
+    align-items: center;
+    height: 100%;
+}
+
+.job-listing .container {
+    padding: 0 !important
+}
+
+.row footer {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important
+}
+
+#nav-location:hover {
+    text-decoration: none !important;
+    color: #fff !important
+}
+
+.ajb-alerts-widget h2,
+.ajb-search-widget h2 {
+    background-color: transparent !important;
+    margin-top: 0 !important;
+    padding: 2rem 2rem 0 2rem !important;
+    color: #3DAF2C !important
+}
+
+.job-board .page-central {
+    padding-left: 0;
+    padding-right: 0 !important
+}
+
+.sidebar {
+    margin-right: 0 !important
+}
+
+@font-face {
+    font-family: 'NexaBook';
+    src: url('fonts/NexaBook.eot?#iefix') format('embedded-opentype'),  url('fonts/NexaBook.otf')  format('opentype'),
+           url('fonts/NexaBook.woff') format('woff'), url('fonts/NexaBook.ttf')  format('truetype'), url('fonts/NexaBook.svg#NexaBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'NexaBlack';
+    src: url('fonts/NexaBlack.eot?#iefix') format('embedded-opentype'),  url('fonts/NexaBlack.otf')  format('opentype'),
+           url('fonts/NexaBlack.woff') format('woff'), url('fonts/NexaBlack.ttf')  format('truetype'), url('fonts/NexaBlack.svg#NexaBlack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'NexaBold';
+    src: url('fonts/NexaBold.eot?#iefix') format('embedded-opentype'),  url('fonts/NexaBold.otf')  format('opentype'),
+           url('fonts/NexaBold.woff') format('woff'), url('fonts/NexaBold.ttf')  format('truetype'), url('fonts/NexaBold.svg#NexaBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'NexaHeavy';
+    src: url('fonts/NexaHeavy.eot?#iefix') format('embedded-opentype'),  url('fonts/NexaHeavy.otf')  format('opentype'),
+           url('fonts/NexaHeavy.woff') format('woff'), url('fonts/NexaHeavy.ttf')  format('truetype'), url('fonts/NexaHeavy.svg#NexaHeavy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+.dashed-border-wrapper {
+    box-sizing: border-box;
+    border: 0 solid #e2e8f0;
+    margin-top: 5rem
+}
+
+.dashed-border {
+    border-bottom: 2px dashed #3eb288 !important
+}
+
+.job-listing>.container>h1 {
+    margin-top: 5.5rem;
+    text-align: center;
+    font-family: 'NexaBlack' !important;
+    font-weight: 700 !important;
+    color: #d6b97c !important;
+    font-size: 46px
+}
+
+.job-listing>.container {
+    max-width: 1080px !important;
+    margin: auto
+}
+
+.mrp-icon-box-text>.d-block {
+    color: #3DAF2C !important;
+    font-weight: 500 !important;
+    font-family: 'NexaBlack', sans-serif !important
+}
+
+.mrp-icon-box-text {
+    color: #333 !important;
+    font-weight: 400 !important;
+    font-family: 'NexaBook', sans-serif !important
+}
+
+#adlogic_search_widget-2-location_select_id {
+    width: 100% !important
+}
+
+#adlogic_search_widget-2-location_select_id::placeholder {
+    color: #333 !important;
+    font-size: 11px;
+    height: 40px;
+    width: 100%;
+    margin-top: 3px
+}
+.intro h3 {
+    color: #3DAF2C;
+    font-family: 'NexaBlack', sans-serif !important;
+    font-weight: 800;
+    font-size: 20px;
+}
+.intro p {
+    color: #000 !important;
+    font-size: 16px !important;
+    font-family: 'NexaBook';
+}
+.adlogic_pagination_ul li a {
+    color: #3DAF2C !important;
+}
+.widget_adlogic_search_widget {
+    box-shadow: 0 0 5px #d2d2d3 !important;
+    border: none  !important;
+}
+body {
+    background: #FFFFFF !important;
+}
+#job-board {
+    background: #FFF !important;
+}
+.mrp-tr-single-box {
+    border: none !important;
+    box-shadow: 0 0 5px #d2d2d3 !important;
+
+}

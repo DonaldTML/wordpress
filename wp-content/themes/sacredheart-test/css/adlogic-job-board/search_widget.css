@@ -1,0 +1,120 @@
+@CHARSET "UTF-8";
+.ajb-search-widget {
+	font-family: Arial,Helvetica,sans-serif;
+	padding: 0 !important;
+}
+
+.ajb-search-widget label {
+	width: 100%;
+	font-weight: normal !important;
+	font-size: 14px !important;
+}
+
+.ajb-search-widget label.loading {
+	background-image: url('images/ajax-loading-mini.gif');
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-origin: padding-box;
+	padding-right: 18px;
+}
+
+.ajb-search-widget h4 {
+	margin: 10px 0 0 10px;
+}
+
+.ajb-search-widget form {margin: 0;float: left;width: 100%;}
+
+p.ajb-classifications-holder,
+p.ajb-locations-holder,
+p.ajb-worktypes-holder,
+p.ajb-keywords-holder, 
+p.ajb-listingtypes-holder,
+p.ajb-costcenters-holder {
+	width: 275px;
+	float: left;
+	margin: 0.5em 0;
+}
+
+.ajb-search-widget select {
+	display:block;
+	color: #333333;
+	margin-top: 5px;
+	font-size: 11px;
+	height: 20px;
+	margin-top: 3px;
+	width: 260px;
+}
+
+.ajb-search-widget select.multi-select {
+	height: 100px;
+}
+
+.ajb-keywords {
+	color: #666666;
+	width: 100% !important;
+	margin-top: 5px;
+}
+	
+.ajb-salary-switcher {
+	border-top: 1px solid #d1d1d1;
+	width: 200px;
+	display: block;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+
+.ajb-salary-type-selector a.selected {
+	color: inherit;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.ajb-search-for-jobs-button {
+	float: left !important;
+	margin-top: 5px !important;
+	color: #FFF !important;
+	min-width: 1px !important;
+	width: auto !important;
+	padding: 2px 15px;
+	margin-right: 10px;
+}
+
+
+.ajb-view-all-jobs-button {
+	float: right;
+	margin-top: 5px !important;
+	margin-right: 0 !important;
+}
+
+.ajb-search-widget-buttons {
+    float: left !important;
+    width: 100% !important;
+}
+
+.ajb-search-widget p {width: 100% !important;}
+
+.ajb-parent-opt {
+	background-color: #313131;
+	color: #ffffff;
+}
+
+.ajb-sub-parent-opt {
+	background-color: #4E4E4E;
+	color: #ffffff;
+}
+
+
+@media(max-width: 992px) {
+	.ajb-view-all-jobs-button {
+		float: none !important;
+	}
+}
+
+@media(max-width: 768px) {
+	.ajb-search-widget select {
+		width: 100% !important;
+	}
+}
+
+
+

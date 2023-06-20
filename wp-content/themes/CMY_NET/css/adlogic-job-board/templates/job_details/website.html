@@ -1,0 +1,107 @@
+<!-- Brand : {job_placedby_brand}
+Office : {job_placedby_office}
+Template : test
+Search Headline: {job_search_headline}
+Search Summary: {job_search_summary} -->
+<!DOCTYPE html PUBLIC "-//W3C//DTDXHTML1.0Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Job Opportunity | {job_title} | {job_placedby_office}</title>
+		<meta charset="UFT-8">
+		<adlogic_template_style>
+			<meta property="og:title" content="Job Opportunity | {job_title} | {job_placedby_office}"/>
+			<meta name="description" content="{job_search_summary}"/>
+
+		</head>
+		<body
+			class="adlogic_job_details_body">
+			<!-- BEGIN JOB DETAILS CONTAINER DIV -->
+			<h1> test </h1>
+			<div class="adlogic_job_details_container {job_template_name} job-board-website-template">
+
+
+				<div class="is-layout-flex wp-container-3 wp-block-columns">
+					<div class="is-layout-flow column side-bar flex-item flex-item--lg-33" data-wp-class="wp-block-column" data-wp-data-wp-style="flex-basis:33.33%">
+
+
+						<div class="date">{job_post_date}</div>
+						<h2 class="job-title">{job_title}</h1>
+
+						<h2>Location</h2>
+						<div class="ajb_location">{job_location_breadcrumbs}</div>
+
+						<h2>Applications close</h2>
+						<div class="ajb_location">{job_close_date}</div>
+
+						<button class="adlogic_job_details_apply" onclick="javascript:openApplicationForm()">Apply Now</button>
+					</div>
+					<div class="is-layout-flow column main-content flex-item flex-item--lg-66" data-wp-class="wp-block-column" data-wp-data-wp-style="flex-basis:66.66%">
+
+						<div class="adlogic_job_details_bullet_ul">
+							{job_bulletpoints}
+						</div>
+						<div class="adlogic_job_details_description">{job_description}</div>
+						<div class="adlogic_job_details_footer">{job_ad_footer}</div>
+					</div>
+
+					<!-- BEGIN SOCIAL SHARING HOLDER -->
+					<div class="adlogic_social_sharing_container">
+						<div class="ajb_social_sharing_sites">
+							<div class="ajb_social_sharing_site">
+								<span class="st_twitter_large" st_title="{job_title}" st_summary="{job_search_summary}"></span>
+							</div>
+							<div class="ajb_social_sharing_site">
+								<span class="st_facebook_large" st_title="{job_title}" st_summary="{job_search_summary}"></span>
+							</div>
+							<div class="ajb_social_sharing_site">
+								<span class="st_linkedin_large" st_title="{job_title}" st_summary="{job_search_summary}"></span>
+							</div>
+							<div class="ajb_social_sharing_site">
+								<span class="st_sharethis_large" st_title="{job_title}" st_summary="{job_search_summary}"></span>
+							</div>
+						</div>
+					</div>
+					<script src="https://ws.sharethis.com/button/buttons.js" type="text/javascript"></script>
+					<!-- END SOCIAL SHARING HOLDER -->
+					<div class="adlogic_job_details_button_bar">
+						<button class="adlogic_job_details_back" onclick="javascript:window.history.back();">Back To Search Results</button>
+						<button class="adlogic_job_details_email_friend" onclick="javascript:openEmailToFriendForm()">Email to a Friend</button>
+						<button class="adlogic_job_details_apply" onclick="javascript:openApplicationForm()">Apply Now</button>
+					</div>
+				</div>
+			</body>
+		</body>
+	</head>
+</html>
+
+
+<!-- <div class="page-content page-content--default ">
+	<div class="max-width max-width--default text-rules wp-blocks-styles">
+		<div class="is-layout-flex wp-container-3 wp-block-columns">
+			<div class="is-layout-flex wp-container-3 wp-block-columns">
+				<div class="is-layout-flow column side-bar flex-item flex-item--lg-33" data-wp-class="wp-block-column" data-wp-data-wp-style="flex-basis:33.33%">
+					<div class="date">{job_post_date}</div>
+					<h2 class="job-title">{job_title}</h1>
+
+					<h2>Location</h2>
+					<div class="ajb_location">{job_location_breadcrumbs}</div>
+
+					<h2>Applications close</h2>
+					<div class="ajb_location">{job_close_date}</div>
+
+					<button class="adlogic_job_details_apply" onclick="javascript:openApplicationForm()">Apply Now</button>
+				</div>
+			</div>
+			<div class="is-layout-flow column main-content flex-item flex-item--lg-66" data-wp-class="wp-block-column" data-wp-data-wp-style="flex-basis:66.66%">
+				<div class="adlogic_job_details_bullet_ul">
+					{job_bulletpoints}
+				</div>
+				<div class="adlogic_job_details_description">
+					{job_description}
+				</div>
+				<div class="job-closing">Applications close {job_close_date}</div>
+
+				<button class="adlogic_job_details_apply" onclick="javascript:openApplicationForm()">Apply Now</button>
+			</div>
+		</div>
+	</div>--></div>

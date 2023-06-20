@@ -1,0 +1,286 @@
+/*!
+Theme Name: Centre for Multicultural Youth
+Theme URI: https://myrecruitmentplus.com
+Author: Martian Logic Developer Team
+Author URI: https://myrecruitmentplus.com
+Description: Description
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: Centre for Multicultural Youth
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Generic
+	- Normalize
+	- Box sizing
+# Base
+	- Typography
+	- Elements
+	- Links
+	- Forms
+## Layouts
+# Components
+	- Navigation
+	- Posts and pages
+	- Comments
+	- Widgets
+	- Media
+	- Captions
+	- Galleries
+# plugins
+	- Jetpack infinite scroll
+# Utilities
+	- Accessibility
+	- Alignments
+
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Generic
+--------------------------------------------------------------*/
+
+/* Normalize
+--------------------------------------------- */
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+	 ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+}
+
+/**
+ * Remove the margin in all browsers.
+ */
+ body {
+	font-family: 'Lato';
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+*{
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Catamaran';
+  font-weight: 800 !important;
+  line-height:1 !important;
+}
+h5{
+  font-size:1.25rem;
+}
+h2 a {
+  font-size:1.2rem;
+  transition:.5s ease;
+  text-decoration: none;
+}
+h2:hover a{
+  text-decoration: none;
+}
+div.ajb_job_content {
+  max-width: 100% !important;
+}
+.adlogic_job_results .position {
+  border: 1px solid #CCCCCC;
+  margin: 10px 5px;
+  border-top-right-radius: 10px;
+}
+.btn-xl {
+  text-transform: uppercase;
+  padding: 1.5rem 3rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.bg-black {
+  background-color: #000 !important;
+}
+
+.rounded-pill {
+  border-radius: 5rem;
+}
+
+.navbar-custom {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-custom .navbar-brand {
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+}
+
+.navbar-custom .navbar-nav .nav-item .nav-link {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+.bg-custom-blue{
+  background-color: #005395 !important;
+}
+header.masthead {
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(7rem + 72px);
+  padding-bottom: 7rem;
+  background:#343a40;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+header.masthead .masthead-content {
+  z-index: 1;
+  position: relative;
+}
+
+header.masthead .masthead-content .masthead-heading {
+  font-size: 3rem;
+}
+
+header.masthead .masthead-content .masthead-subheading {
+  font-size: 2rem;
+}
+
+header.masthead .bg-circle {
+  z-index: 0;
+  position: absolute;
+  border-radius: 100%;
+  background: linear-gradient(0deg, #007bff 0%, #00b9eb 100%);
+}
+.btn{
+  cursor: pointer;
+}
+.register-box{
+  background:#EFF1F3;
+  border:1px solid #efefef;
+  box-shadow:1px 1px 3px 2px #efefef;
+}
+@media (min-width: 992px) {
+  header.masthead {
+    padding-top: calc(10rem + 55px);
+    padding-bottom: 10rem;
+  }
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 4rem;
+  }
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 2.5rem;
+  }
+}
+
+.bg-primary {
+  background-color: #ee0979 !important;
+}
+
+.btn-primary {
+  background-color: #00b9eb;
+  border-color: #ffffff73;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #00b9ec !important;
+  border-color: #00b9eb !important;
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
+}
+
+.btn-secondary {
+  background-color: #ff6a00;
+  border-color: #ff6a00;
+}
+
+.btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
+  background-color: #cc5500 !important;
+  border-color: #cc5500 !important;
+}
+
+.btn-secondary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+}
+@media (max-width: 702px) {
+	.empty{
+		display:none;
+	}
+}
+
+li {
+  padding-right: 10px;
+}
+li a:hover {
+  color: #333;
+}
+span.ajb_location ul:not(.gform_fields) li:before {
+  content: "\f124";
+  display: inline-block;
+  font-family: 'FontAwesome';
+  margin-right: 7px;
+  margin-top: 2px;
+  float: left;
+  color: #ff6d2d;
+}
+span.ajb_location ul {
+  list-style: none;
+}
+span.ajb_classification ul {
+  list-style: none;
+}
+a{
+  color:#333;
+  text-decoration:none;
+}
+span.ajb_classification ul:not(.gform_fields) li:before {
+  content: "\f022";
+  display: inline-block;
+  font-family: 'FontAwesome';
+  margin-right: 7px;
+  margin-top: 2px;
+  float: left;
+  color: #ff6d2d;
+}
+.ajb_social_sharing_container a{
+  color:#333;
+}
+h2:hover a {
+  color:#333;
+  text-decoration:none;
+}
+h1.entry-title {
+  opacity: 0;
+}

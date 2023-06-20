@@ -1,0 +1,73 @@
+div.ajb-alerts-widget {
+margin:0 0 10px;
+padding-bottom:30px
+}
+
+.adlogic_alerts_loading_div {
+width:32px;
+height:32px;
+background:url(images/ajax-loading.gif) no-repeat;
+display:block;
+clear:both;
+margin-top:-32px;
+float:right
+}
+
+.ajb-alerts-widget p {
+float:left;
+width:100%
+}
+
+.ajb-alerts-widget label {
+margin-top:2px;
+color:#232323;
+margin-bottom:0;
+letter-spacing: 2px;
+font-size:13px;
+font-family:'Gothic_720 W01 Bold';
+text-transform:uppercase
+}
+
+.ajb-alerts-widget label.loading {
+background-image:url(images/ajax-loading-mini.gif);
+background-repeat:no-repeat;
+background-position:top right;
+background-origin:padding-box;
+padding-right:18px
+}
+
+.ajb-alerts-widget label span.required {
+color:red
+}
+
+.ajb-alerts-widget form {
+margin-left:0
+}
+
+.ajb-alerts-widget select {
+display:block;
+width:100%;
+width:190px;
+padding:2px 0;
+font-size:13px;
+width:100%;
+margin-top:5px;
+}
+
+.ajb-alerts-widget select.ajb-classifications.multi-select,.ajb-alerts-widget select.ajb-locations.multi-select {
+height:150px;
+}
+
+.ajb-alerts-widget h4 {
+margin-left:20px;
+margin-bottom:20px;
+font-size:14px;
+display:none;
+}
+
+.ajb-button-holder {
+clear:both;
+width:100%;
+float:left;
+margin-top:25px;
+}

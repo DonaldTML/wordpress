@@ -1,0 +1,34 @@
+<div class="current-job-box" id="{job_id}">
+	<div class="current-job-box-text boxes1">
+		<h4 class="job_title">{job_title}</h4>
+		<p class="current-job-text-kind-of-job">{job_worktype}</p>
+		<p class="current-job-text-description">{job_description}</p>
+		<p class="current-job-text-close text-left">
+		<span class="current-job-box-text-social-icons">
+				<a href="#" onclick="shareToSocialMedia('linkedin', '{job_link}', '{job_title}')" target="_blank"><img src="/synlait/wp-content/themes/synlait-new/css/adlogic-job-board/images/icon-social-linkein.png" alt="LinkedIn" width="28" height="23"></a>
+				<a href="#" onclick="shareToSocialMedia('twitter', '{job_link}', '{job_title}')" target="_blank"><img src="/synlait/wp-content/themes/synlait-new/css/adlogic-job-board/images/icon-social-twitter.png" alt="Twitter" width="28" height="23"></a>
+				<a href="#" onclick="shareToSocialMedia('facebook', '{job_link}', '{job_title}')" target="_blank"><img src="/synlait/wp-content/themes/synlait-new/css/adlogic-job-board/images/icon-social-facebook.png" alt="Facebook" width="28" height="26"></a>
+		</span>
+		</p>
+	</div>
+
+	<div class="current-job-box-apply-btn button1">
+		<a href="/{job_costcenter}-job-details/query/{job_id}" id="costCenter-{job_costcenter}">
+			<div id="current-job-box-black-buttom" class="current-job-box-black-buttom current-job-box-black-buttom-text">
+				<h4 class="special-header">Find out more/apply</h4>
+			</div>
+		</a>
+	</div>
+</div>
+<script type="text/javascript">
+	var ccId = '{job_costcenter}';
+	if(ccId == '10291') {
+		$("#costCenter-"+ccId).attr("href", "/synlait-new/Canning-job-details/query/{job_id}");
+	}
+	if(ccId == '10290') {
+		$("#costCenter-"+ccId).attr("href", "/synlait-new/Office-job-details/query/{job_id}");
+	}
+	if(ccId == '10292') {
+		$("#costCenter-"+ccId).attr("href", "/synlait-new/Drying-job-details/query/{job_id}");
+	}
+</script>

@@ -1,0 +1,500 @@
+#webapp35885pagination,
+#webapp35992pagination,
+ .tbl-selected-docs, 
+ .hasula-event-item {display:none;}
+ .general-text-wrap img{max-width:100%;}
+ .fc-content div{visibility:hidden;}
+.fright{float:right;}
+.fleft{float:left;}
+.post-img{height:430px;}
+.post-img img{width:auto;max-height:none;height:100%;max-width:none;}
+.banner-img-item{
+	background-image:url(/images/loader.gif);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size: 100px;
+}
+.delay-4s {
+	-webkit-animation-delay: 4s;
+		 -o-animation-delay: 4s;
+			animation-delay: 4s;
+}
+.delay-5s {
+	-webkit-animation-delay: 5s;
+		 -o-animation-delay: 5s;
+			animation-delay: 5s;
+}
+.event-calendar-img img{width:auto;}
+
+.Sky-blue.small-box .event-calendar-inner,
+.Sky-blue.small-box .event-calendar-inner .items-info-wrap{
+	background-color:#7fa5cd;
+}
+.Sky-blue.small-box .item-info-bottom ul li .fa,
+.Sky-blue.wide-box .item-info-bottom ul li .fa{
+	color:#0c3279;
+}
+.Sky-blue.small-box .items-title{
+	background: url(../images/content-menu-bg2.jpg) no-repeat top left;
+}
+
+.Sky-blue.has-image .event-calendar-inner .items-info-wrap{
+	background-color:rgba(102,153,204, .7);
+}
+.alumni-logo-shcg{text-align:right;padding-right:30px;}
+.archives-logo{padding-top:40px;}
+.alumni-logo-shcg a img{float:none;}
+.alumni-logo a img{width:auto;max-width:100%;}
+.img-overlay{top:0;}
+
+#general-content h1:not(.hasula-edition-title){
+	background: url(../images/title-line.png) no-repeat 0 0;
+	padding: 55px 0 !important;
+	font-family: 'Open Sans', sans-serif !important;
+	font-size: 50px !important;
+	font-weight: 300 !important;
+	text-transform: uppercase;
+	line-height: 60px !important;
+}
+#general-content h2:not(#custom-month),
+#general-content h2:not(#custom-month) span,
+#general-content h2:not(#custom-month) font,
+#general-content h2:not(#custom-month) div{
+	font-family: 'Open Sans', sans-serif !important;
+	padding: 30px 0 !important;
+	font-size:32px !important;
+	text-transform: uppercase;
+	font-weight: 300 !important;
+}
+
+#general-content h3:not(.items-title),
+#general-content h3:not(.items-title) span,
+#general-content h3:not(.items-title) font,
+#general-content h3:not(.items-title) div,
+.shop-checkout h3{
+	font-family: 'Open Sans', sans-serif !important;
+	padding: 20px 0 !important;
+	font-size:28px !important;
+	text-transform: uppercase;
+	font-weight: 300 !important;
+}
+#general-content h3#custom-year{
+	font-weight:400 !important;
+	padding-top:7px !important;
+	font-size:50px !important;
+	padding-bottom:0 !important;
+}
+.general-text-wrap div, 
+.general-text-wrap font, 
+.general-text-wrap span, 
+.general-text-wrap div font, 
+.general-text-wrap span,
+.general-text-wrap p,
+#the-sacred-heart-way-detail div,
+#the-sacred-heart-way-detail font,
+#the-sacred-heart-way-detail span,
+#the-sacred-heart-way-detail div font,
+#the-sacred-heart-way-detail span,
+#the-sacred-heart-way-detail p{
+	font-family: 'Open Sans', sans-serif ;
+	font-size: 19px ;
+	font-weight: 300 ;
+	line-height: 40px ;
+	padding-bottom: 15px ;
+	color: #4d4d4f;
+}
+.literature-container span{
+	padding:0 !important;
+}
+.webform label,
+.shop-checkout .item label{
+	margin-bottom:3px;
+}
+.webform input[type=text],
+.webform input[type=password],
+.webform input[type=email],
+.webform select, 
+.webform textarea, 
+.shop-checkout input[type=text],
+.shop-checkout input[type=password],
+.shop-checkout input[type=email],
+.shop-checkout select, 
+.shop-checkout textarea{
+	width:400px;
+	padding:8px;
+	border:1px solid #e5e5e5;
+	background:#f4f4f4;
+	border-radius:3px;
+	margin-bottom:0;
+}
+.shop-checkout input[type=text],
+.shop-checkout input[type=password],
+.shop-checkout input[type=email],
+.shop-checkout select, 
+.shop-checkout textarea{
+	line-height:40px;
+}
+.webform input[type=text]:focus,
+.webform input[type=password]:focus,
+.webform input[type=email]:focus,
+.webform select:focus, 
+.webform textarea:focus, 
+.shop-checkout input[type=text]:focus,
+.shop-checkout input[type=password]:focus,
+.shop-checkout input[type=email]:focus,
+.shop-checkout select:focus, 
+.shop-checkout textarea:focus{
+	 background:transparent;
+ }
+ .webform input[type=radio],
+ .webform input[type=checkbox],
+ .shop-checkout input[type=radio],
+ .shop-checkout input[type=checkbox]{
+	 margin-right:5px;
+ }
+ .webform input[type=submit],
+ .shop-checkout input[type=submit]{
+	 padding:5px 30px;
+	 background:#0c3279;
+	 border:1px solid #0c3279;
+	 border-radius:2px;
+	 color:#FFF;
+ }
+ ul.inner-gallery {list-style: none;}
+ul.inner-gallery li {float: left;margin: 0 0 10px 0;padding:0 5px 0;list-style:none;}
+ul.inner-gallery li img{width:100%;}
+.newsapp-img, .grid-item{visibility:hidden;}
+.grid-item{cursor:pointer;}
+.grid-item.light-blue .event-calendar-inner{background-color:#7fa5cd;}
+.grid-item.light-blue .items-info-wrap{
+	background-color:rgba(102,153,204, .7);
+}
+.grid-item .event-calendar-inner, .hasula-event-inner{
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center 0;
+}
+.grid-sizer{width:33.3333%;}
+.fadeIn, .fadeInUp{visibility:visible;}
+.s-view-txt{z-index:999;}
+.dl-file{padding-right:30px;}
+.bcgooglecal-loader {
+    text-align: center;
+    padding: 50px 0;
+}
+.mini-calendar{
+	opacity: 0.9; 
+	filter: alpha(opacity=90); 
+	background-color:#fff !important;
+	color:#000;
+	font-size: 10px !important;
+	font-family: inherit !impotant;
+	padding: 10px 20px;
+}
+#inner-page-feature-events .feature-events-item,
+#inner-page-feature-events .feature-item-img{overflow:hidden;}
+#inner-page-feature-events .feature-item-img img{max-width:none;height:250px;}
+.item-info-top{margin-top:10px;}
+
+/*.items-title{height:auto;} */
+/*.ahaka-event-item .items-title span,
+.items-title span{
+	line-height:normal;
+	position:relative;
+	left:0;
+	top:0;
+}
+
+.ahaka-event-item {
+	line-height:normal;
+	position:relative;
+	left:0;
+	top:0;
+}
+*/
+
+
+.general-text-wrap p{line-height:35px;}
+.g-leadin-left p{color:#FFF !important;}
+.banner-overlay{z-index:60;}
+.bx-controls-direction{
+	visibility:hidden;
+	-webkit-animation-delay: 0.5s;
+	-o-animation-delay: 0.5s;
+	animation-delay: 0.5s;
+}
+.ec-item-box2 .items-info-wrap{height:auto;}
+.sidebar-view-gallery.mobile{display:none;margin-bottom:20px;}
+.prev-edition-wrap,
+.prev-edition-wrap label,
+.prev-edition-wrap label span{cursor:pointer;} 
+.general-text-wrap table{width:100%;}
+.general-text-wrap ul{
+	list-style:disc;
+	padding-left:35px;
+}
+.general-text-wrap ul li,
+.general-text-wrap ol li,
+.general-text-wrap table tr td{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 19px;
+	font-weight: 300;
+	line-height: 30px;
+	padding-bottom: 15px;
+	color: #4d4d4f;
+	line-height:40px;
+}
+.general-text-wrap ul li,
+.general-text-wrap ol li{
+	padding-bottom:0;
+}
+.general-text-wrap table.webform tr td,
+.shop-checkout .item{
+	font-weight:300;
+	font-size:18px;
+}
+.general-text-wrap table.webform label,
+.shop-checkout .item label{
+	font-size:17px;
+	font-weight:300;
+}
+.shop-checkout .item label{
+	line-height:40px;
+}
+.council-box, .clear {padding-bottom:0 !important;}
+.council-item{overflow:hidden;height:500px;width:25%;padding-left:15px;padding-right:15px;float:left;}
+.council-item div{padding-bottom:0;overflow:hidden;}
+.council-item strong {font-size:20px;}
+.council-item p {font-size:18px;}
+.council-item .council-info{text-align:center;padding-top:10px;}
+.council-img img{height:320px;max-width:none;width:auto;min-width:100%;}
+.rod-list{float:left;}
+.alumni-student-single{display:none;}
+.alumni-student-single .img-container{height:465px;}
+iframe{max-width:100%;}
+.gallery-box .gallery-item {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 46%;
+    height: 250px;
+    overflow: hidden;
+	background-size:cover;
+	background-position:center top;
+}
+.gallery-box .gallery-item img{
+	visibility:hidden;
+}
+.content-menu{width:80%;}
+.shop-item-title a{text-decoration:none;color:#4d4d4f;}
+.shop-item-img{background-size:cover;background-position:center 0;}
+.shop-item-img img{display:none;}
+.content-menu-wrap h3 a, .content-menu-wrap h3 a:hover{color:#FFF;text-decoration:none;}
+.product-info-wrap table.table-striped tr td .productitemcell img{
+	 display: inline-block;
+    height: 110px;
+}
+.pad-top .productitemcell {
+    padding-top: 40px;
+}
+.pad-top.cartinput .productitemcell{
+	padding-top:27px;
+}
+.total-wrap ul li a {
+    border: 0;
+    color: #fff;
+    float: right;
+    font-size: 14px;
+    height: 43px;
+    text-align: center;
+    text-transform: uppercase;
+	font-family:Arial,"Helvetica Neue",Helvetica,sans-serif;
+	padding-top:12px;
+}
+a#catshopclear{
+	background-color: #7fa5cd;
+	max-width: 110px;
+	width: 100%;
+	margin-right: 15px;
+}
+a#catshopbuy{
+	background-color: #0c3279;
+	max-width: 165px;
+	width: 100%;
+}
+.productitemcell input.cartInputText{
+	background-color: #f7f7f7;
+border: 0;
+font-size: 16px;
+height: 45px;
+padding: 10px;
+width: 90px;
+margin-left: 20px;
+text-align: center;
+}
+
+.shop-checkout .item {
+    margin-bottom: 20px;
+}
+.shop-checkout .cat_dropdown_smaller{
+	width: 37% !important;
+}
+.reader-body .putadesc h1.items-title{display:none;}
+.reader-body img{max-width:100%;height:auto;}
+.ln-reader-img{
+	background-position: top center;
+	background-size:cover;
+	background-color:rgba(35,31,32, .45);
+}
+.reader-body .photo-nav{
+	display:none;
+}
+.reader-body .btn-gobacktoissue{
+	display:none;
+}
+.view-gallery-text h3,
+.view-gallery-img img{
+	cursor:pointer;
+}
+.selected.option-box{
+	background-color: #0b59a1;
+}
+.selected.option-box .reader-view-icon{
+	background-position: 0 -43px; 
+}
+.selected.option-box .grid-view-icon { 
+	background-position: 0 -44px; 
+}
+@media (min-width:768px){
+	.menu-wrapper ul li a{
+		
+		/* kang podol 
+		font-size:13px;
+		*/
+		font-size:14px;
+		}
+	.item-info-bottom ul li:last-child{position:absolute;right:15px;bottom:10px;}
+	.event-calendar-list .items-title{font-size:17px;}
+}
+@media (min-width:992px){
+	.event-calendar-list .items-title{font-size:18px;}
+	
+}
+@media (min-width:1200px){
+	.feature-events-info .items-title{font-size:20px;}
+	.feature-events-info .info-bottom-num{font-size:32px;}
+	.feature-events-info .info-bottom-month{font-size:20px;}
+	.event-calendar-list .items-title{font-size:22px;}
+}
+@media(max-width:1200px){
+	.post-img{height:300px;}
+	.council-item{height:390px;}
+	.council-img img{height:250px;max-width:none;width:auto;min-width:100%;}
+	.council-item strong{font-size:15px;display:block;line-height:25px;margin-bottom:5px;}
+	.council-item p {font-size: 14px;line-height: 20px;}
+	.alumni-student-single .img-container{height:380px;}
+	#thesacredheartway-inner{padding-top:15px;}
+	#banner-latest-news .banner-img-item img{
+		width:auto;
+		height:100%;
+		min-width:100%;
+	}
+}
+@media(max-width:1024px){
+	.post-img{height:290px;}
+}
+@media(max-width:991px){
+	.post-img{height:350px;}
+	.council-img img{height:220px;}
+	.alumni-student-single .img-container{height:290px;}
+	.content-menu{width:100%;}
+	.gallery-box .gallery-item{width:44%;height:200px;}
+}
+@media(max-width:768px){
+	#general-content h1:not(.hasula-edition-title),
+	#general-content h1:not(.hasula-edition-title) span,
+	#general-content h1:not(.hasula-edition-title) font,
+	#general-content h1:not(.hasula-edition-title) div{
+		font-size:35px !important;
+		line-height:40px !important;
+		padding:25px 0 !important;
+	}
+	#general-content h2:not(#custom-month),
+	#general-content h2:not(#custom-month) span,
+	#general-content h2:not(#custom-month) font,
+	#general-content h2:not(#custom-month) div{
+		font-size:30px !important;
+	}
+	#general-content h3:not(.items-title), 
+	#general-content h3:not(.items-title) span,
+	#general-content h3:not(.items-title) font,
+	#general-content h3:not(.items-title) div{
+		font-size:25px !important;
+	}
+	.general-text-wrap div, 
+	.general-text-wrap font, 
+	.general-text-wrap span, 
+	.general-text-wrap div font, 
+	.general-text-wrap span,
+	.general-text-wrap p,
+	.general-text-wrap ul li, 
+	.general-text-wrap ol li,
+	#the-sacred-heart-way-detail div,
+	#the-sacred-heart-way-detail font,
+	#the-sacred-heart-way-detail span,
+	#the-sacred-heart-way-detail div font,
+	#the-sacred-heart-way-detail span,
+	#the-sacred-heart-way-detail p{
+		font-size:17px;
+		line-height:35px;
+	}
+	.mercedes-list{
+		float:left;
+		width:50%;
+	}
+	.mercedes-list img{
+		width:100%;
+	}
+}
+@media(max-width:767px){
+	.post-img{height:315px;}
+	.webform input[type=text],
+	.webform input[type=password],
+	.webform input[type=email],
+	 .webform select, 
+	 .webform textarea{
+		 width:100%;
+	 }
+	 .sidebar-view-gallery.mobile{display:block;}
+	.sidebar-view-gallery{display:none;}
+	.council-item{width:33.3333333%;}
+	.council-img {text-align:center;}
+	.council-img a{width:100%;text-align;center;}
+	.council-img img{height:270px;min-width:auto;width:auto;display:inline;}
+	.council-item{height:410px;}
+	.rod-list{width:50%;float:left;display:block;margin-bottom:15px;}
+	.rod-list img{width:100%}
+	.alumni-student-single .img-container{height:320px;}
+	.shop-item-img{background-image:none !important;}
+	.shop-item-img img{display:inline-block;}
+}
+@media (max-width:600px){
+	.council-item{width:50%;}
+}
+@media (max-width:450px){
+	.council-img img{width:100%;height:auto;}
+	.council-item{width:100%;float:none;height:auto;}
+	.rod-list, .gallery-box .gallery-item{width:100%;height:250px;}
+	
+}
+@media(max-width:360px){
+	ul.inner-gallery li{
+		float:none;
+		width:100% !important;
+		padding:0 !important;
+	}
+	.mercedes-list{
+		float:none;
+		width:100%;
+	}	
+}

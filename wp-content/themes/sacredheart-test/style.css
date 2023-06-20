@@ -1,0 +1,56 @@
+/*
+Theme Name: Sacred Heart College Geelong v2
+Author: adlogic
+Author URI: http://www.adlogic.com.au/
+*/
+
+
+@CHARSET "UTF-8";
+.nav-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 100%;
+    padding: 0px 205px 0px 125px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-links > a {
+    color: #0c2c70;
+    font-size: 16px !important;
+    font-weight: bold !important;
+}
+.navbar {
+    display: flex !important;
+    justify-content: center !important;
+    height: 100% !important;
+}
+#location-crumbs > ul, #class-crumbs > ul { 
+    list-style: none !important;
+    display: flex !important;
+    gap: 1rem !important;
+}
+#location-crumbs > ul > li > a, #class-crumbs > ul > li > a{
+    color: #000000  !important;
+    font-weight: 500 !important;
+}
+#job-search-location, #job-search-class {
+    color: #000000  !important;
+    font-weight: bold !important;
+}
+.ajb_social_sharing_sites {
+    display: none !important;
+}
+html, .page-con, .mrp-tr-single-detail {
+    background: #FFFFFF !important;
+}
+.job_title > a {
+    color: #13294B  !important;
+}
+.footer-row {
+    padding: 0px 205px 0px 125px;
+}
+.mrp-container {
+    margin-top: 4rem !important;
+}

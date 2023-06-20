@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+
+.adlogic_job_board_logon a.social-media-login {
+	background-image: url(images/social_signin.png);
+	background-repeat: no-repeat;
+	width: 162px;
+	height: 30px;
+	display: block;
+	text-indent: -9999px;
+	margin-bottom: 10px;
+}
+
+.adlogic_job_board_logon a.social-media-login.facebook {
+	background-position: 0 -48px;
+}
+
+.adlogic_job_board_logon a.social-media-login.linkedin {
+	background-position: 0 -92px;
+}
+
+.adlogic_job_board_logon a.social-media-login.google-plus {
+	background-position: 0 -281px;
+}

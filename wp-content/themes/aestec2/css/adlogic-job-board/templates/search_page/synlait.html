@@ -1,0 +1,19 @@
+<div class="col-md-4 current-job-box m-auto d-block" onclick="location.href='{job_link}';" id="{job_id}">
+	<div class="current-job-box-text boxes1">
+		<div class="d-flex w-100">
+		
+			<h4 class="job_title"><a href="{job_link}" >{job_title} </a></h4>
+		</div>
+		<p class="current-job-text-kind-of-job work-type-link">{job_worktype_link}</p>
+		
+		<hr>
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-xs-12 locations-list">
+				<p class="current-job-text-close" style="margin-bottom:0 !important;">Location:</p><b id="location-crumbs"> {job_location_breadcrumbs count="1"}</b>
+			</div>
+			<div class="col-lg-12 col-md-12 col-xs-12 classifications-list">
+				<p class="current-job-text-close" style="margin-bottom:0 !important;">Classification:</p><b id="class-crumbs"> {job_classification_breadcrumbs count="1"}</b>
+			</div>
+		</div>
+	</div>
+</div>

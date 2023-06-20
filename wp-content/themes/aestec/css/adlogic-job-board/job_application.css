@@ -1,0 +1,317 @@
+@CHARSET "UTF-8";
+
+.ajb-job-application {
+	margin: 0 15px 15px 0;
+}
+/*
+.ajb-job-application input[type=text] {
+	width: 100%;
+	display: block;
+	margin-right: 5px;
+	padding: 5px;
+}
+*/
+.ajb-file-uploading-overlay {
+    position: absolute;
+    width: 95%;
+    height: 60px;
+    margin-top: -5px;
+    margin-left: -5px;
+}
+.ajb-dropbox-container .dropbox-dropin-btn .dropin-btn-status.loading {
+	background: url(images/ajax-loading-mini.gif) !important;
+	height: 16px !important;
+	
+}
+.ajb-job-application input[type=text] {
+    border-radius: 2px;
+    border: 1px solid #E2E2E2;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #333;
+    letter-spacing: 0.20px;
+    font-size: 11px;
+    width: 100%;
+	display: block;
+	margin-right: 5px;
+	padding: 5px 0px 5px 5px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
+}
+.ajb-job-application input[type=text]:focus {
+    background: #F7F7F7;
+    outline:none;
+}
+/*
+.ajb-job-application select {
+	display: block;
+	margin-right: 5px;
+	padding: 5px;
+}
+*/
+.ajb-job-application select {
+	display: block;
+	margin-right: 5px;
+	padding: 5px;
+    border: 1px solid #e2e2e2;
+    border-radius: 0px !important;
+}
+#ajb-personal-details, 
+#ajb-application-criteria-fieldset,
+#ajb-applicant-documents,
+#ajb-sms-job-frame,
+#ajb-email-job-frame,
+#ajb-email-me-job-frame {
+    border: 1px solid #e2e2e2;
+    padding: 10px 20px 10px 10px;
+    margin: 15px 0;
+}
+.ajb-select-coverletter {
+    margin: 10px 0;
+}
+#ajb-personal-details legend,
+#ajb-application-criteria-fieldset legend,
+#ajb-applicant-documents legend,
+#ajb-sms-job-frame legend,
+#ajb-email-job-frame legend,
+#ajb-email-me-job-frame legend  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    padding: 0 10px;
+}
+.ajb-application-form label,
+.ajb-select-coverletter span {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: 300; 
+    font-size: 13px;
+}
+#ajb-submitApplication {
+	background-color: #4EA1C3;
+	background-image: none;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+	color: #FFF;
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	letter-spacing: 0px;
+	text-align: center;
+	font-size: 19px;
+	padding: 10px 15px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 10px;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-bottom-width: 3px;
+	-webkit-transition: .8s;
+	-moz-transition: .8s;
+	-o-transition: .8s;
+	transition: .8s;
+	width: 230px;
+	margin: 0 auto;
+}
+#ajb-submitApplication:hover {
+    background-color: #287EA1; 
+    top: 1px; 
+    position: relative; 
+    border-bottom-width: 3px;
+}
+.ajb-applicationSubmit {
+    text-align: center;
+    margin: 35px 0 75px;
+}
+.ajb-job-application input[type=file] {
+	width: 100%;
+	display: block;
+	margin-right: 5px;
+	padding: 5px;
+}
+
+.ajb-job-application textarea {
+	width: 100%;
+	display: block;
+	height: 100px;
+	margin-right: 5px;
+	padding: 5px;
+}
+
+.ajb-job-application h2 {
+	font-weight: bold;
+	margin: 10px 0 0 0;
+}
+
+.ajb-auth .linkedInLoginButton, .ajb-application-details .linkedInLoginButton {
+	background: url(images/social_applywith.png) no-repeat 0 -92px;
+	width: 162px;
+	height: 30px;
+	display: block;
+	text-indent: -9999px;
+	margin: 0 5px 10px;
+}
+.indeed-apply-widget {
+	display: block !important;
+}
+.indeedApplyContainer {
+	display: none;
+}
+
+.ajb-auth .facebookLoginButton, .ajb-application-details .facebookLoginButton {
+	background: url(images/social_applywith.png) no-repeat 0 -48px;
+	width: 162px;
+	height: 30px;
+	display: block;
+	text-indent: -9999px;
+	margin: 0 5px 10px;
+}
+
+.ajb-auth .googlePlusLoginButton, .ajb-application-details .googlePlusLoginButton {
+	background: url(images/social_applywith.png) no-repeat 0 -281px;
+	width: 162px;
+	height: 30px;
+	display: block;
+	text-indent: -9999px;
+	margin: 0 5px 10px;
+}
+
+.ajb-profile-box a img {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border-radius: 3px 3px 3px 3px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.ajb-profile-box .facebook_username, .ajb-profile-box .linkedin_username, .ajb-profile-box .googlePlus_username {
+	margin-top: 10px;
+	font-weight: bold;
+	display: block;
+	padding-top: 10px;
+}
+
+.ajb-profile-box .linkedin_headline, .ajb-profile-box .facebook_headline, .ajb-profile-box .googlePlus_headline {
+	font-style: italic;
+	display: block;
+}
+
+.ajb-profile-box {
+	clear: both;
+	min-height: 80px;
+	border-radius: 5px;
+	padding: 6px;
+	width: 100%;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.adlogic_search_loading_div {
+	width: 32px;
+	height: 32px;
+	background: url(images/ajax-loading.gif) no-repeat;
+	display: inline-block;
+}
+
+.ajb-job-application label span.mandatory:before {
+	content: '*';
+	color: red;
+}
+
+.ajb-job-application .adlogic_error,
+.ajb-job-application .adlogic_error_email {
+	border-color: red !important;
+}
+.ajb-left {
+	width: 30%;
+	float: left;
+}
+.ajb-right {
+	float: right;
+	width: 65%;
+}
+.ajb_application_criteria {
+    float: left;
+    width: 100%;
+    margin: 5px 0;
+}
+.ajb-first-name-container, 
+.ajb-last-name-container,
+.ajb-application-email-address {
+    float: left;
+    width: 100%;
+    margin: 5px 0;
+}
+
+
+.ajb-job-application span.login-status {
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	text-indent: -9999px;
+	background-image: url('images/social_icons.png');
+	background-repeat: no-repeat;
+	margin: 0 2px;
+}
+
+.ajb-job-application span.login-status.facebook.active {
+	background-position: 0 0;
+}
+
+.ajb-job-application span.login-status.facebook.inactive {
+	background-position: 0 -16px;
+}
+
+.ajb-job-application span.login-status.linkedin.active {
+	background-position: -16px 0;
+}
+
+.ajb-job-application span.login-status.linkedin.inactive {
+	background-position: -16px -16px;
+}
+
+.ajb-job-application span.login-status.google-plus.active {
+	background-position: -32px 0;
+}
+
+.ajb-job-application span.login-status.google-plus.inactive {
+	background-position: -32px -16px;
+}
+.consultant-image {
+	background: url(images/nouser.png);
+	max-width: 200px;
+	max-height: 200px;
+	width: 200px;
+	height: 200px;
+	border: 1px solid #000;
+}
+.consultant-profile {
+    background: #e2e2e2;
+    float: left;
+    padding: 10px 10px 0px 10px;
+}
+.consultant-name {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.contact-methods {
+    padding: 0;
+}
+.contact-methods li {
+    list-style-type: none;
+}
+.IN-noshadow {
+	background-image: url(images/linkedin-loading.gif);
+	background-repeat: no-repeat;
+	background-position: 50% 35%;
+}
+span.IN-widget {
+    width: 190px;
+}
+.IN-widget > a {
+    width: 190px !important;
+}
+.IN-widget > span a span {
+    width: 190px !important;
+    text-align: left !important;
+}
+.dependent_value {
+	display: none;
+}

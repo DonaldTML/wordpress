@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+
+.ajb-submit-cv-terms-title {
+}
+
+.ajb-submit-cv-terms {
+	overflow: auto;
+	border: 1px solid black;
+	width: 775px; 
+	height: 650px;
+}
+
+iframe.ajb-submit-cv-iframe {
+	display: none;
+	border: 1px solid black;
+	width: 775px;
+	height: 650px;
+	overflow: auto;
+}

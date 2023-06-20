@@ -1,0 +1,189 @@
+#adlogic_alerts_widget-2 h2 {
+    color: #612166;
+    margin-bottom: 1em;
+    font-size: 22px
+}
+
+label {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 12px
+}
+
+.ajb-subscribe-job-alerts {
+    background-color: #00aeef;
+    color: #fff !important;
+    border: 1px solid #00aeef;
+    margin-top: 1rem;
+    font-weight: 400;
+    letter-spacing: 1px !important;
+    border-radius: 0;
+    line-height: 40px;
+    transition: all .2s ease-in-out;
+    padding: 1px 15px !important;
+    float: right;
+    text-transform: uppercase
+}
+
+.ajb-search-for-jobs-button {
+    background-color: #065279;
+    color: #fff;
+    border: 1px solid #065279;
+    margin-top: 1em;
+    letter-spacing: 1px !important;
+    border-radius: 0;
+    line-height: 40px;
+    transition: all .2s ease-in-out;
+    padding: 1px 15px !important;
+    text-transform: uppercase
+}
+
+.ajb-view-all-jobs-button {
+    background-color: #00aeef;
+    color: #fff;
+    border: 1px solid #00aeef;
+    margin-top: 1em;
+    font-weight: 400;
+    letter-spacing: 1px !important;
+    border-radius: 0;
+    line-height: 40px;
+    transition: all .2s ease-in-out;
+    padding: 1px 15px !important;
+    float: right;
+    margin-right: 0;
+    text-transform: uppercase
+}
+
+.adlogic_job_results .position {
+    border: 1px solid #065279;
+    margin: 10px 5px;
+    padding: 20px 10px 20px 10px;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: bottom right
+}
+
+.adlogic_job_results:hover .position:hover {
+    background-color: rgba(0, 178, 169, .08);
+    border: 1px solid #065279
+}
+
+.adlogic_job_results h2 {
+    color: #4e2e7a;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700
+}
+
+.adlogic_job_results h2 a {
+    text-decoration: underline;
+    color: #065279;
+    text-decoration: underline;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    transition: all .2s ease-in-out
+}
+
+.adlogic_job_results h2 a:hover {
+    text-decoration: underline;
+    color: #065279;
+    text-decoration: underline;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    transition: all .2s ease-in-out
+}
+
+.adlogic_job_details_title {
+    text-transform: inherit !important
+}
+
+.position span.ajb_classification ul a,
+.position span.ajb_location ul a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    color: #065279
+}
+
+.adlogic_job_details_footer {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #636466;
+    font-weight: 400
+}
+
+.email-job a {
+    text-decoration: none;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #636466;
+    font-weight: 400
+}
+
+.email-job a:hover {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #636466;
+    font-weight: 600
+}
+
+.adlogic_pagination_bar ul li {
+    padding: 5px;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    list-style-type: none;
+    margin: 2em 0 0;
+    font-family: 'NexaBook' !important;
+}
+
+.adlogic_job_details_button_bar {
+    text-align: center;
+    clear: both;
+    padding: 2em 0
+}
+
+.ajb-search-widget {
+    font-family: Tahoma, Arial, Helvetica, sans-serif
+}
+
+.ajb-search-widget h2 {
+    font-family: effrabold, Tahoma, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 22px
+}
+
+.ajb-alerts-widget h2 {
+    font-family: effrabold, Tahoma, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 50px
+}
+
+.ajb-search-widget-buttons {
+    margin-top: 0;
+    margin-right: 2px;
+    clear: both;
+    float: right
+}
+
+.ajb-salary-holder label {
+    margin-top: 10px;
+    padding-top: 0
+}
+
+.ajb-search-widget label {
+    font-weight: 700;
+    width: 230px;
+    min-height: 16px;
+    font-size: 14px
+}
+
+.ajb-keywords {
+    color: #666;
+    width: 255px;
+    margin-top: 5px;
+    margin-bottom: 10px
+}
