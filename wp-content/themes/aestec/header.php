@@ -108,9 +108,9 @@ src=https://www.facebook.com/tr?id=1099725397403423&ev=PageView&noscript=1
 
 
 			<?php if (!$needCareerButton) { ?>
-				<a style="font-size: 1.25rem;" href="https://maasgroup.com.au/">Return to Main Site</a>
+				<a style="font-size: 1.25rem;" href="https://www.aestec.com.au/">Return to Main Site</a>
 			<?php } else { ?>
-				<a style="font-size: 1.25rem;" href="https://jobboards.adlogic.com.au/maas-group/">Job Search</a>
+				<a style="font-size: 1.25rem;" href="">Job Search</a>
 			<?php } ?>
 		</div>
 	</nav>

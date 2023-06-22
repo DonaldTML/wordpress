@@ -608,7 +608,7 @@ h4.job_title.w-75.d-inline-block.px-2.mx-2 {
 /* Job Search 2 */
 
 .box-sidebar {
-    height: auto;
+    height: 850px;
     background: #f0f0f0 !important;
     padding: 2rem;
     box-shadow: none !important;
@@ -3270,7 +3270,7 @@ label,
 input,
 body,
 button {
-    font-family: 'Montserrat', 'montVar', sans-serif !important;
+    font-family: 'Abel', sans-serif !important;
 }
 
 #location-crumbs>ul>li>a,
