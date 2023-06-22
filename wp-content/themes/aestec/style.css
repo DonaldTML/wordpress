@@ -137,7 +137,7 @@ hr {
     box-sizing: content-box;
     height: 0;
     overflow: visible;
-    background: #d7282e;
+    background: #3DAF2C;
 }
 
 
@@ -506,7 +506,7 @@ a:hover {
     position: absolute;
     top: 0;
     right: -15px;
-    background: #d7282e;
+    background: #3DAF2C;
     color: #FFFFFF !important;
     padding: 0 20px;
     line-height: 2;
@@ -525,7 +525,7 @@ a:hover {
     z-index: 9999;
     border-style: solid;
     border-width: 15px 15px 0 0;
-    border-color: #d7282e transparent;
+    border-color: #3DAF2C transparent;
     /* overflow: visible; */
 }
 
@@ -611,11 +611,12 @@ h4.job_title.w-75.d-inline-block.px-2.mx-2 {
     height: auto;
     background: #f0f0f0 !important;
     padding: 2rem;
-    margin: 3rem 2rem;
     box-shadow: none !important;
     transition: .3s ease-in-out;
     position: relative;
     overflow: hidden;
+    margin-left: 40px;
+    top: 50px !important;
 }
 
 .box-sidebar-title h4 {
@@ -786,7 +787,7 @@ hr {
     box-sizing: content-box;
     height: 0;
     overflow: visible;
-    background: #d7282e;
+    background: #3DAF2C;
 }
 
 
@@ -1156,7 +1157,7 @@ a:hover {
     position: absolute;
     top: 0;
     right: -15px;
-    background: #d7282e;
+    background: #3DAF2C;
     color: #FFFFFF !important;
     padding: 0 20px;
     line-height: 2;
@@ -1175,7 +1176,7 @@ a:hover {
     z-index: 9999;
     border-style: solid;
     border-width: 15px 15px 0 0;
-    border-color: #d7282e transparent;
+    border-color: #3DAF2C transparent;
     /* overflow: visible; */
 }
 
@@ -1302,14 +1303,24 @@ h4.job_title.w-75.d-inline-block.px-2.mx-2 {
 }
 
 .search-bg {
-    /* background: url(https://jobboards.adlogic.com.au/rib-software/wp-content/themes/rib-software/images/banner.png) center; */
-    padding: 3rem 0;
-    height: 65vh;
+    background-image: url(https://jobboards.adlogic.com.au/aestec2/wp-content/themes/aestec2/images/KEP_1943-1024x642.jpg) ; 
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 100%;
+    overflow: hidden;
     display: flex;
-    align-items: center;
-    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
 }
 
+.bg-fade-dark {
+    background-color: transparent;
+    background-image: linear-gradient(180deg, rgba(50, 51, 53, 0.49) 0%, #323335 100%);
+    opacity: 1;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
 
 /* Pagination */
 
@@ -1453,7 +1464,7 @@ a {
 }
 
 h5.text-dark.text-center.my-4 {
-    color: #d7282e !important;
+    color: #3DAF2C !important;
     font-family: 'Francois One';
 }
 
@@ -2216,14 +2227,14 @@ h5.text-dark.text-center.my-4 {
     padding: 5px 10px;
     font-size: 14px;
     background: #FFF;
-    color: #d7282e !important;
+    color: #3DAF2C !important;
     margin-top: -5px;
     transition: .5s ease;
 }
 
 .adlogic_pagination_bar ul.adlogic_pagination_ul li a:hover {
     text-decoration: none;
-    background: #d7282e;
+    background: #3DAF2C;
     color: #fff !important;
 }
 
@@ -2393,7 +2404,7 @@ a {
 }
 
 h5.text-dark.text-center.my-4 {
-    color: #d7282e !important;
+    color: #3DAF2C !important;
     font-family: 'Francois One';
 }
 
@@ -3161,14 +3172,14 @@ h5.text-dark.text-center.my-4 {
     padding: 5px 10px;
     font-size: 14px;
     background: #FFF;
-    color: #d7282e !important;
+    color: #3DAF2C !important;
     margin-top: -5px;
     transition: .5s ease;
 }
 
 .adlogic_pagination_bar ul.adlogic_pagination_ul li a:hover {
     text-decoration: none;
-    background: #d7282e;
+    background: #3DAF2C;
     color: #fff !important;
 }
 
@@ -3310,14 +3321,21 @@ h1, h2, h3, h4, h5, p, a, label, input, body, button {
     margin-top: 0rem !important;
     margin-bottom: 0rem !important;
 }
-.intro h3 {
-    color: #E1261C;
-    font-family: 'NexaBlack', sans-serif !important;
-    font-weight: 800;
-    font-size: 20px;
+.intro {
+    color: #ffffff !important;
+    font-family: 'Abel', 'Oswald', sans-serif !important;
+    text-align: center;
+    width: 55%;
 }
-.intro p {
-    color: #000 !important;
-    font-size: 16px !important;
-    font-family: 'NexaBook';
+.intro h1 {
+    font-weight: 800;
+    font-size: 70px;
+}
+.intro h3 {
+    margin-top: 1rem !important;
+    color: #000000 !important;
+    font-size: 40px;
+}
+.intro h4 {
+    font-size: 24px !important;
 }

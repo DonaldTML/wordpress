@@ -81,14 +81,14 @@ src=https://www.facebook.com/tr?id=1099725397403423&ev=PageView&noscript=1
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 	<!-- Favicon -->
-	<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico" type="image/x-icon" />
-	<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico" type="image/x-icon" />
+	<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.png" type="image/x-icon" />
+	<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.png" type="image/x-icon" />
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/screenshot.png" />
 	<!-- CSS only -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
-	<title>Careers at Maas</title>
+	<title>Careers - Aestec Services</title>
 	<!-- JS, Popper.js, and jQuery -->
 	<script rel="preload" src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script rel="preload" src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -103,7 +103,7 @@ src=https://www.facebook.com/tr?id=1099725397403423&ev=PageView&noscript=1
 		<div class="container nav-container">
 
 			<a href="<?php echo get_home_url(); ?>" class="logo d-flex justify-content-center align-items-center" style=" margin-top: 18px; margin-bottom: 18px; max-width: 410px;">
-				<img src="<?php echo get_template_directory_uri(); ?>/images/MAAS_Secondary_Logo_sm.png" />
+				<img src="<?php echo get_template_directory_uri(); ?>/images/Aestec-Services-Logo.png" />
 			</a>
 
 
@@ -145,7 +145,7 @@ src=https://www.facebook.com/tr?id=1099725397403423&ev=PageView&noscript=1
 			height: 128px;
 		}
 		.container.nav-container a {
-		color: #d7282e!important;
+		color: #3DAF2C!important;
 		}
 
 		button.btn.btn-searchTop.my-2.my-sm-0 {
@@ -197,8 +197,8 @@ src=https://www.facebook.com/tr?id=1099725397403423&ev=PageView&noscript=1
 
 		a.btn.btn-success.w-100.mb-2.shadow.rounded.text-white {
 
-			background-color: #d7282e !important;
-			border: 1px solid #d7282e !important;
+			background-color: #3DAF2C !important;
+			border: 1px solid #3DAF2C !important;
 			background-size: 250px;
 			color: #FFFFFF !important;
 			font-weight: bold !important;

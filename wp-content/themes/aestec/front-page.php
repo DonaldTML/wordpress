@@ -7,12 +7,12 @@ get_post();
     .search-bg {
         /* background: url(https://jobboards.adlogic.com.au/rib-software/wp-content/themes/rib-software/images/banner.png) center; */
         padding: 0;
-        height: 250px !important;
         background-size: cover !important;
         display: flex;
         align-items: center;
         overflow: hidden;
         background-position-x: right;
+        
     }
 
     .search-bg img {
@@ -21,27 +21,27 @@ get_post();
     }
 
     input.ajb-search-for-jobs-button {
-        background: #d7282e !important;
+        background: #3DAF2C !important;
         color: #FFFFFF !important;
         font-weight: bold !important;
         border-radius: 2px !important;
     }
 
     .input.ajb-search-for-jobs-button:hover {
-        background: #d7282e !important;
+        background: #3DAF2C !important;
         color: #FFFFFF !important;
         border-radius: 2px !important;
 
     }
 
     input.ajb-view-all-jobs-button {
-        background: #d7282e !important;
+        background: #3DAF2C !important;
         color: #FFFFFF !important;
         font-weight: bold !important;
     }
 
     .input.ajb-view-all-jobs-button:hover {
-        background: #d7282e !important;
+        background: #3DAF2C !important;
         color: #FFFFFF !important;
     }
 
@@ -112,24 +112,19 @@ get_post();
         font: 14px/1.55em Roboto, Arial, Sans-serif !important;
     }
 </style>
-<section id="job-board special-bg" class="search-bg">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/KEP_1943-1024x642.jpg" />
+<div id="job-board special-bg" class="search-bg">
+<div class="bg-fade-dark"></div>
     <div class="intro">
-        <h2>Career with Us</h2>
-        <p>The success of our business relies on the skills and dedication of our employees.  Our AESTEC leaders are experienced in all fields of maintenance and project management and we provide ongoing training and support to our team to ensure the highest standards are always achieved.</p>
+        <h1>Career with Us</h1>
+        <h4>The success of our business relies on the skills and dedication of our employees.  Our AESTEC leaders are experienced in all fields of maintenance and project management and we provide ongoing training and support to our team to ensure the highest standards are always achieved.</h4>
         
     </div>
-</section>
+</div>
 
 
 <div class="container">
     <div class="row head-banner m-0"></div>
     <section id="job-board special-bg">
-    <div class="intro">
-        <h2>Career with Us</h2>
-        <p>The success of our business relies on the skills and dedication of our employees.  Our AESTEC leaders are experienced in all fields of maintenance and project management and we provide ongoing training and support to our team to ensure the highest standards are always achieved.</p>
-
-    </div>
         <div class="container">
             <!-- <div class="row info-board">
         <div class="col-12">
@@ -138,30 +133,19 @@ get_post();
 </div>
     </div> -->
             <!-- <h5 class="text-dark text-center my-4" style="font-size: 3rem;">Current Vacancies</h5> -->
-
-            <div class="row job-board">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-
-                    <div class="search-sidebar">
-                        <?php get_sidebar(); ?>
+            <div class="intro">
+                        <h3>CAREER OPPORTUNITIES</h3>
                     </div>
 
+            <div class="row job-board">
 
+                    
 
-
-
-
-
-                </div>
-                <div class="container">
-
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-
-                        <div id="mrp-job-listings" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div id="mrp-job-listings" class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
                             <?php echo do_shortcode("[adlogic_search_results template='synlait']"); ?>
                             <?php echo do_shortcode("[adlogic_search_pagination]"); ?>
                         </div>
-                        <div class="box-sidebar shadow">
+                        <div class="box-sidebar shadow col-md-3 "><?php dynamic_sidebar('search_widget'); ?><br />
                             <div class="box-sidebar-title">
                                 <h4>Register your interest</h4>
                             </div>
@@ -169,7 +153,7 @@ get_post();
                                 <p>If your area of interest is not currently listed, but you would like to be considered for a future position with us, then submit an application.</p>
                             </div>
                             <hr>
-                            <a type="button" href="https://form.myrecruitmentplus.com/applicationform?jobId=1643463&source=10000&subSourceId=9999" style="-webkit-appearance: none;" class="btn btn-success w-100 mb-2 shadow rounded text-white">Registration</a>
+                            <a type="button" href="" style="-webkit-appearance: none;" class="btn btn-success w-100 mb-2 shadow rounded text-white">Registration</a>
                         </div>
 
                         <!-- <div class="box-sidebar shadow">
@@ -182,9 +166,7 @@ get_post();
                             <hr>
                             <a type="button" href="https://careers.maasgroup.com.au/job-details/query/1662169/?subSourceId=9999&typeId=job" style="-webkit-appearance: none;" class="btn btn-success w-100 mb-2 shadow rounded text-white">Registration</a>
                         </div> -->
-                    </div>
 
-                </div>
             </div>
         </div>
     </section>

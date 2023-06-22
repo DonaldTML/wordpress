@@ -23,7 +23,7 @@
 
 }
 #footer-text {
-  color: #d7282e;
+  color: #3DAF2C;
 }
 
 </style>
@@ -48,14 +48,14 @@
 <?php wp_footer(); ?>
 <style>
   .mrp-apply-button {
-    background: #d7282e !important;
+    background: #3DAF2C !important;
     box-shadow: none !important;
   }
   .mrp-email-button {
     background: #FFFFFF !important;
     box-shadow: none !important;
-    color: #d7282e !important;
-    border: 1px solid #d7282e !important;
+    color: #3DAF2C !important;
+    border: 1px solid #3DAF2C !important;
   }
   .mrp-tr-single-box, .mrp-icon-box-text {
     font-family: 'Ubuntu-Regular', sans-serif !important;
